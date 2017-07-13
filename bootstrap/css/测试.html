@@ -18,34 +18,58 @@
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 
     <![endif]-->
+    <style>
+        .row1{
+            float:  left;
+            background-color: white;
+            padding:  2rem 0;
+            border:  red 1px solid;
+        }
+        .row0{
+
+        }
+    </style>
 </head>
 <body>
-<div class="container" style="padding: 40px;">
-    <div class="row">
-        <div class="col-xs-6 col-sm-3 " style="background-color: #dedef8;
-											  box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
-            <span>特别小型</span>
-            <span class="d-none d-md-block d-md-none;">✔ 在特别小型设备上可见</span>
-        </div>
-        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;
-											  box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
-            <span class="hidden-sm">小型</span>
-            <span class="visible-sm">✔ 在小型设备上可见</span>
-        </div>
-        <div class="clearfix visible-xs"></div>
-        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;
-											  box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
-            <span class="hidden-md">中型</span>
-            <span class="visible-md">✔ 在中型设备上可见</span>
-        </div>
-        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;
-											  box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
-            <span class="hidden-lg">大型</span>
-            <span class="visible-lg">✔ 在大型设备上可见</span>
-        </div>
+<div class="col-md-12 row0" style="margin:0;padding:0">
+    <div class="row1 btn-grope col-md-4  d-none d-md-block">
+        <button type="button" class="btn btn-default dropdown-toggle col-md-12" data-toggle="dropdown" id="dropdownMenu1" style="button:focus:outline:none;">
+            所在地
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">所在地1</a></li>
+            <li><a href="#">所在地2</a></li>
+            <li><a href="#">所在地3</a></li>
+        </ul>
+    </div>
+
+
+    <div class="row1 btn-grope col-md-4 d-none d-md-block">
+        <button type="button" class="btn btn-default dropdown-toggle col-md-12" data-toggle="dropdown"  style="border-left:#8dd2db 2px solid;border-right:2px #8dd2db solid;">
+            食宿
+            <span class="caret text-right"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">腰子</a></li>
+            <li><a href="#">大肠</a></li>
+            <li><a href="#">小肠</a></li>
+        </ul>
+    </div>
+
+
+    <div class="row1 btn-grope col-md-4 d-none d-md-block " >
+        <button type="button" class="btn btn-default dropdown-toggle col-md-12" data-toggle="dropdown">
+            病人情况
+            <span class="caret text-right"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">活到死</a></li>
+            <li><a href="#">活到死</a></li>
+            <li><a href="#">活到死</a></li>
+        </ul>
     </div>
 </div>
-
 
 
 
