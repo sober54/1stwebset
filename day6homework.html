@@ -27,9 +27,11 @@
             background-color:  #8dd2db;
         }
         .location{
+            z-index: 2;
+            right:  0;
+            position:  absolute;
             height: 2.5rem;
             width:  2.5rem;
-            float: right;
             background:  url(images/sprint.png);
             background-position:  100% 66%;
         }
@@ -48,6 +50,7 @@
             color: #a1a19f;
             border-radius:  0;
             font-size:  1.5rem;
+            float:  left;
         }
         ul{
             width:  100%;
@@ -71,7 +74,19 @@
             border-bottom:  2px solid #8dd2db;
             width:  100%;
         }
+        .row2 {
+            position: absolute;
+            float:  left;
+            padding:  1.2rem 0;
+            margin:  0.5rem 0;
+            padding-bottom:  0;
+            margin-bottom:  0;
+            width:  100%;
+            top:  60%;
+            /*left:  1rem; 定位后跟按钮组有差距 放弃 只能贴边*/
+        }
         .btnnnn{
+            Z-index:  1;
             margin-left:  3rem;
         }
         .img1{
@@ -180,6 +195,12 @@
             background:  url(images/sprint.png);
             background-position:  90% -10%;
         }
+        .btnsm{
+
+            position:  absolute;
+            left: 0;
+            top: 0;
+        }
         /*  * { background-color: rgba(255,0,0,.2); }
 
           * * { background-color: rgba(0,255,0,.2); }
@@ -199,20 +220,25 @@
 <header class="fixed-top">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="btnnnn">
+            <div class="col-lg-12 text-center" >
+                <div class="btnnnn d-none d-md-block d-md-none">
                     <button type="button" class="btn btn-primary btn-lg button1 ">找雇主</button>
                     <button type="button" class="btn btn-primary btn-lg button2 ">找护工</button>
-                    <a href="#" class="location">
-                    </a>
+
                 </div>
             </div>
+            <div class="btnsm d-md-none">
+                <button type="button" class="btn btn-primary btn-xs button1 ">找雇主</button>
+                <button type="button" class="btn btn-primary btn-xs button2 ">找护工</button>
+            </div>
+            <a href="#" class="location">
+            </a>
         </div>
     </div>
 
 
-    <div class="row1 btn-grope col-xs-4 col-md-4">
-        <button type="button" class="btn btn-default dropdown-toggle col-xs-12 col-md-12" data-toggle="dropdown" id="dropdownMenu1">
+    <div class="row1 btn-grope col-md-4      d-none d-md-block d-md-none">
+        <button type="button" class="btn btn-default dropdown-toggle col-md-12" data-toggle="dropdown" id="dropdownMenu1">
             所在地
             <span class="caret"></span>
         </button>
@@ -224,8 +250,8 @@
     </div>
 
 
-    <div class="row1 btn-grope col-md-4">
-        <button type="button" class="btn btn-default dropdown-toggle col-xs-12 col-md-12" data-toggle="dropdown"  style="border-left:#8dd2db 2px solid;border-right:2px #8dd2db solid;">
+    <div class="row1 btn-grope col-md-4 d-none d-md-block d-md-none">
+        <button type="button" class="btn btn-default dropdown-toggle  col-md-12" data-toggle="dropdown"  style="border-left:#8dd2db 2px solid;border-right:2px #8dd2db solid;">
             食宿
             <span class="caret text-right"></span>
         </button>
@@ -237,8 +263,8 @@
     </div>
 
 
-    <div class="row1 btn-grope col-md-4" >
-        <button type="button" class="btn btn-default dropdown-toggle col-xs-12 col-md-12" data-toggle="dropdown">
+    <div class="row1 btn-grope col-md-4 d-none d-md-block d-md-none" >
+        <button type="button" class="btn btn-default dropdown-toggle col-md-12" data-toggle="dropdown">
             病人情况
             <span class="caret text-right"></span>
         </button>
@@ -248,6 +274,46 @@
             <li><a href="#">活到死</a></li>
         </ul>
     </div>
+
+    <div class="col-xs-12 row2">
+        <div class="btn-grope col-xs-3 d-md-none" >
+            <button type="button" class="btn btn-default dropdown-toggle col-xs-3" data-toggle="dropdown" style="padding:0;margin:0;font-size:1.2rem;clear: none;">
+                所在地
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" style="width: 30%">
+                <li><a href="#">所在地1</a></li>
+                <li><a href="#">所在地2</a></li>
+                <li><a href="#">所在地3</a></li>
+            </ul>
+        </div>
+
+        <div class="btn-grope col-xs-3 d-md-none">
+            <button type="button" class="btn btn-default dropdown-toggle col-xs-3" data-toggle="dropdown"  style="border-left:#8dd2db 1px solid;border-right:1px #8dd2db solid;padding:0;margin:0;font-size:1.2rem;clear: none;">
+                食宿
+                <span class="caret text-right" ></span>
+            </button>
+            <ul class="dropdown-menu" style="width: 30%">
+                <li><a href="#">腰子</a></li>
+                <li><a href="#">大肠</a></li>
+                <li><a href="#">小肠</a></li>
+            </ul>
+        </div>
+
+
+        <div class="btn-grope col-xs-3 d-md-none" >
+            <button type="button" class="btn btn-default dropdown-toggle col-xs-3" data-toggle="dropdown" style="padding:0;margin:0;font-size:1.2rem;clear: none;">
+                病人情况
+                <span class="caret text-right"></span>
+            </button>
+            <ul class="dropdown-menu" style="width: 30%">
+                <li><a href="#">活到死</a></li>
+                <li><a href="#">活到死</a></li>
+                <li><a href="#">活到死</a></li>
+            </ul>
+        </div>
+    </div>
+
 </header>
 
 <main>
