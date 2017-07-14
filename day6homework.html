@@ -28,11 +28,10 @@
             background-color:  #8dd2db;
         }
         .location{
-            z-index: 2;
-            right:  0;
             position:  absolute;
-            height: 2.5rem;
-            width:  2.5rem;
+            float:  right;
+            height: 2.6rem;
+            width:  2.6rem;
             background:  url(images/sprint.png);
             background-position:  100% 66%;
         }
@@ -64,12 +63,14 @@
             width:  100%;
             height:  50rem;
             margin:  0;
-            margin-top:  9rem;
+            margin-top:  9.1rem;
         }
         .row0{
             top: 2rem;
-            height: 3rem;
+            height: 3.6rem;
             background-color: white;
+            display:  flex;
+            border-bottom:  0.5px #8dd2db solid;
         }
 
         .row1{
@@ -77,10 +78,9 @@
             float:  left;
             padding: 0.5rem 0;
             margin:  0;
-            border-bottom:  2px solid #8dd2db;
             width:  100%;
         }
-        .row2 {
+       /* .row2 {
             position: absolute;
             float:  left;
             padding:  1.2rem 0;
@@ -89,14 +89,13 @@
             margin-bottom:  0;
             width:  100%;
             top:  60%;
-            /*left:  1rem; 定位后跟按钮组有差距 放弃 只能贴边*/
-        }
+        }*/
         .img1{
             float:  left;
             margin:  0.8rem;
             position: relative;
-            width:  2rem;
-            height:  2rem;
+            width:  2.5rem;
+            height:  2.5rem;
             background:  url(images/sprint.png);
             background-position:  90% 36%;
         }
@@ -104,8 +103,8 @@
             float:  left;
             margin:  0.8rem;
             position: relative;
-            width:  2rem;
-            height:  2rem;
+            width:  2.5rem;
+            height:  2.5rem;
             background:  url(images/sprint.png);
             background-position:  9% 68%;
         }
@@ -114,7 +113,7 @@
             position:  relative;
             width:  100%;
             padding: 0.8rem 0;
-            font-size:  1rem;
+            font-size:  1.5rem;
         }
         .line1{
             color:  #ccc;
@@ -185,11 +184,11 @@
         }
         .homepg{
             margin-top: 0.6rem;
-            height:  3rem;
-            width: 3rem;
+            height:  2.5rem;
+            width: 2.5rem;
             float:  left;
             background:  url(images/sprint.png);
-            background-position:  -20% 30%;
+            background-position:  1.2% 35%;
         }
         .mine{
             margin-top: 0.1rem;
@@ -197,13 +196,13 @@
             width: 3rem;
             float:  right;
             background:  url(images/sprint.png);
-            background-position:  90% -10%;
+            background-position:  90% 0;
         }
-        .btnsm{
+       /* .btnsm{
             position:  absolute;
             left: 0;
             top: 0.7rem;
-        }
+        }*/
         .line{
             font-family: "Source Sans Pro";
             /*思源为啥没普及啊。。。。。。。我觉得很好看。。。。。。。。比冬青好起码*/
@@ -232,99 +231,101 @@
     <div class="container" style="width:100%">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <div class="btnnnn d-none d-md-block ">
+                <div class="btnnnn">
                     <button type="button" class="btn btn-primary btn-lg button1 soclear">找雇主</button>
                     <button type="button" class="btn btn-primary btn-lg button2 soclear">找护工</button>
+                    <a href="#" class="location" style="right:1rem">
+                    </a>
+                </div>
 
+                <!--</div>
+                <div class="btnsm d-md-none">
+                    <button type="button" class="btn btn-primary btn-xs button1 soclear ">找雇主</button>
+                    <button type="button" class="btn btn-primary btn-xs button2 soclear">找护工</button>
+                </div>
+                <a href="#" class="location d-none d-xs-none d-sm-block" style="right:1rem">
+                </a>
+            </div>-->
+            </div>
+
+            <div class="col-md-12 row0 " style="margin:0;padding:0">
+
+                <div class="row1 btn-grope col-md-4 ">
+                    <button type="button" class="btn btn-default dropdown-toggle col-md-12 soclear" data-toggle="dropdown" id="dropdownMenu1" >
+                        所在地
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">所在地1</a></li>
+                        <li><a href="#">所在地2</a></li>
+                        <li><a href="#">所在地3</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="row1 btn-grope col-md-4 ">
+                    <button type="button" class="btn btn-default dropdown-toggle  col-md-12 soclear" data-toggle="dropdown"  style="border-left:#8dd2db 2px solid;border-right:2px #8dd2db solid;">
+                        食宿
+                        <span class="caret text-right"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">腰子</a></li>
+                        <li><a href="#">大肠</a></li>
+                        <li><a href="#">小肠</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="row1 btn-grope col-md-4 " >
+                    <button type="button" class="btn btn-default dropdown-toggle col-md-12 soclear" data-toggle="dropdown">
+                        病人情况
+                        <span class="caret text-right"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">活到死</a></li>
+                        <li><a href="#">活到死</a></li>
+                        <li><a href="#">活到死</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="btnsm d-md-none">
-                <button type="button" class="btn btn-primary btn-xs button1 soclear ">找雇主</button>
-                <button type="button" class="btn btn-primary btn-xs button2 soclear">找护工</button>
-            </div>
-            <a href="#" class="location d-none d-xs-none d-sm-block" style="right:1rem">
-            </a>
-        </div>
-    </div>
+            <!-- <div class="col-xs-12 row2">
+                 <div class="btn-grope col-xs-4 d-md-none" >
+                     <button type="button" class="btn btn-default dropdown-toggle col-xs-12 soclear" data-toggle="dropdown" style="padding:0;margin:0;font-size:1.2rem;clear: none;">
+                         所在地
+                         <span class="caret"></span>
+                     </button>
+                     <ul class="dropdown-menu" style="width: 30%">
+                         <li><a href="#">所在地1</a></li>
+                         <li><a href="#">所在地2</a></li>
+                         <li><a href="#">所在地3</a></li>
+                     </ul>
+                 </div>
 
-    <div class="col-md-12 row0 d-none d-md-block" style="margin:0;padding:0">
-        <div class="row1 btn-grope col-md-4  d-none d-md-block">
-            <button type="button" class="btn btn-default dropdown-toggle col-md-12 soclear" data-toggle="dropdown" id="dropdownMenu1" >
-                所在地
-                <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-                <li><a href="#">所在地1</a></li>
-                <li><a href="#">所在地2</a></li>
-                <li><a href="#">所在地3</a></li>
-            </ul>
-        </div>
-
-
-        <div class="row1 btn-grope col-md-4 d-none d-md-block">
-            <button type="button" class="btn btn-default dropdown-toggle  col-md-12 soclear" data-toggle="dropdown"  style="border-left:#8dd2db 2px solid;border-right:2px #8dd2db solid;">
-                食宿
-                <span class="caret text-right"></span>
-            </button>
-            <ul class="dropdown-menu">
-                <li><a href="#">腰子</a></li>
-                <li><a href="#">大肠</a></li>
-                <li><a href="#">小肠</a></li>
-            </ul>
-        </div>
+                 <div class="btn-grope col-xs-4 d-md-none">
+                     <button type="button" class="btn btn-default dropdown-toggle col-xs-12 soclear" data-toggle="dropdown"  style="border-left:#8dd2db 1px solid;border-right:1px #8dd2db solid;padding:0;margin:0;font-size:1.2rem;clear: none;">
+                         食宿
+                         <span class="caret text-right" ></span>
+                     </button>
+                     <ul class="dropdown-menu" style="width: 30%">
+                         <li><a href="#">腰子</a></li>
+                         <li><a href="#">大肠</a></li>
+                         <li><a href="#">小肠</a></li>
+                     </ul>
+                 </div>
 
 
-        <div class="row1 btn-grope col-md-4 d-none d-md-block " >
-            <button type="button" class="btn btn-default dropdown-toggle col-md-12 soclear" data-toggle="dropdown">
-                病人情况
-                <span class="caret text-right"></span>
-            </button>
-            <ul class="dropdown-menu">
-                <li><a href="#">活到死</a></li>
-                <li><a href="#">活到死</a></li>
-                <li><a href="#">活到死</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="col-xs-12 row2">
-        <div class="btn-grope col-xs-4 d-md-none" >
-            <button type="button" class="btn btn-default dropdown-toggle col-xs-12 soclear" data-toggle="dropdown" style="padding:0;margin:0;font-size:1.2rem;clear: none;">
-                所在地
-                <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" style="width: 30%">
-                <li><a href="#">所在地1</a></li>
-                <li><a href="#">所在地2</a></li>
-                <li><a href="#">所在地3</a></li>
-            </ul>
-        </div>
-
-        <div class="btn-grope col-xs-4 d-md-none">
-            <button type="button" class="btn btn-default dropdown-toggle col-xs-12 soclear" data-toggle="dropdown"  style="border-left:#8dd2db 1px solid;border-right:1px #8dd2db solid;padding:0;margin:0;font-size:1.2rem;clear: none;">
-                食宿
-                <span class="caret text-right" ></span>
-            </button>
-            <ul class="dropdown-menu" style="width: 30%">
-                <li><a href="#">腰子</a></li>
-                <li><a href="#">大肠</a></li>
-                <li><a href="#">小肠</a></li>
-            </ul>
-        </div>
-
-
-        <div class="btn-grope col-xs-4 d-md-none" >
-            <button type="button" class="btn btn-default dropdown-toggle col-xs-12 soclear" data-toggle="dropdown" style="padding:0;margin:0;font-size:1.2rem;clear: none;">
-                病人情况
-                <span class="caret text-right"></span>
-            </button>
-            <ul class="dropdown-menu" style="width: 30%">
-                <li><a href="#">活到死</a></li>
-                <li><a href="#">活到死</a></li>
-                <li><a href="#">活到死</a></li>
-            </ul>
-        </div>
-    </div>
+                 <div class="btn-grope col-xs-4 d-md-none" >
+                     <button type="button" class="btn btn-default dropdown-toggle col-xs-12 soclear" data-toggle="dropdown" style="padding:0;margin:0;font-size:1.2rem;clear: none;">
+                         病人情况
+                         <span class="caret text-right"></span>
+                     </button>
+                     <ul class="dropdown-menu" style="width: 30%">
+                         <li><a href="#">活到死</a></li>
+                         <li><a href="#">活到死</a></li>
+                         <li><a href="#">活到死</a></li>
+                     </ul>
+                 </div>
+             </div>-->
 
 </header>
 
@@ -555,7 +556,7 @@
                         <span style="font-size:1rem;position:absolute;top:3.2rem;left:1.4rem;color:#8dd2db;z-index:     -1;">主页</span>
                     </a>
                     <a href="#" class="mine">
-                        <span style="font-size:1rem;position:relative;top:3rem;right:-0.5rem;color:rgba(13,10,11,0.23)">我的</span>
+                        <span style="font-size:1rem;position:relative;top:3rem;right:-0.3rem;color:rgba(13,10,11,0.23)">我的</span>
                     </a>
                 </div>
             </div>
