@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>魔方</title>
+    <style>
+        body {
+            font-size: 62.5%;
+            margin: 0;
+            padding: 0;
+            perspective: 500px;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        .cube {
+            width:  100%;
+            font-size: 80px;
+            margin: 0.5em ;
+            transform-style: preserve-3d;
+        }
+        .block>div{
+            border: 1px solid #ccc;
+            color: white;
+            /*没字好看些*/
+            text-align: center;
+            height:  10rem;
+            width: 10rem;
+            position: absolute;
+        }
+        .top,
+        .bottom
+        {
+            height:  5rem!important;
+        }
+        .left,
+        .right{
+            width:  5rem!important;
+        }
+        .cube-front {
+            position: relative;
+            top: 40rem;
+            left:  20rem;
+        }
+        .cube-middle{
+            position: relative;
+            top:  34rem;
+            left:  26rem;
+        }
+        .cube-back{
+            position: relative;
+            top:  28rem;
+            left:  32rem;
+        }
+        .block{
+            position: relative;
+        }
+        .block2{
+            left: 11rem;
+        }
+        .block3{
+            left: 22rem;
+        }
+        .block4{
+            top: 11rem;
+        }
+        .block5{
+            top: 11rem;
+            left: 11rem;
+        }
+        .block6{
+            top:  11rem;
+            left:  22rem;
+        }
+        .block7{
+            top:  22rem;
+        }
+        .block8{
+            top:  22rem;
+            left:  11rem;
+        }
+        .block9{
+            top:  22rem;
+            left:  22rem;
+        }
+        .top{
+            transform: translatey(-5rem) skew(-45deg) translatex(2.5rem);
+        }
+        .bottom{
+            transform: translatey(5rem) skew(-45deg) translatex(2.5rem);
+        }
+        .left{
+            transform: skew(0deg,-45deg) translate(0rem,-2.5rem);
+        }
+        .right{
+            transform: skew(0deg,-45deg) translate(10rem,7.5rem);
+        }
+        .back{
+            transform:  translate(5rem,-5rem)
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="cube">
+    <div class="cube-front">
+        <div class="block block1">
+            <div class="top">2</div>
+            <div class="bottom"></div>
+            <div class="left">3</div>
+            <div class="right"></div>
+            <div class="front">1</div>
+            <div class="back"></div>
+        </div>
+        <div class="block block2">
+            <div class="top">2</div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="front">1</div>
+            <div class="back"></div>
+        </div>
+        <div class="block block3">
+            <div class="top">2</div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right">4</div>
+            <div class="front">1</div>
+            <div class="back"></div>
+        </div>
+        <div class="block block4">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left">3</div>
+            <div class="right"></div>
+            <div class="front">1</div>
+            <div class="back"></div>
+        </div>
+        <div class="block block5">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="front">1</div>
+            <div class="back"></div>
+        </div>
+        <div class="block block6">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right">4</div>
+            <div class="front">1</div>
+            <div class="back"></div>
+        </div>
+        <div class="block block7">
+            <div class="top"></div>
+            <div class="bottom">5</div>
+            <div class="left">3</div>
+            <div class="right"></div>
+            <div class="front">1</div>
+            <div class="back"></div>
+        </div>
+        <div class="block block8">
+            <div class="top"></div>
+            <div class="bottom">5</div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="front">1</div>
+            <div class="back"></div>
+        </div>
+        <div class="block block9">
+            <div class="top"></div>
+            <div class="bottom">5</div>
+            <div class="left"></div>
+            <div class="right">4</div>
+            <div class="front">1</div>
+            <div class="back"></div>
+        </div>
+    </div>
+    <div class="cube-middle">
+        <div class="block block1">
+            <div class="top">2</div>
+            <div class="bottom"></div>
+            <div class="left">3</div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+        <div class="block block2">
+            <div class="top">2</div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+        <div class="block block3">
+            <div class="top">2</div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right">4</div>
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+        <div class="block block4">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left">3</div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+        <div class="block block5">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+        <div class="block block6">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right">4</div>
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+        <div class="block block7">
+            <div class="top"></div>
+            <div class="bottom">5</div>
+            <div class="left">3</div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+        <div class="block block8">
+            <div class="top"></div>
+            <div class="bottom">5</div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+        <div class="block block9">
+            <div class="top"></div>
+            <div class="bottom">5</div>
+            <div class="left">4</div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+    </div>
+    <div class="cube-back">
+        <div class="block block1">
+            <div class="top">2</div>
+            <div class="bottom"></div>
+            <div class="left">3</div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back">6</div>
+        </div>
+        <div class="block block2">
+            <div class="top">2</div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back">6</div>
+        </div>
+        <div class="block block3">
+            <div class="top">2</div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right">4</div>
+            <div class="front"></div>
+            <div class="back">6</div>
+        </div>
+        <div class="block block4">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left">3</div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back">6</div>
+        </div>
+        <div class="block block5">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back">6</div>
+        </div>
+        <div class="block block6">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right">4</div>
+            <div class="front"></div>
+            <div class="back">6</div>
+        </div>
+        <div class="block block7">
+            <div class="top"></div>
+            <div class="bottom">5</div>
+            <div class="left">3</div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back">6</div>
+        </div>
+        <div class="block block8">
+            <div class="top"></div>
+            <div class="bottom">5</div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back">6</div>
+        </div>
+        <div class="block block9">
+            <div class="top"></div>
+            <div class="bottom">5</div>
+            <div class="left"></div>
+            <div class="right">4</div>
+            <div class="front"></div>
+            <div class="back">6</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -7,78 +7,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <style>
-        body{
-            font-size:  62.5%;
-            margin:  0;
-            padding:  0;
+        body {
+            font-size: 62.5%;
+            margin: 0;
+            padding: 0;
         }
-       /* .valign{
+
+        /* .valign{
+             position: relative;
+             top: 50%;
+             transform: translateY(-50%)
+         }
+         .soclear{
+             outline:  none !important;
+             box-shadow: none !important;
+         }*/
+        a:link {
+            text-decoration: none;
+        }
+
+        .container {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            width: 100%;
+            height: 4rem;
+            background-color: #8dd2db;
+        }
+
+        .pg1head {
+            font-size: 3rem;
+            width: 3rem;
+            height: 3rem;
+            float: left;
+
+        }
+
+        p {
+
+            height: 1rem;
+            clear: none;
+        }
+
+        .head12 {
+            font-size: 3.4rem;
+            position: absolute;
+            top: -3.15rem;
+            left: 1.1rem;
+        }
+
+        main {
+            height: 50rem;
+            margin: 4rem 0 0 0;
+        }
+
+        .last1 {
+            height: 10rem;
+            font-size: 3rem;
+            border: 2px red solid;
+            text-align: center;
+
+        }
+
+        .co1 {
+            margin: 0;
+            padding: 0;
+            width: 1rem;
+        }
+
+        .valign {
             position: relative;
             top: 50%;
             transform: translateY(-50%)
         }
-        .soclear{
-            outline:  none !important;
-            box-shadow: none !important;
-        }*/
-        a:link{
-            text-decoration:  none;
-        }
-        .container{
-            width:  100%;
-            margin:  0;
-            padding:  0;
-        }
-        header{
-            width:  100%;
-            height:  4rem;
-            background-color:   #8dd2db;
-        }
-        .pg1head{
-            font-size:  3rem;
-            width:  3rem;
-            height:  3rem;
-            float:  left;
-
-        }
-        p{
-
-            height:  1rem;
-            clear:  none;
-        }
-        .head12{
-            font-size:  3.4rem;
-            position:  absolute;
-            top:  -3.15rem;
-            left:  1.1rem;
-        }
-        main{
-            height:  50rem;
-            margin:  4rem 0 0 0;
-        }
-        .last1{
-            height:  10rem;
-            font-size:  3rem;
-            border:  2px red solid;
-            text-align: center;
-
-        }
-        .co1{
-            margin:  0;
-            padding:  0;
-            width:  1rem;
-        }
-        .valign{
-                    position: relative;
-                    top: 50%;
-                    transform: translateY(-50%)
-                }
-
-
-
 
 
     </style>
@@ -86,7 +95,7 @@
 <body>
 <header class="fixed-top">
     <div class="container">
-        <div class="col-xl-12 pg1head">
+        <div class="col-md-12 pg1head">
             <a class="pg1head1" href="#" style="color: white;">
                 <p class="head11">=</p>
                 <p class="head12">_</p>
@@ -97,16 +106,17 @@
 
 
 <main>
-    <div class="container" style="width: 100%">
-        <div class="row" style="height:3rem;"></div>
-            <div class="col text-center" style="border:1px red solid;height:10rem;margin: 0">
-                    <div class="last1"><div style="  position: relative;
-            top: 50%;
-            transform: translateY(-50%)">上次游戏：捉鬼猜词版
-                        <a href="#">〉</a></div>
-                    </div>
+    <div class="container">
+        <div class="row align-items-md-center" style="height:3rem;"></div>
+        <div class="col"></div>
+        <div class="col ">
+            <div class="last1">
+                <div>上次游戏：捉鬼猜词版
+                    <a href="#">〉</a></div>
             </div>
+            <div class="col"></div>
         </div>
+    </div>
     </div>
 
 
@@ -114,8 +124,14 @@
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.bootcss.com/popper.js/1.9.3/umd/popper.min.js" integrity="sha384-knhBOwpf8/28D6ygAjJeb0STNDZqfPbKaWQ8wIz/xgSc0xXwKsKhNype8fmfMka2" crossorigin="anonymous"></script>
-<script src="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.9.3/umd/popper.min.js"
+        integrity="sha384-knhBOwpf8/28D6ygAjJeb0STNDZqfPbKaWQ8wIz/xgSc0xXwKsKhNype8fmfMka2"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
 </body>
 </html>
