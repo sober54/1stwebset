@@ -6,110 +6,315 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap.min.css">
     <style>
-        body{font-size:62.5%;background:#50514F;margin:0;padding:0;}
-        .soclear{outline:none!important;box-shadow:none!important;}
-        a:link{text-decoration:none;}
-        .goright{height:3%;border-radius:0 2rem 2rem 0;box-shadow:5px 7px 11px #333;}
-        .goright1{height:4%;background-color:#50514F;color:#50514F;box-shadow:5px 4px 11px #333;}
-        .info{margin:0 10%;}
-        .start{width:10%;height:3%;position:absolute;font-size:2rem;top:15%;left:6%;text-shadow:6px 20px 20px #333;}
-        .line1{height:5%;width:0;position:absolute;top:20%;left:10.5%;border:1px solid #b3edf8;box-shadow:5px 4px 11px #333}
-        .line2{height:10%;width:0;position:absolute;top:35%;left:10.7%;border:1px solid #b3edf8;box-shadow:5px 4px 11px #333}
-        .date1{width:10%;height:3%;position:absolute;font-size:2rem;top:28%;left:10.5%;text-shadow:6px 20px 20px #333;color: #b3edf8;}
-        .line{
-            height:45%;width:10%;position:absolute;top:48.3%;left:13.1%;border-left:4px solid rgb(179, 237, 248);transform:skew(-15deg,0);color: #B3EDF8;font-size:7.5rem;text-shadow:6px 20px 20px #333;
+        body {
+            font-size: 62.5%;
+            background: #b2dbbf;
+            margin: 0;
+            padding: 0;
         }
-        .line3{top:48.3%;left:13.1%; }
-        .alltest{width:100%;position:absolute;height:35rem;top:53.5%;
+
+        .soclear {
+            outline: none !important;
+            box-shadow: none !important;
         }
-        .line0{
-            left: 7.5%;
+
+        a:link {
+            text-decoration: none;
         }
-        .line4{
-            top:48.3%;left:18.4%;
+
+        .goright {
+            height: 3%;
+            border-radius: 0 2rem 2rem 0;
+            box-shadow: 20px 20px 11px #333;
+            z-index: 17;
         }
-        .line5{
-            top:48.3%;left:23.7%;
+
+        .goright1 {
+            height: 4%;
+            background-color: #ff1654;
+            color: #ff1654;
+            box-shadow: 5px 4px 11px #333;
         }
-        .line6{
-            top:48.3%;left:29%;
+
+        .info {
+            margin: 0 10%;
         }
-        .line7{
-            top:48.3%;left:34.3%;
+
+        .start {
+            width: 10%;
+            height: 3%;
+            position: absolute;
+            font-size: 2rem;
+            top: 15%;
+            left: 6%;
+            text-shadow: 6px 20px 20px #333;
         }
-        .line8{
-            top:48.3%;left:39.6%;
+
+        .line1 {
+            height: 5%;
+            width: 0;
+            position: absolute;
+            top: 20%;
+            left: 10.5%;
+            border: 1px solid #247ba0;
+            box-shadow: 5px 4px 11px #333;
         }
-        .line9{
-            top:48.3%;left:44.9%;
+
+        .line2 {
+            height: 10%;
+            width: 0;
+            position: absolute;
+            top: 35%;
+            left: 10.7%;
+            border: 1px solid #247ba0;
+            box-shadow: 5px 4px 11px #333;
         }
-        .line10{
-            top:48.3%;left:50.2%;
+
+        .date1 {
+            width: 10%;
+            height: 3%;
+            position: absolute;
+            font-size: 2rem;
+            top: 28%;
+            left: 10.5%;
+            text-shadow: 6px 20px 20px #333;
+            color: #247ba0;
         }
-        .line11{
-            top:48.3%;left:55.5%;
+
+        .date11:hover {
+            transform: translate3d(1rem, 0, 0) rotateX(1800deg);
         }
-        .line12{
-            top:48.3%;left:60.8%;
+
+        .date11 {
+            transition: transform 1s ease-out;
+            position: absolute;
+            top: 0;
+            left: 60%;
         }
-        .line13{
-            top:48.3%;left:66.1%;
+
+        .line {
+            height: 45%;
+            width: 10%;
+            position: absolute;
+            top: 48.3%;
+            border-right: 4px outset #247ba0;
+            transform: skew(-15deg, 0);
+            color: #000;
+            font-size: 6.5rem;
+            text-shadow: 6px 20px 20px #333;
+            background-color: #b2dbbf;
+            box-shadow: 15px 8px 15px #333;
+            animation: blink1 2s ease-out;
         }
-        .line14{
-            top:48.3%;left:71.4%;
+
+        .line3 {
+            top: 48.3%;
+            left: 8.5%;
+            background: url(./images/block92.png);
+            z-index: 14;
         }
-        .line15{
-            top:48.3%;left:76.7%;
+
+        .alltest {
+            width: 100%;
+            position: absolute;
+            height: 35rem;
+            top: 53.5%;
         }
-        .line16{
-            top:48.3%;left:82%;
+
+        .line0 {
+            left: 2.8%;
+            background: url(./images/BLOCK9.png);
+            z-index: 15;
         }
-        .line17{
-            top:48.3%;left:87.3%;
+
+        .line4 {
+            top: 48.3%;
+            left: 13.3%;
+            z-index: 13;
+            background: url(./images/game.png);
+        }
+
+        .line5 {
+            top: 48.3%;
+            left: 18.4%;
+            z-index: 12;
+            background: url(./images/login.png);
+        }
+
+        .line6 {
+            top: 48.3%;
+            left: 23.7%;
+            z-index: 11;
+            background: url(./images/护工1.png);
+        }
+
+        .line7 {
+            top: 48.3%;
+            left: 29%;
+            z-index: 10;
+            background: url(./images/护工2.png);
+        }
+
+        .line8 {
+            top: 48.3%;
+            left: 34.3%;
+            z-index: 9;
+            background: url(./images/通用.jpg);
+            background-size: 83%;
+        }
+
+        .line9 {
+            top: 48.3%;
+            left: 39.6%;
+            z-index: 8;
+            background: url(./images/通用.jpg);
+            background-size: 83%;
+        }
+
+        .line10 {
+            top: 48.3%;
+            left: 44.9%;
+            z-index: 7;
+            background: url(./images/通用.jpg);
+            background-size: 83%;
+        }
+
+        .line11 {
+            top: 48.3%;
+            left: 50.2%;
+            z-index: 6;
+            background: url(./images/通用.jpg);
+            background-size: 83%;
+        }
+
+        .line12 {
+            top: 48.3%;
+            left: 55.5%;
+            z-index: 5;
+            background: url(./images/通用.jpg);
+            background-size: 83%;
+        }
+
+        .line13 {
+            top: 48.3%;
+            left: 60.8%;
+            z-index: 4;
+            background: url(./images/通用.jpg);
+            background-size: 83%;
+        }
+
+        .line14 {
+            top: 48.3%;
+            left: 66.1%;
+            z-index: 3;
+            background: url(./images/通用.jpg);
+            background-size: 83%;
+        }
+
+        .line15 {
+            top: 48.3%;
+            left: 71.4%;
+            z-index: 2;
+            background: url(./images/通用.jpg);
+            background-size: 83%;
+        }
+
+        .line16 {
+            top: 48.3%;
+            left: 76.7%;
+            z-index: 1;
+            background: url(./images/通用.jpg);
+            background-size: 83%;
+        }
+
+        .line:hover {
+            transform: translatex(45%) skew(-15deg, 0);
+        }
+
+        .change1 {
+            color: #000;
+            transform: rotate(-90deg) translate(-15rem, -5rem);
+        }
+
+        @keyframes blink1 {
+            0% {
+                transform: scale(0) skew(-15deg, 0);
+            }
+            40% {
+                transform: scale(1) skew(-15deg, 0);
+            }
+            100% {
+                transform: scale(1) skew(-15deg, 0);
+            }
         }
     </style>
 </head>
 <body>
 <main>
-    <div class="col-sm-4 text-center start" style="color:#b3edf8">开始学前端</div>
-    <div class="line1"></div>
-    <div class="line2"></div>
-    <p class="line line0">酒</p>
-    <div class="line3 line">技</div>
-    <div class="line4 line">游</div>
-    <div class="line5 line">登</div>
-    <div class="line6 line">护</div>
-    <div class="line7 line">攻</div>
-    <div class="line8 line">劲</div>
-    <div class="line9 line">修</div>
-    <div class="line10 line">起</div>
-    <div class="line11 line">撞</div>
-    <div class="line12 line">劲</div>
-    <div class="line13 line">镖</div>
-    <div class="line14 line">组</div>
-    <div class="line15 line">自</div>
-    <div class="line16 line">纵</div>
-    <div class="line17 line"></div>
-    <div class="line18 line"></div>
-    <div class="line19 line"></div>
-    <div class="w-100 alltest"></div>
-    <div class="date1">2017-7-3 →</div>
-    <div class="col-10 text-left info" style="font-size:3rem;color:#f8d170;position:absolute;top:45%;" >
+    <div class="col-sm-4 text-center start" style="color:#247ba0">开始学前端</div>
+    <div class="text-right line1"></div>
+    <div class="text-right line2"></div>
+    <div class="alltest "
+         style="position:absolute;width:6%;transform:skew(-15deg,0);top:48.3%;left:1.5%;height:46%;z-index: 16;background-color: #b2dbbf ;box-shadow:15px 8px 15px #333"></div>
+    <div class="alltest "
+         style="position:absolute;width:6%;transform:skew(-15deg,0);top:48.3%;left:1.5%;height:46%;z-index: 17;background-color: #b2dbbf "></div>
+    <a class="text-right line line0" href="https://sober54.github.io/1stwebset/day1homework.html" target="_blank">
+        酒
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p>
+    </a>
+    <a class="text-right line3 line" href="https://sober54.github.io/1stwebset/day1homeworkv3.html" target="_blank">技
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务2：github</p></a>
+    <a class="text-right line4 line" href="https://sober54.github.io/1stwebset/day3homework.html" target="_blank">游
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务3：葡萄藤游戏</p></a>
+    <a class="text-right line5 line" href="https://sober54.github.io/1stwebset/day4homework.html" target="_blank">登
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务4：登陆界面</p></a>
+    <a class="text-right line6 line" href="https://sober54.github.io/1stwebset/day5homework.html" target="_blank">护
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务5：护工介绍</p></a>
+    <a class="text-right line7 line" href="https://sober54.github.io/1stwebset/day6homework.html" target="_blank">攻
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务6：护工筛选</p></a>
+    <a class="text-right line8 line" href="#">劲
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+    <a class="text-right line9 line" href="#">修
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+    <a class="text-right line10 line" href="#">起
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+    <a class="text-right line11 line" href="#">撞
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+    <a class="text-right line12 line" href="#">劲
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+    <a class="text-right line13 line" href="#">镖
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+    <a class="text-right line14 line" href="#">组
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+    <a class="text-right line15 line" href="#">自
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+    <a class="text-right line16 line" href="#">纵
+        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+    <div class="date1">2017-7-3 <a class="date11" href="./sounds/song1.mp3"> > </a></div>
+    <div class="col-10 text-left info" style="font-size:3rem;color:#247ba0;position:absolute;top:45%;">
         <div class="w-100 text-center progress  goright">
-            <div class="progress-bar progress-bar-striped progress-bar-animated goright1"  style="width: 40%">
-                <p class="text-left " >so love dear coco</p>
+            <div class="progress-bar progress-bar-striped progress-bar-animated goright1" style="width: 40%">
+                <p class="text-left">so love dear coco</p>
             </div>
         </div>
-    </div>
     </div>
 </main>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.bootcss.com/popper.js/1.9.3/umd/popper.min.js" integrity="sha384-knhBOwpf8/28D6ygAjJeb0STNDZqfPbKaWQ8wIz/xgSc0xXwKsKhNype8fmfMka2" crossorigin="anonymous"></script>
-<script src="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.9.3/umd/popper.min.js"
+        integrity="sha384-knhBOwpf8/28D6ygAjJeb0STNDZqfPbKaWQ8wIz/xgSc0xXwKsKhNype8fmfMka2"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="http://mediaplayer.yahoo.com/js">
+</script>
 </body>
 </html>
