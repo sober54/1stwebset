@@ -22,10 +22,6 @@
             box-shadow: none !important;
         }
 
-        a:link {
-            text-decoration: none;
-        }
-
         .goright {
             height: 3%;
             border-radius: 0 2rem 2rem 0;
@@ -54,26 +50,6 @@
             text-shadow: 6px 20px 20px #333;
         }
 
-        .line1 {
-            height: 5%;
-            width: 0;
-            position: absolute;
-            top: 20%;
-            left: 10.5%;
-            border: 1px solid #247ba0;
-            box-shadow: 5px 4px 11px #333;
-        }
-
-        .line2 {
-            height: 10%;
-            width: 0;
-            position: absolute;
-            top: 35%;
-            left: 10.7%;
-            border: 1px solid #247ba0;
-            box-shadow: 5px 4px 11px #333;
-        }
-
         .date1 {
             width: 10%;
             height: 3%;
@@ -96,28 +72,6 @@
             left: 60%;
         }
 
-        .line {
-            height: 45%;
-            width: 10%;
-            position: absolute;
-            top: 48.3%;
-            border-right: 4px outset #247ba0;
-            transform: skew(-15deg, 0);
-            color: #000;
-            font-size: 6.5rem;
-            text-shadow: 6px 20px 20px #333;
-            background-color: #b2dbbf;
-            box-shadow: 15px 8px 15px #333;
-            animation: blink1 2s ease-out;
-        }
-
-        .line3 {
-            top: 48.3%;
-            left: 8.5%;
-            background: url(./images/block92.png);
-            z-index: 14;
-        }
-
         .alltest {
             width: 100%;
             position: absolute;
@@ -125,58 +79,93 @@
             top: 53.5%;
         }
 
+        a:link {
+            text-decoration: none;
+        }
+
+        .line {
+            height: 100%;
+            width: 15%;
+            position: absolute;
+            border-right: 3px inset #247ba0;
+            color: #000;
+            font-size: 6.5rem;
+            text-shadow: 6px 20px 20px #333;
+            background-color: #b2dbbf;
+            box-shadow: 15px 8px 15px #333;
+        }
+
+        .line1 {
+            height: 5%;
+            width: 0;
+            position: absolute;
+            top: 20%;
+            left: 10.5%;
+            border: 1px solid #247ba0;
+            box-shadow: 5px 4px 11px #333;
+        }
+
+        .line2 {
+            height: 10%;
+            width: 0;
+            position: absolute;
+            top: 35%;
+            left: 10.7%;
+            border: 1px solid #247ba0;
+            box-shadow: 5px 4px 11px #333;
+        }
+
+        .line3 {
+            left: -1.5%;
+            background: url(./images/block92.png);
+            z-index: 14;
+        }
+
         .line0 {
-            left: 2.8%;
+            left: -8.3%;
             background: url(./images/BLOCK9.png);
             z-index: 15;
         }
 
         .line4 {
-            top: 48.3%;
-            left: 13.3%;
+            left: 5%;
             z-index: 13;
             background: url(./images/game.png);
         }
 
         .line5 {
-            top: 48.3%;
-            left: 18.4%;
+            left: 11.5%;
             z-index: 12;
             background: url(./images/login.png);
         }
 
         .line6 {
-            top: 48.3%;
-            left: 23.7%;
+            left: 18%;
             z-index: 11;
             background: url(./images/护工1.png);
         }
 
         .line7 {
-            top: 48.3%;
-            left: 29%;
+            left: 25%;
             z-index: 10;
             background: url(./images/护工2.png);
         }
 
         .line8 {
-            top: 48.3%;
-            left: 34.3%;
+            left: 31.8%;
             z-index: 9;
             background: url(./images/通用.jpg);
             background-size: 83%;
         }
 
         .line9 {
-            top: 48.3%;
-            left: 39.6%;
+            left: 38.6%;
             z-index: 8;
             background: url(./images/通用.jpg);
             background-size: 83%;
         }
 
         .line10 {
-            top: 48.3%;
             left: 44.9%;
             z-index: 7;
             background: url(./images/通用.jpg);
@@ -184,55 +173,49 @@
         }
 
         .line11 {
-            top: 48.3%;
-            left: 50.2%;
+            left: 51.5%;
             z-index: 6;
             background: url(./images/通用.jpg);
             background-size: 83%;
         }
 
         .line12 {
-            top: 48.3%;
-            left: 55.5%;
+            left: 58.2%;
             z-index: 5;
             background: url(./images/通用.jpg);
             background-size: 83%;
         }
 
         .line13 {
-            top: 48.3%;
-            left: 60.8%;
+            left: 64.8%;
             z-index: 4;
             background: url(./images/通用.jpg);
             background-size: 83%;
         }
 
         .line14 {
-            top: 48.3%;
-            left: 66.1%;
+            left: 71.5%;
             z-index: 3;
             background: url(./images/通用.jpg);
             background-size: 83%;
         }
 
         .line15 {
-            top: 48.3%;
-            left: 71.4%;
+            left: 78.4%;
             z-index: 2;
             background: url(./images/通用.jpg);
             background-size: 83%;
         }
 
         .line16 {
-            top: 48.3%;
-            left: 76.7%;
+            left: 84.7%;
             z-index: 1;
             background: url(./images/通用.jpg);
             background-size: 83%;
         }
 
         .line:hover {
-            transform: translatex(45%) skew(-15deg, 0);
+            transform: translatex(45%);
         }
 
         .change1 {
@@ -240,16 +223,82 @@
             transform: rotate(-90deg) translate(-15rem, -5rem);
         }
 
-        @keyframes blink1 {
+        @keyframes biubiu {
             0% {
-                transform: scale(0) skew(-15deg, 0);
+                width: 23%;
+            skew(- 15 deg, 0);
+            }
+            10% {
+                width: 19.5%;
+            skew(- 15 deg, 0);
+            }
+            20% {
+                width: 22%;
+            skew(- 15 deg, 0);
+            }
+            30% {
+                width: 30%;
+            skew(- 15 deg, 0);
             }
             40% {
-                transform: scale(1) skew(-15deg, 0);
+                width: 40%;
+            skew(- 15 deg, 0);
+            }
+            50% {
+                width: 50%;
+            skew(- 15 deg, 0);
+            }
+            60% {
+                width: 55%;
+            skew(- 15 deg, 0);
+            }
+            70% {
+                width: 70%;
+            skew(- 15 deg, 0);
+            }
+            75% {
+                width: 80%;
+            skew(- 15 deg, 0);
+            }
+            80% {
+                width: 73%;
+            skew(- 15 deg, 0);
+            }
+            85% {
+                width: 70%;
+            skew(- 15 deg, 0);
+            }
+            90% {
+                width: 80%;
+            skew(- 15 deg, 0);
+            }
+            95% {
+                width: 75%;
+            skew(- 15 deg, 0);
             }
             100% {
-                transform: scale(1) skew(-15deg, 0);
+                width: 80%;
+            skew(- 15 deg, 0);
             }
+        }
+
+        .alltest {
+            height: 45%;
+            position: absolute;
+            width: 82%;
+            left: 7.5%;
+            top: 48%;
+            transform: skew(-15deg, 0);
+            animation: biubiu 2s ease-in;
+        }
+
+        .shadow {
+            height: 45%;
+            position: absolute;
+            width: 82%;
+            left: 7.5%;
+            top: 48%;
+            transform: skew(-15deg, 0);
         }
     </style>
 </head>
@@ -258,42 +307,43 @@
     <div class="col-sm-4 text-center start" style="color:#247ba0">开始学前端</div>
     <div class="text-right line1"></div>
     <div class="text-right line2"></div>
-    <div class="alltest "
-         style="position:absolute;width:6%;transform:skew(-15deg,0);top:48.3%;left:1.5%;height:46%;z-index: 16;background-color: #b2dbbf ;box-shadow:15px 8px 15px #333"></div>
-    <div class="alltest "
-         style="position:absolute;width:6%;transform:skew(-15deg,0);top:48.3%;left:1.5%;height:46%;z-index: 17;background-color: #b2dbbf "></div>
-    <a class="text-right line line0" href="https://sober54.github.io/1stwebset/day1homework.html" target="_blank">
-        酒
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p>
-    </a>
-    <a class="text-right line3 line" href="https://sober54.github.io/1stwebset/day1homeworkv3.html" target="_blank">技
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务2：github</p></a>
-    <a class="text-right line4 line" href="https://sober54.github.io/1stwebset/day3homework.html" target="_blank">游
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务3：葡萄藤游戏</p></a>
-    <a class="text-right line5 line" href="https://sober54.github.io/1stwebset/day4homework.html" target="_blank">登
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务4：登陆界面</p></a>
-    <a class="text-right line6 line" href="https://sober54.github.io/1stwebset/day5homework.html" target="_blank">护
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务5：护工介绍</p></a>
-    <a class="text-right line7 line" href="https://sober54.github.io/1stwebset/day6homework.html" target="_blank">攻
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务6：护工筛选</p></a>
-    <a class="text-right line8 line" href="#">劲
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
-    <a class="text-right line9 line" href="#">修
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
-    <a class="text-right line10 line" href="#">起
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
-    <a class="text-right line11 line" href="#">撞
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
-    <a class="text-right line12 line" href="#">劲
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
-    <a class="text-right line13 line" href="#">镖
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
-    <a class="text-right line14 line" href="#">组
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
-    <a class="text-right line15 line" href="#">自
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
-    <a class="text-right line16 line" href="#">纵
-        <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+    <div class="shadow"
+         style="position:absolute;width:6%;transform:skew(-15deg,0);top:47.7%;left:1.51%;height:46%;z-index: 16;background-color: #b2dbbf ;box-shadow:15px 8px 15px #333"></div>
+    <div style="position:absolute;width:10%;transform:skew(-15deg,0);top:47.7%;left:-2.5%;height:46%;z-index: 17;background-color: #b2dbbf "></div>
+    <div class="alltest">
+        <a class="text-right line line0" href="https://sober54.github.io/1stwebset/day1homework.html" target="_blank">
+            酒
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p>
+        </a>
+        <a class="text-right line3 line" href="https://sober54.github.io/1stwebset/day1homeworkv3.html" target="_blank">技
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务2：github</p></a>
+        <a class="text-right line4 line" href="https://sober54.github.io/1stwebset/day3homework.html" target="_blank">游
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务3：葡萄藤游戏</p></a>
+        <a class="text-right line5 line" href="https://sober54.github.io/1stwebset/day4homework.html" target="_blank">登
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务4：登陆界面</p></a>
+        <a class="text-right line6 line" href="https://sober54.github.io/1stwebset/day5homework.html" target="_blank">护
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务5：护工介绍</p></a>
+        <a class="text-right line7 line" href="https://sober54.github.io/1stwebset/day6homework.html" target="_blank">攻
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务6：护工筛选</p></a>
+        <a class="text-right line8 line" href="#">劲
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+        <a class="text-right line9 line" href="#">修
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+        <a class="text-right line10 line" href="#">起
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+        <a class="text-right line11 line" href="#">撞
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+        <a class="text-right line12 line" href="#">劲
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+        <a class="text-right line13 line" href="#">镖
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+        <a class="text-right line14 line" href="#">组
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+        <a class="text-right line15 line" href="#">自
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+        <a class="text-right line16 line" href="#">纵
+            <p class="text-left change1" style="clear:both;font-size:1rem;">任务1：九宫格</p></a>
+    </div>
     <div class="date1">2017-7-3 <a class="date11" href="./sounds/song1.mp3"> > </a></div>
     <div class="col-10 text-left info" style="font-size:3rem;color:#247ba0;position:absolute;top:45%;">
         <div class="w-100 text-center progress  goright">
