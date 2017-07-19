@@ -50,12 +50,26 @@
             border: 1px #8dd2db solid;
         }
 
+        ul {
+            width: 33vm;
+            padding:  0;
+            margin:  0;
+        }
+
+        li {
+            text-align: center;
+        }
+
         .dropdown-toggle {
             background-color: white;
             color: #a1a19f;
             border-radius: 0;
             font-size: 1rem;
             float: left;
+
+        }
+        .dropdown-menu {
+            min-width: 0;
         }
 
         .main {
@@ -214,13 +228,7 @@
             box-shadow: none !important;
         }
 
-        ul {
-            width: 100%;
-        }
 
-        li {
-            text-align: center;
-        }
 
 
     </style>
@@ -255,7 +263,7 @@
                         所在地
                         <span class="caret"></span>
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu w-100">
                         <li><a href="#">所在地1</a></li>
                         <li><a href="#">所在地2</a></li>
                         <li><a href="#">所在地3</a></li>
@@ -270,7 +278,7 @@
                         食宿
                         <span class="caret text-right"></span>
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu col">
                         <li><a href="#">腰子</a></li>
                         <li><a href="#">大肠</a></li>
                         <li><a href="#">小肠</a></li>
@@ -284,7 +292,7 @@
                         病人情况
                         <span class="caret text-right"></span>
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu col">
                         <li><a href="#">活到死</a></li>
                         <li><a href="#">活到死</a></li>
                         <li><a href="#">活到死</a></li>
