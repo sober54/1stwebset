@@ -16,7 +16,7 @@
             font-size: 62.5%;
             margin: 0;
             padding: 0;
-            background-color: #f7f7f7;
+            background-color: black;
         }
 
         .valign {
@@ -36,67 +36,300 @@
 
         .pg1head {
             background-color: #8dd2db;
-            height: 4rem;
+            height: 3rem;
         }
-
 
         .last1 {
-            height: 10rem;
-            font-size: 3rem;
-            border: 2px red solid;
+            height: 5.5rem;
+            font-size: 1.2rem;
             text-align: center;
+            white-space: nowrap;
 
         }
 
-
-         *,* *,* * *,* * * *,* * * * *{
-            border:  1px red solid;
+        *, * *, * * *, * * * *, * * * * * {
+            border: 1px red solid;
         }
-        .pg1head1{
+
+        .pg1head1 {
             position: relative;
-            top:  25%;
+            top: 25%;
         }
-        .head11{
-            top: -25%;
-            left:  0;
+
+        .main1 {
+            height: 7.3rem;
         }
-        .head12{
-            top: -115%;
-            left: 1%;
+
+        .pick1 {
+            bottom: -2rem;
+            color: #ccc;
+        }
+
+        .pick {
+            height: 60%;
+            background-color: #69d1e9;
+            color: white;
+            font-size: 1.5rem;
+            margin-left: 5%;
+        }
+
+        .gogogo {
+            width: 0.7rem;
+            height: 1.5rem;
+            position: absolute;
+            top: 40%;
+            left: 90%;
+            background: url(./images/triangle.png);
+            background-size: 120%;
+            background-position: center;
+        }
+
+        .dot1 {
+            background-color: #2aabd2;
+            border-radius: 50%;
+            width: 1rem;
+            height: 1rem;
+            margin: 0.5rem;
+        }
+
+        .dot0 {
+            background-color: #4b5257;
+            border-radius: 50%;
+            width: 1rem;
+            height: 1rem;
+            margin: 0.5rem;
+        }
+
+        .border-b {
+            border: #ccc 2px solid;
+            border-bottom: #b3cc20 solid 2px;
+            background-color: white;
+        }
+
+        .main0 {
+            border: #ccc 2px solid;
+            border-top: white;
+            background-color: white;
+            position: absolute;
         }
 
 
+        .container-fluid {
+            background-color: #f7f7f7;
+        }
+
+        .gogogo1 {
+            position: absolute;
+            font-size: 1.5rem;
+            top: 39%;
+            left: 0.1%;
+        }
+        .duangduang{
+            position: relative;
+            width:  100%;
+            margin: 0;
+            padding: 0;
+            transform-style: preserve-3d;
+            animation: duang 50s forwards;
+
+        }
+        @keyframes duang {
+            0% { transform: rotatey(0deg); }
+            10% { transform: rotatey(90deg); }
+            20% { transform:rotatey(120deg); }
+            30% { transform: rotatey(150deg); }
+            40% { transform:rotatey(180deg); }
+            50% { transform: rotatey(210deg); }
+            60% { transform:rotatey(240deg); }
+            70% { transform:rotatey(270deg); }
+            80% { transform: rotatey(300deg); }
+            90% { transform:rotatey(330deg); }
+            100% { transform:rotatey(360deg); }
+        }
+
+        .pg {
+            
+            /*position: absolute;*/
+            margin: 0;
+            padding: 0;
+            /*backface-visibility: hidden;*/
+            /*background-color: white;*/
+            /*animation: duang 50s linear ;*/
+            /*transform-style: preserve-3d;*/
+        }
+
+        .pg4 {
+            transform: translate3d(0, 0, 0); rotateY(90deg);
+
+        }
+
+        .pg3 {
+            transform: translate3d(0, 0, -1rem);
+             rotateY(-180deg)
+        }
+
+        .pg2 {
+            transform: translate3d(0, 0, 0) ;rotateY(-90deg);
+        }
+        .pg1{
+            transform: translate3d(0, 0, 1rem);
+
+        }
 
     </style>
 </head>
 <body>
 
-<div class="container">
-
+<div class="container-fluid">
     <div class="row">
-        <div class="col-md-12 col-xs-12 fiexd-top pg1head text-left ">
+        <div class="col-12 col-xl-12 col-md-12 col-xs-12  fiexd-top pg1head text-left ">
             <a class="pg1head1" href="#">
                 <img src="./images/menu.png" style="height:55%">
             </a>
         </div>
     </div>
 
-
-    <div class="col-12" style="height:3rem;"></div>
+    <div class="col-12 col-xl-12 col-md-12 col-xs-12 " style="height:1.1rem;"></div>
 
     <div class="row">
-        <div class="col-1"></div>
-
-        <div class="col-md-10 col-10">
-            <div class="last1" style="background-color:white">
-                <div class="valign">上次游戏：捉鬼猜词版
-                    <a href="#">〉</a></div>
+        <div class="col-12 col-xl-12 col-md-12 col-xs-12 ">
+            <div class="last1" style="background-color:white;border: 2px solid #ccc">
+                <div class="valign" style="font-size:1.5rem">
+                    上次游戏：捉鬼猜词版
+                    <a href="#" class="float-right" style="color:#ccc">〉</a>
+                </div>
             </div>
         </div>
+    </div>
 
-        <div class="col-1"></div>
+    <div class="col-12 col-xl-12 col-md-12 col-xs-12 " style="height:1.1rem;"></div>
+    <div class="col-12 col-xl-12 col-md-12 col-xs-12 "></div>
+    <div class="col-12 col-xl-12 col-md-12 col-xs-12 border-b"
+         style="width:100%;height:4.5rem">
+        <div class="valign text-center" style="font-size:1.5rem ;color:#b3cc20">
+            捉鬼游戏
+        </div>
+    </div>
+    <div class="col-12 col-xl-12 col-md-12 col-xs-12 pg pg1 text-center main0">
+        <div class="duangduang">
+            <div class="col-12 col-xl-12 col-md-12 col-xs-12 justify-content-center pg1 pg">
+                <div class="col-12 col-xl-12 col-md-12 col-xs-12 main1">
+                    <a class="col-11 col-xl-11 col-md-11 col-xs-11 pick valign d-block ">
+                        <p class="valign " style="color: white">简化版</p></a>
+                    <div class="col-12 col-xl-12 col-md-12 col-xs-12 pick1">有1133个用户正在玩这个游戏</div>
+                </div>
+                <div class="col-12 col-xl-12 col-md-12 col-xs-12 main1">
+                    <a class="col-11 col-xl-11 col-md-11 col-xs-11  pick valign d-block">
+                        <p class="valign" style="color:white">猜词版</p></a>
+                    <div class="col-12 col-xl-12 col-md-12 col-xs-12 pick1">有1133个用户正在玩这个游戏</div>
+                    <a class="gogogo" href="#">&nbsp</a>
+                </div>
+                <div class="col-12 col-xl-12 col-md-12 col-xs-12 main1">
+                    <a class="col-11 col-xl-11 col-md-11 col-xs-11  pick valign d-block">
+                        <p class="valign" style="color: white">白痴版</p></a>
+                    <div class="col-12 col-xl-12 col-md-12 col-xs-12 pick1">有1133个用户正在玩这个游戏</div>
+                </div>
+                <div class="row dotdot justify-content-center">
+                    <div class="dot1">&nbsp</div>
+                    <div class="dot0">&nbsp</div>
+                    <div class="dot0">&nbsp</div>
+                    <div class="dot0">&nbsp</div>
+                </div>
+            </div>
+
+            <div class="col-12 col-xl-12 col-md-12 col-xs-12 justify-content-center pg2 pg">
+                <div class="col-12 col-xl-12 col-md-12 col-xs-12 main1">
+                    <a class="col-11 col-xl-11 col-md-11 col-xs-11   pick valign d-block "><p class="valign "
+                                                                                              style="color: white">
+                        简化版</p></a>
+                    <div class="col-12 col-xl-12 col-md-12 col-xs-12 pick1">有1133个用户正在玩这个游戏</div>
+                </div>
+                <div class="col-12 col-xl-12 col-md-12 col-xs-12 main1">
+                    <a class="col-11 col-xl-11 col-md-11 col-xs-11  pick valign d-block"><p class="valign"
+                                                                                            style="color:white">
+                        猜词版</p></a>
+                    <div class="col-12 col-xl-12 col-md-12 col-xs-12 pick1">有1133个用户正在玩这个游戏</div>
+                    <a class="gogogo" href="#">&nbsp</a>
+                    <a class="gogogo1" href="#">〈</a>
+                </div>
+                <div class="col-12 col-xl-12 col-md-12 col-xs-12 main1">
+                    <a class="col-11 col-xl-11 col-md-11 col-xs-11 pick valign d-block"><p class="valign"
+                                                                                           style="color: white">
+                        白痴版</p></a>
+                    <div class="col-12 col-xl-12 col-md-12 col-xs-12 pick1">有1133个用户正在玩这个游戏</div>
+                </div>
+                <div class="row dotdot justify-content-center">
+                    <div class="dot0">&nbsp</div>
+                    <div class="dot1">&nbsp</div>
+                    <div class="dot0">&nbsp</div>
+                    <div class="dot0">&nbsp</div>
+                </div>
+            </div>
+
+            <div class="col-12 col-xl-12 col-md-12 col-xs-12 justify-content-center pg3 pg">
+                <div class="col-12 col-xl-12 col-md-12 col-xs-12 main1">
+                    <a class="col-11 col-xl-11 col-md-11 col-xs-11   pick valign d-block ">
+                        <p class="valign " style="color: white">
+                            简化版</p></a>
+                    <div class="col-12 col-xl-12 col-md-12 col-xs-12 pick1">有1133个用户正在玩这个游戏</div>
+                </div>
+                <div class="col-12 col-xl-12 col-md-12 col-xs-12 main1">
+                    <a class="col-11 col-xl-11 col-md-11 col-xs-11   pick valign d-block"><p class="valign"
+                                                                                             style="color:white">
+                        猜词版</p></a>
+                    <div class="col-12 col-xl-12 col-md-12 col-xs-12 pick1">有1133个用户正在玩这个游戏</div>
+                    <a class="gogogo" href="#">&nbsp</a>
+                    <a class="gogogo1" href="#">〈</a>
+                </div>
+                <div class="col-12 col-xl-12 col-md-12 col-xs-12 main1">
+                    <a class="col-11 col-xl-11 col-md-11 col-xs-11 pick valign d-block">
+                        <p class="valign"
+                           style="color: white">
+                            白痴版</p></a>
+                    <div class="col-12 col-xl-12 col-md-12 col-xs-12 pick1">有1133个用户正在玩这个游戏</div>
+                </div>
+                <div class="row dotdot justify-content-center">
+                    <div class="dot0">&nbsp</div>
+                    <div class="dot0">&nbsp</div>
+                    <div class="dot1">&nbsp</div>
+                    <div class="dot0">&nbsp</div>
+                </div>
+            </div>
+
+            <div class="col-12 col-xl-12 col-md-12 col-xs-12 justify-content-center pg4 pg">
+                <div class="col-12 col-xl-12 col-md-12 col-xs-12 main1">
+                    <a class="col-11 col-xl-11 col-md-11 col-xs-11   pick valign d-block ">
+                        <p class="valign "
+                           style="color: white">
+                            简化版</p></a>
+                    <div class="col-12 col-xl-12 col-md-12 col-xs-12 pick1">有1133个用户正在玩这个游戏</div>
+                </div>
+                <div class="col-12 col-xl-12 col-md-12 col-xs-12 main1">
+                    <a class="col-11 col-xl-11 col-md-11 col-xs-11  pick valign d-block">
+                        <p class="valign"
+                           style="color:white">
+                            猜词版</p></a>
+                    <div class="col-12 col-xl-12 col-md-12 col-xs-12 pick1">有1133个用户正在玩这个游戏</div>
+                    <a class="gogogo1" href="#">〈</a>
+                </div>
+                <div class="col-12 col-xl-12 col-md-12 col-xs-12 main1">
+                    <a class="col-11 col-xl-11 col-md-11 col-xs-11 pick valign d-block">
+                        <p class="valign"
+                           style="color: white">
+                            白痴版</p></a>
+                    <div class="col-12 col-xl-12 col-md-12 col-xs-12 pick1">有1133个用户正在玩这个游戏</div>
+                </div>
+                <div class="row dotdot justify-content-center">
+                    <div class="dot0">&nbsp</div>
+                    <div class="dot0">&nbsp</div>
+                    <div class="dot0">&nbsp</div>
+                    <div class="dot1">&nbsp</div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
