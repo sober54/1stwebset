@@ -1,0 +1,184 @@
+body{
+    font-size:  62.5%;
+    margin:  0;
+    padding:  0;
+    background-color: #34bede;
+}
+.soclear{
+    outline:  none !important;
+    box-shadow: none !important;
+}
+a:link{
+    text-decoration:  none;
+}
+/**,* *,* * *,* * * *,* * * * *{
+    border:  1px red solid;
+}*/
+.container-fluid{
+    background-color: #34bede;
+}
+.valign{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.pg2head{
+    height:  5rem;
+    padding-right: 0.5rem;
+    padding-left: .5rem;
+    background-color: #34bede;
+}
+head{
+    height:  3.5rem;
+}
+.back-yellow{
+    text-align: center;
+}
+.menu{
+    background: url(../images/wordpage.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float:  left;
+    height: 2rem;
+    width:  2rem;
+}
+.fvckoff{
+    position: relative;
+    height: 1rem;
+    width:  2rem;
+    float: right;
+    font-size: 3rem;
+    color:  rgba(255,255,255,1);
+    top:  -75%;
+}
+
+.forvoice{
+    margin-top:  4.7rem;
+    background-color: rgba(255,255,255,.5);
+    height:  5rem;
+}
+.linkback{
+    position: absolute;
+    width: 2.5rem;
+    height:  2.5rem;
+    border-radius:  50%;
+    top:  -25%;
+    left: 35%;
+    background: url(../images/triangle2.png);
+    background-repeat: no-repeat;
+    background-position: 60% 50%;
+    background-color: #f8b345;
+    background-size: 60%;
+}
+.point2bottom{
+    position: absolute;
+    width:  0;
+    height:  0;
+    border-left: .3rem solid transparent;
+    border-right: .3rem solid transparent;
+    border-top:  .7rem solid rgba(255,255,255,.5);
+    top: 100%;
+    left:  3rem;
+}
+.voice{
+    position: absolute;
+    transform: scale(0);
+    width:  7rem;
+    top: 1.5rem;
+    left: 70%;
+}
+.valign:hover~.voice{
+    transform: scale(1);
+}
+.voice{
+    transition: transform 5s 0s ;
+}
+.gameinfo{
+    padding: 1rem 0;
+    padding-left: 2.3rem;
+    color:  rgba(255,255,255,.7);
+}
+.player-block{
+    position: relative;
+    margin:  1% 2%;
+}
+.back-yellow{
+    position: relative;
+    background-color: #f3c881;
+    padding:  32% 0;
+    font-size: 1.1rem;
+}
+.back-green {
+    position: relative;
+    background-color: #82af9b;
+    text-align: center;
+    transform: translateY(-100%);
+    color:  white;
+}
+.buff {
+    position: relative;
+    text-align: center;
+    transform: translateY(-10%);
+    visibility: hidden;
+}
+.who{
+    position: relative;
+    top:  -30%;
+}
+
+.buff1{
+    background: url(../images/noidea.png);
+}
+.buff2{
+    background: url(../images/glass.png);
+}
+.buff3{
+    background: url(../images/bulleye.png);
+}
+.buff4{
+    background: url(../images/TEN.png);
+}
+.buff1,
+.buff2,
+.buff3,
+.buff4{
+    width: 21%;
+    background-size: 92%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    padding: 10% 0;
+    margin: 0 2%;
+}
+.back-yellow,
+.back-green{
+    border:  3px white solid;
+}
+.back-green{
+    border-top: rgba(255,255,255,0);
+}
+.back-yellow:hover~.buff,
+.back-green:hover~.buff{
+    visibility: visible;
+}
+.footer{
+    background-color: #34bede;
+}
+.footbtn{
+    background-color: #f8b445;
+    height:  2rem;
+    margin: 0.8rem 0;
+    color:  white;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.forborder{
+    position: relative;
+    border: 1px  solid rgba(255,255,255,.7);
+    z-index: 0;
+
+}
