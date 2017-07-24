@@ -1,0 +1,121 @@
+ body{
+             font-size:  62.5%;
+             margin:  0;
+             padding:  0;
+     background-color: #34bede;
+         }
+ .soclear{
+             outline:  none !important;
+             box-shadow: none !important;
+         }
+ a:link{
+             text-decoration:  none;
+         }
+ /* *,* *,* * *,* * * *,* * * * *{
+             border:  1px red solid;
+         }*/
+.valign{
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%)
+        }
+.head{
+    background-color: #34bede;
+    height:  4rem;
+    border-bottom: 1px white solid;
+}
+.title1{
+    font-size:  1.8rem;
+    color: rgba(255,255,255,.7);
+}
+.homepg{
+    height:  2rem;
+    width: 1.8rem;
+    background: url(../images/homepage1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2rem 1.8rem;
+    margin: 0.5rem 0;
+    transform: translate(-40%,0);
+}
+.infoicon{
+    position: relative;
+    height:  1.8rem;
+    width:  1.8rem;
+    border-radius: 50%;
+    border:  2px white solid;
+    color:  white;
+    font-size: 1.5rem;
+    float: right;
+    transform: translate(50%,10%);
+    margin: .5rem 0;
+}
+.info p{
+    position: relative;
+    left:  -39%;
+    top:  -23%;
+}
+.winner{
+    color:  white;
+    font-size: 1.5rem;
+    text-shadow: black 2px 5px 2px;
+    background: url(../images/goldcup.png);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    padding-top: 30%;
+}
+.winner p{
+    position: relative;
+}
+.count{
+    font-size:  1rem;
+    color: #f5c76f;
+}
+.count11{
+color: white;
+    padding: 1.5rem 0 0 0;
+    margin-bottom: -1rem;
+}
+.white{
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: .8rem;
+}
+.day{
+    font-size: 1rem;
+}
+.time{
+    padding-top: 1.5%;
+    font-size: .5rem;
+    color: #ccc;
+}
+.daytime,
+.night{
+    color:  #ccc;
+}
+.footer{
+    height:  3.5rem;
+}
+.padpad{
+    padding: 0 7%;
+}
+.btnn{
+    border-radius: .2rem;
+    color: white;
+}
+.btn1{
+    background-color: #f37072;
+}
+.btn2{
+    background-color: #f8b445;
+}
+.footer{
+    background-color: rgba(81, 196, 222, 0.5);
+}
+button{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
