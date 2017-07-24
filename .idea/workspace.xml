@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c8f5486-83ab-4ddb-9ca9-03402067cfb3" name="默认" comment="" />
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="4c8f5486-83ab-4ddb-9ca9-03402067cfb3" name="默认" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pg1menu.png" />
+    </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +39,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="day7-1.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="day7-1.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/day7-1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="109">
-                  <caret line="355" column="13" lean-forward="false" selection-start-line="355" selection-start-column="13" selection-end-line="355" selection-end-column="13" />
+                <state relative-caret-position="342">
+                  <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -54,11 +53,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="day7homework.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="day7homework.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/day7homework.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="100">
-                  <caret line="371" column="13" lean-forward="false" selection-start-line="371" selection-start-column="13" selection-end-line="371" selection-end-column="13" />
+                <state relative-caret-position="76">
+                  <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -71,8 +70,8 @@
           <file leaf-file-name="d7homework-pg2.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/d7homework-pg2.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2318">
-                  <caret line="122" column="28" lean-forward="false" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
+                <state relative-caret-position="-2432">
+                  <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -82,130 +81,19 @@
       </split-second>
     </splitter>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>》</find>
-      <find>btnsm</find>
-      <find>hidden</find>
-      <find>padding-left:3rem</find>
-      <find>=&quot;blo</find>
-      <find>div class=&quot;line</find>
-      <find>&quot;line</find>
-      <find>e: 78%</find>
-      <find>day1homework.html</find>
-      <find>html&quot;</find>
-      <find>right</find>
-      <find>float</find>
-      <find>carou</find>
-      <find>center</find>
-      <find>-center</find>
-      <find>gogogo1&quot;</find>
-      <find>row justify-content-center pg4 pg</find>
-      <find>col-12gai</find>
-      <find>col-11</find>
-      <find>col-11 col-xl-11</find>
-      <find>col-11 col-xl-11 col-md-11 col-xs-11</find>
-      <find>col-12</find>
-      <find />
-      <find>col-md-11 col-xs-11</find>
-      <find>23</find>
-      <find>&lt;button</find>
-      <find>wrap</find>
-      <find>row wrap</find>
-      <find>col-4</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>padding-left:2rem</replace>
-      <replace>=&quot;block blo</replace>
-      <replace>a class=&quot;line</replace>
-      <replace>&quot;text-right line</replace>
-      <replace>e: 83%</replace>
-      <replace>#</replace>
-      <replace>html&quot;;target=&quot;_blank&quot;</replace>
-      <replace>gogogo1&quot; href=&quot;#&quot;</replace>
-      <replace>col-xl-12 col-12 justify-content-center pg4 pg</replace>
-      <replace>col-12 col-xl-12 col-md-12 col-xs-12</replace>
-      <replace>col-11 col-xl-11</replace>
-      <replace>col-11 col-xl-11 col-md-11 col-xs-11 col-xl-11</replace>
-      <replace>col-12 col-xl-12 col-md-11 col-xs-11</replace>
-      <replace />
-      <replace>col-md-12 col-xs-12</replace>
-      <replace>&lt;a</replace>
-      <replace>col</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/gh-pages" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/测试WS上传/你丫有病.html" />
-        <option value="$PROJECT_DIR$/day5homework.html" />
-        <option value="$PROJECT_DIR$/day6homework/day6homework.html" />
-        <option value="$PROJECT_DIR$/day7-2.html" />
-        <option value="$PROJECT_DIR$/bootstrap/css/测试.html" />
-        <option value="$PROJECT_DIR$/forflex.html" />
-        <option value="$PROJECT_DIR$/day1homework.html" />
-        <option value="$PROJECT_DIR$/day1homework v2.0.html" />
-        <option value="$PROJECT_DIR$/bootstrap/day1homework v3.0.html" />
-        <option value="$PROJECT_DIR$/day1homeworkv2.html" />
-        <option value="$PROJECT_DIR$/day3homework.html" />
-        <option value="$PROJECT_DIR$/day3homeworkv2.html" />
-        <option value="$PROJECT_DIR$/day4homeworkv2.html" />
-        <option value="$PROJECT_DIR$/资料库.html" />
-        <option value="$PROJECT_DIR$/day6homework.html" />
-        <option value="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/Creative Link Effects.html" />
-        <option value="$PROJECT_DIR$/myvery1stwebset.html" />
-        <option value="$PROJECT_DIR$/测试WS上传/css/d7homework-pg2.css" />
-        <option value="$PROJECT_DIR$/bootstrap/css/bootstrap-grid.min.css" />
-        <option value="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/day7-1.html" />
-        <option value="$PROJECT_DIR$/css/d7homework-pg2.css" />
         <option value="$PROJECT_DIR$/day7homework.html" />
       </list>
     </option>
   </component>
-  <component name="JsBowerSettings">
-    <node-interpreter value="project" />
-    <exe-path />
-    <config-path />
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsFlowSettings">
-    <service-enabled>false</service-enabled>
-    <exe-path />
-    <annotation-enable>false</annotation-enable>
-    <other-services-enabled>false</other-services-enabled>
-  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -215,37 +103,6 @@
     <option name="y" value="691" />
     <option name="width" value="2333" />
     <option name="height" value="685" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>CSS</id>
-          </State>
-          <State>
-            <id>Code quality toolsCSS</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>数据流问题JavaScript</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Stylelint</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="添加" />
@@ -371,25 +228,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="node.js.path.for.package.stylelint" value="project" />
-    <property name="node.js.detected.package.stylelint" value="true" />
-    <property name="node.js.selected.package.stylelint" value="" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WebStorm 2017.1.4\项目\1stwebset\测试WS上传" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WebStorm 2017.1.4\项目\1stwebset" />
-      <recent name="E:\WebStorm 2017.1.4\项目\1stwebset\images" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -403,381 +242,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
-  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="4c8f5486-83ab-4ddb-9ca9-03402067cfb3" name="默认" comment="" />
-      <created>1499167026957</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1499167026957</updated>
-      <workItem from="1499167028079" duration="816000" />
-      <workItem from="1499167858435" duration="109000" />
-      <workItem from="1499168100582" duration="43000" />
-      <workItem from="1499168144345" duration="812000" />
-      <workItem from="1499188118520" duration="21000" />
-      <workItem from="1499503572930" duration="3089000" />
-      <workItem from="1499535095018" duration="9078000" />
-      <workItem from="1499573384658" duration="109000" />
-      <workItem from="1499585327132" duration="13001000" />
-      <workItem from="1499666618119" duration="2264000" />
-      <workItem from="1499669916397" duration="2350000" />
-      <workItem from="1499672342043" duration="877000" />
-      <workItem from="1499673375165" duration="37563000" />
-      <workItem from="1499744349280" duration="33955000" />
-      <workItem from="1499843839087" duration="6281000" />
-      <workItem from="1499860504047" duration="7756000" />
-      <workItem from="1499880350813" duration="1597000" />
-      <workItem from="1499918453772" duration="10500000" />
-      <workItem from="1499930328465" duration="958000" />
-      <workItem from="1499938271827" duration="19000" />
-      <workItem from="1499942810162" duration="11918000" />
-      <workItem from="1499958382338" duration="11704000" />
-      <workItem from="1499975558980" duration="532000" />
-      <workItem from="1500004837998" duration="26376000" />
-      <workItem from="1500079455217" duration="2569000" />
-      <workItem from="1500090508674" duration="622000" />
-      <workItem from="1500155707036" duration="526000" />
-      <workItem from="1500156503285" duration="21432000" />
-      <workItem from="1500181336355" duration="29602000" />
-      <workItem from="1500246730135" duration="34326000" />
-      <workItem from="1500291390731" duration="1153000" />
-      <workItem from="1500294808964" duration="2551000" />
-      <workItem from="1500334601323" duration="22851000" />
-      <workItem from="1500390720498" duration="5340000" />
-      <workItem from="1500426022718" duration="43882000" />
-      <workItem from="1500514979801" duration="25168000" />
-      <workItem from="1500599249432" duration="658000" />
-      <workItem from="1500646654403" duration="504000" />
-      <workItem from="1500678393380" duration="42000" />
-      <workItem from="1500678449031" duration="5000" />
-      <workItem from="1500688719635" duration="28251000" />
-      <workItem from="1500733606937" duration="1319000" />
-      <workItem from="1500772797452" duration="6000" />
-      <workItem from="1500774008743" duration="15417000" />
-      <workItem from="1500801676590" duration="27248000" />
-      <workItem from="1500858305820" duration="98000" />
-      <workItem from="1500862321595" duration="19535000" />
-    </task>
-    <task id="LOCAL-00001" summary="1">
-      <created>1499167473411</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1499167473411</updated>
-    </task>
-    <task id="LOCAL-00002" summary="1">
-      <created>1499168346285</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1499168346285</updated>
-    </task>
-    <task id="LOCAL-00003" summary="1">
-      <created>1499504011971</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1499504011971</updated>
-    </task>
-    <task id="LOCAL-00004" summary="1">
-      <created>1499779141443</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1499779141443</updated>
-    </task>
-    <task id="LOCAL-00005" summary="1">
-      <created>1499779308507</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1499779308507</updated>
-    </task>
-    <task id="LOCAL-00006" summary="1">
-      <created>1499779736310</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1499779736310</updated>
-    </task>
-    <task id="LOCAL-00007" summary="1">
-      <created>1499880438838</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1499880438838</updated>
-    </task>
-    <task id="LOCAL-00008" summary="1">
-      <created>1499929704244</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1499929704244</updated>
-    </task>
-    <task id="LOCAL-00009" summary="1">
-      <created>1499930634844</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1499930634844</updated>
-    </task>
-    <task id="LOCAL-00010" summary="1">
-      <created>1499953811761</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1499953811761</updated>
-    </task>
-    <task id="LOCAL-00011" summary="1">
-      <created>1499956296991</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1499956296991</updated>
-    </task>
-    <task id="LOCAL-00012" summary="1">
-      <created>1499956382109</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1499956382109</updated>
-    </task>
-    <task id="LOCAL-00013" summary="1">
-      <created>1499976072825</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1499976072825</updated>
-    </task>
-    <task id="LOCAL-00014" summary="1">
-      <created>1500009294543</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1500009294543</updated>
-    </task>
-    <task id="LOCAL-00015" summary="任务6 改动 任务1作废 用来练习了">
-      <created>1500080934381</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1500080934381</updated>
-    </task>
-    <task id="LOCAL-00016" summary="任务6改动">
-      <created>1500081423543</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1500081423543</updated>
-    </task>
-    <task id="LOCAL-00017" summary="任务6改动">
-      <created>1500179774801</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1500179774801</updated>
-    </task>
-    <task id="LOCAL-00018" summary="任务6改动">
-      <created>1500214670540</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1500214670540</updated>
-    </task>
-    <task id="LOCAL-00019" summary="任务6改动">
-      <created>1500215169730</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1500215169730</updated>
-    </task>
-    <task id="LOCAL-00020" summary="任务6改动">
-      <created>1500281192249</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1500281192250</updated>
-    </task>
-    <task id="LOCAL-00021" summary="任务6改动">
-      <created>1500281240291</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1500281240291</updated>
-    </task>
-    <task id="LOCAL-00022" summary="任务6改动">
-      <created>1500288311676</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1500288311676</updated>
-    </task>
-    <task id="LOCAL-00023" summary="任务6改动">
-      <created>1500288634928</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1500288634928</updated>
-    </task>
-    <task id="LOCAL-00024" summary="任务6改动">
-      <created>1500294882471</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1500294882471</updated>
-    </task>
-    <task id="LOCAL-00025" summary="任务6改动">
-      <created>1500298252038</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1500298252038</updated>
-    </task>
-    <task id="LOCAL-00026" summary="任务6改动">
-      <created>1500334731327</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1500334731327</updated>
-    </task>
-    <task id="LOCAL-00027" summary="任务6改动">
-      <created>1500426569124</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1500426569124</updated>
-    </task>
-    <task id="LOCAL-00028" summary="任务6改动">
-      <created>1500435588203</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1500435588203</updated>
-    </task>
-    <task id="LOCAL-00029" summary="任务6改动">
-      <created>1500647139705</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1500647139705</updated>
-    </task>
-    <task id="LOCAL-00030" summary="任务6改动">
-      <created>1500721211883</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1500721211883</updated>
-    </task>
-    <task id="LOCAL-00031" summary="任务6改动">
-      <created>1500741497599</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1500741497599</updated>
-    </task>
-    <task id="LOCAL-00032" summary="任务6改动">
-      <created>1500890145800</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1500890145800</updated>
-    </task>
-    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="464833000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="154" y="691" width="2333" height="685" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103658535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103658535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3276515" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32612613" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276515" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32575756" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2689394" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -794,17 +275,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1" />
-    <MESSAGE value="任务6 改动 任务1作废 用来练习了" />
-    <MESSAGE value="任务6改动" />
-    <option name="LAST_COMMIT_MESSAGE" value="任务6改动" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1117,14 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/d7homework-pg2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2318">
-          <caret line="122" column="28" lean-forward="false" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myvery1stwebset.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1133,23 +597,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day7homework.html">
+    <entry file="file://$PROJECT_DIR$/css/d7homework-pg2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="371" column="13" lean-forward="false" selection-start-line="371" selection-start-column="13" selection-end-line="371" selection-end-column="13" />
+        <state relative-caret-position="-2432">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day7-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="355" column="13" lean-forward="false" selection-start-line="355" selection-start-column="13" selection-end-line="355" selection-end-column="13" />
+        <state relative-caret-position="342">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
