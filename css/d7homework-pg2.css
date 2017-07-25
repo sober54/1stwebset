@@ -24,13 +24,14 @@ a:link{
 }
 
 .pg2head{
-    height:  5rem;
-    padding-right: 0.5rem;
+    height:  3rem;
+    padding-right: .5rem;
     padding-left: .5rem;
+    padding-top: 1rem;
     background-color: #34bede;
 }
 head{
-    height:  3.5rem;
+    height:  3rem;
 }
 .back-yellow{
     text-align: center;
@@ -55,14 +56,14 @@ head{
 }
 
 .forvoice{
-    margin-top:  4.7rem;
+    margin-top:  3.5rem;
     background-color: rgba(255,255,255,.5);
-    height:  5rem;
+    height:  3.5rem;
 }
 .linkback{
     position: absolute;
-    width: 2.5rem;
-    height:  2.5rem;
+    width: 2rem;
+    height:  2rem;
     border-radius:  50%;
     top:  -25%;
     left: 35%;
@@ -70,7 +71,7 @@ head{
     background-repeat: no-repeat;
     background-position: 60% 50%;
     background-color: #f8b345;
-    background-size: 60%;
+    background-size: 50%;
 }
 .point2bottom{
     position: absolute;
@@ -87,13 +88,13 @@ head{
     transform: scale(0);
     width:  7rem;
     top: 1.5rem;
-    left: 70%;
+    left: 60%;
 }
 .valign:hover~.voice{
     transform: scale(1);
 }
 .voice{
-    transition: transform 5s 0s ;
+    transition: transform 5s 3s ;
 }
 .gameinfo{
     padding: 1rem 0;
@@ -120,7 +121,7 @@ head{
 .buff {
     position: relative;
     text-align: center;
-    transform: translateY(-10%);
+    transform: translateY(-80%);
     visibility: hidden;
 }
 .who{
@@ -168,10 +169,10 @@ head{
 }
 .footbtn{
     background-color: #f8b445;
-    height:  2rem;
+    height:  3rem;
     margin: 0.8rem 0;
     color:  white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     outline: none;
     box-shadow: none;
     border: none;

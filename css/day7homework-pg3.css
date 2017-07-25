@@ -21,11 +21,12 @@
         }
 .head{
     background-color: #34bede;
-    height:  4rem;
+    height:  3rem;
     border-bottom: 1px white solid;
 }
 .title1{
-    font-size:  1.8rem;
+    padding-top:  .7rem;
+    font-size:  1.3rem;
     color: rgba(255,255,255,.7);
 }
 .homepg{
@@ -47,7 +48,7 @@
     color:  white;
     font-size: 1.5rem;
     float: right;
-    transform: translate(50%,10%);
+    transform: translate(35%,10%);
     margin: .5rem 0;
 }
 .info p{
@@ -69,7 +70,7 @@
     position: relative;
 }
 .count{
-    font-size:  1rem;
+    font-size:  1.1rem;
     color: #f5c76f;
 }
 .count11{
@@ -103,6 +104,7 @@ color: white;
 .btnn{
     border-radius: .2rem;
     color: white;
+    height: 2.5rem;
 }
 .btn1{
     background-color: #f37072;
@@ -117,6 +119,10 @@ button{
     outline: none;
     box-shadow: none;
     border: none;
+}
+pre{
+    font-size: 14px;
+    font-family: monospace;
 }
 
 
