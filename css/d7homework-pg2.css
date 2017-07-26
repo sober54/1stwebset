@@ -83,19 +83,21 @@ head{
     top: 100%;
     left:  3rem;
 }
-.voice{
-    position: absolute;
+/*.voice{
+
     transform: scale(0);
     width:  7rem;
     top: 1.5rem;
     left: 60%;
-}
-.valign:hover~.voice{
+}*/
+/*.valign:hover~.voice{
     transform: scale(1);
-}
-.voice{
+}*/
+
+/*.voice{
     transition: transform 5s 3s ;
-}
+}*/
+
 .gameinfo{
     padding: 1rem 0;
     padding-left: 2.3rem;
