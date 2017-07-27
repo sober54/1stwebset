@@ -61,22 +61,24 @@
     font-size: 1.5rem;
     text-shadow: black 2px 5px 2px;
     background: url(../images/goldcup.png);
-    background-position: 50% 40%;
+    background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: 70%;
     padding-top: 30%;
 }
 .winner p{
     position: relative;
+    font-size: 5vw;
 }
 .count{
-    font-size:  1.1rem;
+    font-size:  3.5vw;
     color: #f5c76f;
 }
 .count11{
 color: white;
-    padding: 1.5rem 0 0 0;
-    margin-bottom: -1rem;
+    padding: 1.5vw 0 0 0;
+    margin-bottom: -1vw;
+    font-size: 3vw;
 }
 .white{
     background-color: white;
