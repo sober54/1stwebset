@@ -24,14 +24,13 @@ a:link{
 }
 
 .pg2head{
-    height:  3rem;
     padding-right: .5rem;
     padding-left: .5rem;
     padding-top: 1rem;
     background-color: #34bede;
 }
-head{
-    height:  3rem;
+.head{
+    height: 2.5rem;
 }
 .back-yellow{
     text-align: center;
@@ -58,15 +57,14 @@ head{
 .forvoice{
     margin-top:  3.5rem;
     background-color: rgba(255,255,255,.5);
-    height:  3.5rem;
+}
+.forvoice .row{
+    height:  100%;
 }
 .linkback{
-    position: absolute;
     width: 2rem;
     height:  2rem;
     border-radius:  50%;
-    top:  -25%;
-    left: 35%;
     background: url(../images/triangle2.png);
     background-repeat: no-repeat;
     background-position: 60% 50%;
@@ -80,8 +78,7 @@ head{
     border-left: .3rem solid transparent;
     border-right: .3rem solid transparent;
     border-top:  .7rem solid rgba(255,255,255,.5);
-    top: 100%;
-    left:  3rem;
+    left:  3.2rem;
 }
 /*.voice{
 
@@ -104,35 +101,38 @@ head{
     color:  rgba(255,255,255,.7);
 }
 .player-block{
-    position: relative;
     margin:  0 2%;
+
+}
+.player-block{
+    border:  3px white solid;
+
+    padding: 0;
+
 }
 .back-yellow{
     position: relative;
     background-color: #f3c881;
-    padding:  32% 0;
-    font-size: 1.1rem;
+    padding:  0;
 }
-.back-green {
-    position: relative;
+.back-yellow1{
+    padding:  24% 0;
+    font-size: 1.5rem;
+}
+.back-green{
     background-color: #82af9b;
-    text-align: center;
-    transform: translateY(-100%);
     color:  white;
-    font-size: 2vw;
-    margin-bottom: -2.5vw;
+    position: absolute;
+    top: 75%;
+    height:  25%;
+    font-size:  1rem;
 }
 .buff {
     position: relative;
     text-align: center;
     visibility: hidden;
-    padding-top:  -3vw;
-    padding-bottom:  2vw;
-}
-.who{
-    position: relative;
-    top:  -30%;
-    font-size: 2vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .buff1{
@@ -159,15 +159,8 @@ head{
     padding: 10% 0;
     margin: 0 2%;
 }
-.back-yellow,
-.back-green{
-    border:  3px white solid;
-}
-.back-green{
-    border-top: rgba(255,255,255,0);
-}
-.back-yellow:hover~.buff,
-.back-green:hover~.buff{
+
+.blocks:hover .buff{
     visibility: visible;
 }
 .footer{

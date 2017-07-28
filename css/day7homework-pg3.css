@@ -1,24 +1,24 @@
- body{
-             font-size:  62.5%;
-             margin:  0;
-             padding:  0;
-     background-color: #34bede;
-         }
- .soclear{
-             outline:  none !important;
-             box-shadow: none !important;
-         }
- a:link{
-             text-decoration:  none;
-         }
- /* *,* *,* * *,* * * *,* * * * *{
-             border:  1px red solid;
-         }*/
+body{
+    font-size:  62.5%;
+    margin:  0;
+    padding:  0;
+    background-color: #34bede;
+}
+.soclear{
+    outline:  none !important;
+    box-shadow: none !important;
+}
+a:link{
+    text-decoration:  none;
+}
+/* *,* *,* * *,* * * *,* * * * *{
+            border:  1px red solid;
+        }*/
 .valign{
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%)
-        }
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
 .head{
     background-color: #34bede;
     height:  3rem;
@@ -68,17 +68,29 @@
 }
 .winner p{
     position: relative;
-    font-size: 5vw;
+    font-size: 4vw;
+    padding:0 0 1rem 0;
+    margin-top: -.3rem;
 }
 .count{
-    font-size:  3.5vw;
+    font-size:  1.2rem;
     color: #f5c76f;
 }
 .count11{
-color: white;
+    color: white;
     padding: 1.5vw 0 0 0;
     margin-bottom: -1vw;
     font-size: 3vw;
+}
+.count111{
+    color:  #fff;
+    padding: .5rem 0;
+    font-size: .8rem;
+}
+.count111 p{
+    margin:  0;
+    padding-top:.1rem;
+    padding-bottom: .1rem;
 }
 .white{
     background-color: white;
@@ -122,9 +134,7 @@ button{
     box-shadow: none;
     border: none;
 }
-pre{
-    font-size: 14px;
-    font-family: monospace;
-}
+
+
 
 
