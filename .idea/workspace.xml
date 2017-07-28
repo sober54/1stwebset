@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c8f5486-83ab-4ddb-9ca9-03402067cfb3" name="默认" comment="">
+    <list default="true" id="4c8f5486-83ab-4ddb-9ca9-03402067cfb3" name="默认" comment="任务7">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/day7homework-pg3.css" afterPath="$PROJECT_DIR$/css/day7homework-pg3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/day8pg1.css" afterPath="$PROJECT_DIR$/css/day8pg1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day8homework.html" afterPath="$PROJECT_DIR$/day8homework.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,8 +53,8 @@
           <file leaf-file-name="day7-2.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/day7-2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="228">
-                  <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+                <state relative-caret-position="190">
+                  <caret line="27" column="64" lean-forward="true" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
                   <folding />
                 </state>
               </provider>
@@ -394,7 +392,7 @@
       <workItem from="1500975923222" duration="14601000" />
       <workItem from="1501032896625" duration="26386000" />
       <workItem from="1501109203417" duration="44056000" />
-      <workItem from="1501197929301" duration="28936000" />
+      <workItem from="1501197929301" duration="29158000" />
     </task>
     <task id="LOCAL-00001" summary="任务7">
       <created>1500912954756</created>
@@ -466,11 +464,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501225401950</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="任务7">
+      <created>1501228476595</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1501228476595</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145132000" />
+    <option name="totallyTimeSpent" value="145354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="97" y="764" width="2333" height="613" extended-state="0" />
@@ -856,18 +861,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/day7homework-pg3.css">
+    <entry file="file://$PROJECT_DIR$/day7-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="190">
+          <caret line="27" column="64" lean-forward="true" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day7-2.html">
+    <entry file="file://$PROJECT_DIR$/css/day7homework-pg3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="344">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
           <folding />
         </state>
       </provider>
