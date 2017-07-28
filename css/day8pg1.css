@@ -184,3 +184,49 @@ a:link{
 .circle1 p{
     color: #29b078;
 }
+.pointer-g{
+    background: url(../images/t-8-p1-pointe2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top:  29%;
+    right: -8%;
+}
+.how2text{
+    color:  #ccc;
+    height:  3rem;
+}
+.show-title{
+    font-size: 1.2vw;
+}
+.card-img-top{
+    height:  45%;
+    width: 45%;
+    border-radius: 50%;
+    margin: .5vw 27.5%;
+    box-shadow: black .5px .5px;
+}
+.card-title{
+    font-size:  1.5vw
+}
+.card-text{
+    font-size:  1.2vw;
+    color:  #ccc;
+}
+.card-block{
+    padding-left:  2%;
+    padding-right:  2%;
+}
+.rollroll2{
+    padding: 4% 0;
+}
+#rollroll2 ol{
+    position: absolute;
+    top:  105%
+}
+.carousel-indicators .active {
+    background-color: #1db176;
+    box-shadow: #ccc .1rem .2rem .1rem;
+}
+.forshadow{
+    box-shadow: #ccc .1rem .2rem .1rem;
+}
