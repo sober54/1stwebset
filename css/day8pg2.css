@@ -1,0 +1,112 @@
+/*
+从BT的ROW下手，前两层的ROW肯定是为了画出一个框然后往里塞小结构和一些组件，全局BT栅格时指基础块按中块找应该是可以实现基础块的唯一性了也就是中块是根本必须好好写 就是大块后的第二层 =不是只有第一个= ROW后一定好好写 好看好记
+k 基础块 定义为类似BT栅格系统 一个ROW可以有多个 基础块需要变动时候再用 有个就成 我就不需要英文起名字了
+bt-jgxx-xx bt布局用到的列结构 按文档流流向写出栅格宽度号 12宽度栅格写作 bt-jg-12 在zk所在row后写明
+dk 大块（某部分的总父级）
+dk-kj 大块框架后跟tou头部 zhong中部 jiao 脚 一个ROW就一个 一个页面也就三个 分出来方便子级们有祖宗 其实无求所谓有header 那些标 ZK规划好再来搞你
+zk 中间层级的用于放置组件和子级有多列时使用 一个ROW就一个后边跟描述类比如zk-bt-lb bt-jgxx-xx这就是一个用于做bt轮播的结构为xx-xx的中块
+zk-部分之后用到再补除了框架可能还有用于留空的某些用于某些效果的
+bt 用到bootstrap的组件（非栅格系统 写于非父级ROW之后辨认组件或结构）
+k-p 普通无特殊形状或动效
+k-t 有形状或动效
+k-t-bx-yuan /yuanj 变形圆 变形圆角多个时后边带数字 k-t-bx-yuan1这样 数字顺序文档流
+k-t-ys      变形快字体颜色
+k-p-xb /sb/zb/yb 单独的边做效果算作普通块山下左右边
+k-p-ys  基础块字体颜色
+k-l 基础块做链接，有变形两个一块写做 k-l-xx k-t-xx
+上两个只跟基础块
+dh 导航
+bt-ka 卡片
+bt-lb 轮播
+bt-an 按钮
+bt所有只在zk写明 dk和k有栅格号
+*/
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #1db176;
+}
+
+.k-p-ys {
+    color: #29b078;
+    display: inline-block;
+}
+
+.k-t-ys {
+    font-size: 1.2rem;
+    color: #29b078;
+}
+
+.k-bt-bd1 {
+    display: inline-block;
+    background-color: white;
+    color: #29b078;
+    cursor: pointer;
+}
+
+.k-t-yuan {
+    display: inline-block;
+    padding: .3rem;
+    border-radius: 50%;
+    border: #ff7000 solid 1px;
+}
+
+.zk-bt-ka li {
+    display: inline-block;
+    border: none;
+}
+.btn:focus {
+    box-shadow: none;
+    border: none;
+}
+.btn{
+    color: #29b078;
+}
+button:focus .k-t-yuan1{
+    background-color: #f3a846;
+
+}
+button:focus{
+    color: #f3a846;
+}
+.k-p-tp{
+    background: url(../images/t-8-p2-logo1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 18% 0;
+    background-size: 65%;
+}
+.k-p-zi{
+    font-size: 1rem;
+    display: inline-block;
+    line-height: 1.8rem;
+    padding-top: .5rem;
+}
+.k-p-zi1{
+     font-size: 1rem;
+     display: inline-block;
+     line-height: 1.8rem;
+     padding: .5rem 1rem;
+     text-indent: 2.2rem;
+
+ }
+.zk-t-tz
+{
+    border: 1.5px #ccc solid;
+}
+.k-p-zi1{
+    border-top: 1.5px #ccc solid;
+}
+.card-block{
+    border-bottom: 1.5px #ccc solid;;
+}
+.k-bt-ka1{
+    margin-bottom:3rem;
+}
+.card-title-sm{
+    font-size: .8rem;
+    position: relative;
+    top: 1rem;
+}
+
