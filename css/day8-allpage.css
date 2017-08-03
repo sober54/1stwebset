@@ -14,9 +14,9 @@ a:link {
 }
 
 /**,* *,* * *,* * * *,* * * * *{
-     border:  1px red solid;
- }*/
-.valign {
+    border:  1px red solid;
+}*/
+.valign{
     position: relative;
     top: 50%;
     transform: translateY(-50%)
@@ -141,19 +141,17 @@ a:link {
 }*/
 
 .smup-club .col-6:hover p{
-    visibility: visible;
-    border-bottom: white solid 2px;
+    border-bottom: white solid 1px;
 }
-.sm-club .col-6:hover {
-    visibility: visible;
-    border-bottom: white solid 2px;
-}
+
 .smup-club .col-6 p{
     display: inline-block;
 }
 
 .copyright {
     border-top: white solid 1px;
+    display: block;
+    padding: 1rem 1rem;
 }
 
 .how2text1sm {
@@ -184,14 +182,14 @@ a:link {
 
 .sm-logo {
     background: url(../images/t-8-p1-logojinengshu.png);
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
-    padding: 2rem 25% .5rem 25%;
-    background-size: 95%;
+    padding: 2rem 25% 1rem 1rem;
+    background-size: 60%;
 }
 .smup-info p{
- padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 .sm-dropmenu{
     display: inline-block;
@@ -213,5 +211,8 @@ a:link {
 a.button1:focus ~div.dropmenu-list{
     height: 100%;
     border-top: 1.5px solid white;
+}
+a:hover{
+    cursor: pointer;
 }
 /*重传*/

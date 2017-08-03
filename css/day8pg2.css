@@ -73,9 +73,7 @@ button:focus{
 {
     border: 1.5px #ccc solid;
 }
-.incinfo{
-    border-top: 1.5px #ccc solid;
-}
+
 .card-block{
     border-bottom: 1.5px #ccc solid;;
 }

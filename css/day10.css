@@ -1,15 +1,292 @@
- body{
-             font-size:  62.5%;
-             margin:  0;
-             padding:  0;
-         }
- .soclear{
-             outline:  none !important;
-             box-shadow: none !important;
-         }
- a:link{
-             text-decoration:  none;
-         }
-  *,* *,* * *,* * * *,* * * * *{
-             border:  1px red solid;
-         }
+body{
+    font-size:  62.5%;
+    margin:  0;
+    padding:  0;
+}
+.soclear{
+    outline:  none !important;
+    box-shadow: none !important;
+}
+a:link{
+    text-decoration:  none;
+}
+/**,* *,* * *,* * * *,* * * * *{
+    border:  1px red solid;
+}*/
+body{
+    font-size:  62.5%;
+    margin:  0;
+    padding:  0;
+}
+.soclear{
+    outline:  none !important;
+    box-shadow: none !important;
+}
+a:link{
+    text-decoration:  none;
+}
+
+
+header{
+    background-color: #1277dc;
+}
+header .tele p{
+    color: white;
+    font-size: .8rem;
+}
+.valign{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.navbtn{
+    display: inline-block;
+    padding: 1.2% 3.5%;
+    margin-left: -.3rem;
+    color:  white!important;
+}
+.navbtn:link,
+.navbtn:visited,
+.navbtn:hover,
+.navbtn:active{
+    text-decoration:  none;
+}
+.navbtn:hover,
+.navbtn:focus
+{
+    background-color: white;
+    color: #1277dc!important;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.navbtn{
+    border-left: white solid 1.5px;
+    border-right: white solid 1.5px;
+}
+.flow .push-lg-7{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.flow .btn{
+    border: none;
+    color: black;
+    min-width: 0;
+    -moz-box-shadow:0 1px 1px #333333;
+    -webkit-box-shadow:0 1px 1px #333333;
+    box-shadow:0 1px 1px #333333;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    padding: .5rem .5rem ;
+}
+.flow .btn:focus{
+    border: none;
+    box-shadow: none;
+    background-color: #1277dc;
+    color: white;
+}
+.flow .push-lg-6{
+    display: flex;
+}
+.flow .circle{
+    display: inline-block;
+    line-height: 1.2rem;
+    vertical-align: middle;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    border: #d8d8d8 solid 1.5px;
+    color: #fff;
+    background-color: #cccccc;
+}
+.flow .circle::before{
+    content: "";
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 16.5%;
+    border: 3px solid #d8d8d8;
+    z-index: -1;
+}
+.flow .part{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 2rem;
+}
+.flow .info{
+    align-items: center;
+    width: 110%;
+    color: #d8d8d8;
+}
+.flow .part:hover .circle,
+.flow .part:focus .circle{
+    border: #ff7f00 solid 1.5px;
+    color: #fff;
+    background-color: #ff7f00;
+}
+.flow .part:hover .info,
+.flow .part:focus .info{
+    color: #ff9000;
+
+}
+.flow .part:hover .circle::before,
+.flow .part:focus .circle::before{
+    border: 3px solid #ff7f00;
+
+}
+.pt-1{
+    background-color: #f3f3f3;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+
+}
+.pt-1 .title{
+    display: inline-block;
+    background: url(../images/t10box.png);
+    background-repeat: no-repeat;
+    background-size: 22%;
+    background-position: left;
+    padding-left: 1.7rem;
+    color: #1277dc;
+    vertical-align: middle;
+}
+
+.option .boxtype-lable{
+    color: rgba(0,0,0,.7);
+}
+
+.option input{
+    position: relative;
+    margin: 1.5rem 1rem 1.5rem 2rem;
+}
+
+.option .boxtype+.boxtype-lable::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 2.7rem;
+    top: 1.4rem;
+    border: rgba(0,0,0,.4) solid 2px;
+    padding: .5rem;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: inset #ffffff 0 0 0 .4rem;
+}
+
+
+div.option input[type=radio]:checked~.boxtype-lable::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 2.7rem;
+    top: 1.4rem;
+    border: rgba(0,0,0,.4) solid 2px;
+    padding: .5rem;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: inset #1277dc 0 0 0 .4rem;
+    transition: box-shadow 1.5s 0s;
+}
+.dropdownmenu{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding: .8rem 1.3rem 0 .4rem;
+    cursor: pointer;
+    z-index: 15;
+}
+.dropdownmenu p{
+    display: inline-block;
+    transform: rotate(90deg);
+    background-color: #2aabd2;
+    padding: .2rem .5rem;
+    cursor: pointer;
+}
+.baddropmenu a::before{
+    content: " 1";
+    position: absolute;
+    border: 1px black solid;
+    padding: .8rem 3.5rem;
+    top: .2rem;
+    left:-.3rem
+
+}
+.baddropmenu p::before{
+    display: inline-block;
+    content: "123";
+    transform: rotate(-90deg);
+    position: absolute;
+    top: .6rem;
+    left: 1.2rem;
+    width: 0;
+    height: 5rem;
+    vertical-align: middle;
+    text-align: center;
+    visibility: hidden;
+    z-index: 15;
+}
+.dropdownmenu:hover p::before,
+.dropdownmenu:focus p::before{
+    width: 7.7rem;
+    visibility: visible;
+    border: 1px #515253 solid;
+    background-color: #2aabd2;
+    transition: visbility .5s .5s;
+}
+a:link,
+a:visited,
+a:hover,
+a:active{
+    color: rgba(0,0,0,.5);
+}
+.pt-2{
+    background-color: #f3f3f3;
+}
+.pt-2 .title{
+    display: inline-block;
+    background: url(../images/t10Ruler.png);
+    background-repeat: no-repeat;
+    background-size: 21%;
+    background-position: left;
+    padding-left: 1.7rem;
+    color: #1277dc;
+    vertical-align: middle;
+}
+.boxsize-input{
+    display: inline-block;
+    max-width: 4rem;
+    vertical-align: middle;
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+.option3 label{
+    margin-left: 1.8rem;
+}
+.option3 input{
+    border: 1.5px solid #ccc;
+}
+.pt-3{
+    background-color: #f3f3f3;
+}
+.pt-3 .title{
+    display: inline-block;
+    background: url(../images/t10Cut.png);
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: left;
+    padding-left: 1.7rem;
+    color: #1277dc;
+    vertical-align: middle;
+}
+.nothing{
+    font-size: 2vw;
+}
+.footerbtn{
+    background-color: red;
+    color: white!important;
+    font-size: 1.5rem;
+    padding: .5rem 2.5rem;
+    border-radius: .3rem;
+    margin: 3rem auto;
+    cursor: pointer;
+}
