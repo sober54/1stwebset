@@ -25,8 +25,8 @@ a:active {
 
 .for-dot {
     display: inline-block;
-    padding: .3rem;
-    border-radius: 50%;
+    padding: .34rem;
+    border-radius: 60%;
     border: #ff7000 solid 1px;
 }
 
@@ -34,19 +34,29 @@ a:active {
     display: inline-block;
     border: none;
 }
-.btn:focus {
+.bttn{
+    color: #29b078;
+    outline: none;
+    box-shadow: none;
+}
+button{
+    outline: none!important;
     box-shadow: none;
     border: none;
+    font-size: 1rem;
+    padding-left: .5rem;
 }
-.btn{
-    color: #29b078;
-}
+button:hover .incname,
 button:focus .incname {
     background-color: #f3a846;
-
+    outline: none!important;
 }
+button:hover,
 button:focus{
     color: #f3a846;
+    outline: none!important;
+    transform: none;
+    transition: none!important;
 }
 .inclogo{
     background: url(../images/t-8-p2-logo1.png);
@@ -84,5 +94,8 @@ button:focus{
     font-size: .8rem;
     position: relative;
     top: 1rem;
+}
+.card-block2 p{
+    display: inline-block;
 }
 

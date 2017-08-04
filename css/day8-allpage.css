@@ -13,9 +13,7 @@ a:link {
     text-decoration: none;
 }
 
-/**,* *,* * *,* * * *,* * * * *{
-    border:  1px red solid;
-}*/
+
 .valign{
     position: relative;
     top: 50%;
@@ -39,7 +37,7 @@ a:link {
 }
 
 .smup-nav1 {
-    height: 7rem;
+    height: 6rem;
 }
 
 .nav-bt {
@@ -61,11 +59,11 @@ a:link {
     content: " ";
     width: 100%;
     height: 100%;
-    top: 2.6rem;
+    top: 2.1rem;
     left: 0;
     right: 0;
     position: absolute;
-    border-bottom: 10px white solid;
+    border-bottom: 7px white solid;
     visibility: hidden;
 }
 
@@ -146,6 +144,7 @@ a:link {
 
 .smup-club .col-6 p{
     display: inline-block;
+    border-bottom: #29b078 solid 1px;
 }
 
 .copyright {
@@ -200,17 +199,20 @@ a:link {
     background-repeat: no-repeat;
 }
 .dropmenu-list a{
-    display: block;
     padding-top: .5rem;
     padding-bottom: .5rem;
     color: white!important;
+    visibility: hidden;
 }
 .dropmenu-list{
     height: 0;
 }
 a.button1:focus ~div.dropmenu-list{
-    height: 100%;
-    border-top: 1.5px solid white;
+     height: 100%;
+     border-top: 1.5px solid white;
+ }
+a.button1:focus ~div.dropmenu-list a{
+    visibility: visible;
 }
 a:hover{
     cursor: pointer;
