@@ -144,12 +144,22 @@ a:link{
     padding-left: .5rem;
     padding-bottom: .3rem;
 }
+
+.usercard img.valign {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.userinfo .valign {
+    border-left: none;
+}
 .usercard .row{
     border: #ccc 1px solid;
 }
 .usercard{
     padding: 1rem;
 }
-
 
 /*草丛*/

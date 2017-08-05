@@ -1,13 +1,67 @@
 @charset "UTF-8";
 
-// 局部字体设置
+// 头部默认字体变量
 //-----------------------
+
 $ff-allpage: "Segoe UI" ，Helvetica, Arial, sans-serif;
-$color-bg-head: #1a9ee4;
+$color-bg-head: #1999dd;
 $color-text-block: white;
 
-@mixin head-text-style() {
+// 默认背景图初始化设置
+//---------------------
+$back-img-repeat: norepeat;
+$back-img-position: center;
+
+//全局boxsize
+//-------------
+@mixin globle-box-size {
+  box-sizing: border-box;
+}
+
+//头部默认样式
+//------------------------
+
+@mixin head-style() {
   background-color: $color-bg-head;
   color: $color-text-block;
   font-family: $ff-allpage;
+}
+
+@mixin back-img-defulit {
+  background: {
+    repeat: $back-img-repeat;
+    position: $back-img-position;
+  }
+;
+}
+
+@mixin style-head-block() {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+
+  & :first-child {
+    display: block;
+    position: relative;
+    text-align: center;
+    & .btn-back {
+      float: left;
+      clear: none;
+      display: table;
+      vertical-align: middle;
+    }
+    & .btn-close {
+      float: right;
+      clear: none;
+      display: table;
+      vertical-align: middle;
+    }
+    & .title {
+      font-size: 1.5rem;
+      clear: none;
+      display: inline-block;
+
+    }
+  }
 }

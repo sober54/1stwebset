@@ -3,6 +3,7 @@
             top: 50%;
             transform: translateY(-50%)
         }
+
 .line1 {
     font-size: 1rem;
     position: absolute;
@@ -319,5 +320,14 @@
 a.button1:focus ~div.dropmenu-list{
     height: 100%;
     border-top: 1.5px solid white;
+}
+
+.pointer-g1 {
+    background: url(../images/t-8-p1-pointe2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(90deg);
+    width: 1.8rem;
+
 }
 /*重传*/

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+//表单输入框宽度
+main {
+  width: 100%;
+  padding: 0;
+  margin: 1rem 0;
+
+}
+
+form {
+
+  & label {
+
+    display: block;
+    padding: {
+      top: 1rem;
+      bottom: 1rem;
+    }
+  ;
+  }
+  & input {
+    border: none;
+    height: 3rem;
+    outline: none !important;
+    font-size: 1.5rem;
+  }
+}

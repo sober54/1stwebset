@@ -4,15 +4,6 @@ body {
     padding: 0;
 }
 
-.soclear {
-    outline: none !important;
-    box-shadow: none !important;
-}
-
-a:link {
-    text-decoration: none;
-}
-
 
 .valign{
     position: relative;
@@ -198,25 +189,27 @@ a:link {
     background-size: 80%;
     background-repeat: no-repeat;
 }
-.dropmenu-list a{
+
+.dropmenu-list a {
     padding-top: .5rem;
     padding-bottom: .5rem;
-    color: white!important;
-    visibility: hidden;
+    color: white !important;
+    display: block;
+}
+/*cc*/
+.forhidden {
+    display: none;
 }
 
-/*cc*/
-.dropmenu-list{
-    height: 0;
+a.button1:hover ~ .dropmenu-list .forhidden,
+a.button1:focus ~ .dropmenu-list .forhidden {
+    display: block;
+    border-top: 1.5px solid white;
 }
-a.button1:focus ~div.dropmenu-list{
-     height: 100%;
-     border-top: 1.5px solid white;
- }
-a.button1:focus ~div.dropmenu-list a{
-    visibility: visible;
+
+div.dropmenu-list:hover .forhidden,
+div.dropmenu-list:focus .forhidden {
+    display: block;
 }
-a:hover{
-    cursor: pointer;
-}
-/*重传*/
+
+
