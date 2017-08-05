@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+// 局部字体设置
+//-----------------------
+$ff-allpage: "Segoe UI" ，Helvetica, Arial, sans-serif;
+$color-bg-head: #1a9ee4;
+$color-text-block: white;
+
+@mixin head-text-style() {
+  background-color: $color-bg-head;
+  color: $color-text-block;
+  font-family: $ff-allpage;
+}

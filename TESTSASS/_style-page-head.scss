@@ -1,0 +1,10 @@
+@charset "UTF-8";
+@import "mixins-allpage";
+// 头部样式
+//---------------------------
+
+/*头部样式设置*/
+.head {
+  @include head-text-style;
+}
+
