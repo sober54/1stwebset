@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c8f5486-83ab-4ddb-9ca9-03402067cfb3" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11homework.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TESTSASS/_mixins-allpage.scss" afterPath="$PROJECT_DIR$/TESTSASS/_mixins-allpage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TESTSASS/_style-page-from.scss" afterPath="$PROJECT_DIR$/TESTSASS/_style-page-from.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TESTSASS/_style-page-head.scss" afterPath="$PROJECT_DIR$/TESTSASS/_style-page-head.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TESTSASS/myscss.scss" afterPath="$PROJECT_DIR$/TESTSASS/myscss.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/day8-allpage.css" afterPath="$PROJECT_DIR$/css/day8-allpage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/day8pg1.css" afterPath="$PROJECT_DIR$/css/day8pg1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/day8pg3.css" afterPath="$PROJECT_DIR$/css/day8pg3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day8-pg2.html" afterPath="$PROJECT_DIR$/day8-pg2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day8homework.html" afterPath="$PROJECT_DIR$/day8homework.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day8p-pg3.html" afterPath="$PROJECT_DIR$/day8p-pg3.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,7 +27,7 @@
             <entry file="file://$PROJECT_DIR$/day8-pg2.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="215">
-                  <caret line="204" column="87" lean-forward="true" selection-start-line="204" selection-start-column="87" selection-end-line="204" selection-end-column="87" />
+                  <caret line="209" column="87" lean-forward="true" selection-start-line="209" selection-start-column="87" selection-end-line="209" selection-end-column="87" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -51,7 +41,7 @@
             <entry file="file://$PROJECT_DIR$/day8homework.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="80">
-                  <caret line="431" column="54" lean-forward="true" selection-start-line="431" selection-start-column="54" selection-end-line="431" selection-end-column="54" />
+                  <caret line="439" column="54" lean-forward="true" selection-start-line="439" selection-start-column="54" selection-end-line="439" selection-end-column="54" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -70,7 +60,7 @@
             <entry file="file://$PROJECT_DIR$/day8p-pg3.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="409">
-                  <caret line="275" column="30" lean-forward="true" selection-start-line="275" selection-start-column="30" selection-end-line="275" selection-end-column="30" />
+                  <caret line="282" column="30" lean-forward="true" selection-start-line="282" selection-start-column="30" selection-end-line="282" selection-end-column="30" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -142,8 +132,8 @@
                     <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1501948915154" expanded="false" signature="13433:13455" ph="..." />
-                    <marker date="1501948915154" expanded="false" signature="18286:18308" ph="..." />
+                    <marker date="1501951572155" expanded="false" signature="13695:13717" ph="..." />
+                    <marker date="1501951572155" expanded="false" signature="18637:18659" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -153,11 +143,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="day8-allpage.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="day8-allpage.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/day8-allpage.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3628">
-                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                <state relative-caret-position="171">
+                  <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -167,7 +157,7 @@
             <entry file="file://$PROJECT_DIR$/css/day8pg3.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="267">
-                  <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+                  <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -183,11 +173,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="day8pg1.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="day8pg1.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/day8pg1.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="339">
-                  <caret line="328" column="14" lean-forward="false" selection-start-line="328" selection-start-column="14" selection-end-line="328" selection-end-column="14" />
+                  <caret line="329" column="14" lean-forward="false" selection-start-line="329" selection-start-column="14" selection-end-line="329" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -305,12 +295,12 @@
         <option value="$PROJECT_DIR$/TESTSASS/_style-page-head.scss" />
         <option value="$PROJECT_DIR$/TESTSASS/_mixins-allpage.scss" />
         <option value="$PROJECT_DIR$/css/day8pg2.css" />
-        <option value="$PROJECT_DIR$/css/day8-allpage.css" />
         <option value="$PROJECT_DIR$/day8-pg2.html" />
         <option value="$PROJECT_DIR$/day8p-pg3.html" />
         <option value="$PROJECT_DIR$/css/day8pg3.css" />
         <option value="$PROJECT_DIR$/css/day8pg1.css" />
         <option value="$PROJECT_DIR$/day8homework.html" />
+        <option value="$PROJECT_DIR$/css/day8-allpage.css" />
       </list>
     </option>
   </component>
@@ -616,7 +606,7 @@
       <workItem from="1501860129535" duration="971000" />
       <workItem from="1501861101795" duration="1489000" />
       <workItem from="1501896014485" duration="36870000" />
-      <workItem from="1501942900430" duration="8238000" />
+      <workItem from="1501942900430" duration="8422000" />
     </task>
     <task id="LOCAL-00001" summary="任务7">
       <created>1500912954756</created>
@@ -849,11 +839,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501907047305</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="抽抽了">
+      <created>1501951636012</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1501951636012</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="458033000" />
+    <option name="totallyTimeSpent" value="458217000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1030,6 +1027,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,6 +1035,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,6 +1043,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,6 +1051,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1093,6 +1094,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,7 +1211,7 @@
     <entry file="file://$PROJECT_DIR$/day8p-pg3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="275" column="30" lean-forward="true" selection-start-line="275" selection-start-column="30" selection-end-line="275" selection-end-column="30" />
+          <caret line="282" column="30" lean-forward="true" selection-start-line="282" selection-start-column="30" selection-end-line="282" selection-end-column="30" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1281,8 +1283,8 @@
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1501948915154" expanded="false" signature="13433:13455" ph="..." />
-            <marker date="1501948915154" expanded="false" signature="18286:18308" ph="..." />
+            <marker date="1501951572155" expanded="false" signature="13695:13717" ph="..." />
+            <marker date="1501951572155" expanded="false" signature="18637:18659" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1290,7 +1292,7 @@
     <entry file="file://$PROJECT_DIR$/day8-pg2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="204" column="87" lean-forward="true" selection-start-line="204" selection-start-column="87" selection-end-line="204" selection-end-column="87" />
+          <caret line="209" column="87" lean-forward="true" selection-start-line="209" selection-start-column="87" selection-end-line="209" selection-end-column="87" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1302,15 +1304,7 @@
     <entry file="file://$PROJECT_DIR$/css/day8pg3.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
-          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/day8-allpage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3628">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1318,7 +1312,15 @@
     <entry file="file://$PROJECT_DIR$/css/day8pg1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
-          <caret line="328" column="14" lean-forward="false" selection-start-line="328" selection-start-column="14" selection-end-line="328" selection-end-column="14" />
+          <caret line="329" column="14" lean-forward="false" selection-start-line="329" selection-start-column="14" selection-end-line="329" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/day8-allpage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1326,7 +1328,7 @@
     <entry file="file://$PROJECT_DIR$/day8homework.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="431" column="54" lean-forward="true" selection-start-line="431" selection-start-column="54" selection-end-line="431" selection-end-column="54" />
+          <caret line="439" column="54" lean-forward="true" selection-start-line="439" selection-start-column="54" selection-end-line="439" selection-end-column="54" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
