@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c8f5486-83ab-4ddb-9ca9-03402067cfb3" name="默认" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TESTSASS/_style-page-block.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TESTSASS/_style-page-footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TESTSASS/_style-page-from.scss" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testscss/_mixins-allpage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testscss/test-456.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TESTSASS/_mixins-allpage.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TESTSASS/_style-page-head.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TESTSASS/myscss.scss" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TESTSASS/_mixins-allpage.scss" afterPath="$PROJECT_DIR$/TESTSASS/_mixins-allpage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TESTSASS/_style-page-head.scss" afterPath="$PROJECT_DIR$/TESTSASS/_style-page-head.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TESTSASS/myscss.scss" afterPath="$PROJECT_DIR$/TESTSASS/myscss.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day11homework.html" afterPath="$PROJECT_DIR$/day11homework.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,61 +26,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_mixins-allpage.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TESTSASS/_mixins-allpage.scss">
+      <file leaf-file-name="_mixins-allpage.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testscss/_mixins-allpage.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="324">
+              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day8pg2.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/day8pg2.css">
+      <file leaf-file-name="test-456.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testscss/test-456.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_nav.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap-4.0.0-alpha.6/scss/_nav.scss">
+      <file leaf-file-name="test-456.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testscss/test-456.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="361">
+              <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myscss.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TESTSASS/myscss.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myscss.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TESTSASS/myscss.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day11homework.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="day11homework.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day11homework.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="228">
+              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -93,8 +73,8 @@
       <list>
         <option value="Sass File" />
         <option value="CSS File" />
-        <option value="SCSS File" />
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -190,7 +170,6 @@
         <option value="$PROJECT_DIR$/day10homework.html" />
         <option value="$PROJECT_DIR$/TESTSASS/myscss.css" />
         <option value="$PROJECT_DIR$/bootstrap-4.0.0-alpha.6/scss/bootstrap.scss" />
-        <option value="$PROJECT_DIR$/day11homework.html" />
         <option value="$PROJECT_DIR$/TESTSASS/_style-page-from.scss" />
         <option value="$PROJECT_DIR$/css/day8pg2.css" />
         <option value="$PROJECT_DIR$/day8-pg2.html" />
@@ -200,8 +179,12 @@
         <option value="$PROJECT_DIR$/css/day8-allpage.css" />
         <option value="$PROJECT_DIR$/day8p-pg3.html" />
         <option value="$PROJECT_DIR$/TESTSASS/_style-page-head.scss" />
+        <option value="$PROJECT_DIR$/TESTSASS/test-456.scss" />
         <option value="$PROJECT_DIR$/TESTSASS/_mixins-allpage.scss" />
         <option value="$PROJECT_DIR$/TESTSASS/myscss.scss" />
+        <option value="$PROJECT_DIR$/day11homework.html" />
+        <option value="$PROJECT_DIR$/testscss/test-456.scss" />
+        <option value="$PROJECT_DIR$/testscss/_mixins-allpage.scss" />
       </list>
     </option>
   </component>
@@ -320,11 +303,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TESTSASS" />
+              <option name="myItemId" value="testscss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myscss.scss" />
+              <option name="myItemId" value="test-456.scss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,7 +321,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TESTSASS" />
+              <option name="myItemId" value="testscss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -581,7 +564,7 @@
       <workItem from="1501896014485" duration="36870000" />
       <workItem from="1501942900430" duration="8977000" />
       <workItem from="1501952731384" duration="862000" />
-      <workItem from="1501984233921" duration="6600000" />
+      <workItem from="1501984233921" duration="9158000" />
     </task>
     <task id="LOCAL-00001" summary="任务7">
       <created>1500912954756</created>
@@ -835,11 +818,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501990267049</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="抽抽了">
+      <created>1501993582611</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1501993582611</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="466234000" />
+    <option name="totallyTimeSpent" value="468792000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -892,21 +882,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TESTSASS/_style-page-footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TESTSASS/_style-page-block.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TESTSASS/myscss.css.map">
+    <entry file="file://$PROJECT_DIR$/testscss/myscss.css.map">
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
@@ -1200,34 +1176,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day11homework.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TESTSASS/myscss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-4.0.0-alpha.6/scss/_alert.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/day8pg2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1310,9 +1262,17 @@
           <caret line="209" column="87" lean-forward="false" selection-start-line="209" selection-start-column="87" selection-end-line="209" selection-end-column="87" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TESTSASS/_style-page-from.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1320,6 +1280,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/day8pg2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1332,7 +1300,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TESTSASS/myscss.scss">
+    <entry file="file://$PROJECT_DIR$/testscss/myscss.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1340,18 +1308,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TESTSASS/_mixins-allpage.scss">
+    <entry file="file://$PROJECT_DIR$/testscss/myscss.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TESTSASS/_style-page-from.scss">
+    <entry file="file://$PROJECT_DIR$/testscss/test-456.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="152">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscss/_mixins-allpage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscss/test-456.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
           <folding />
         </state>
       </provider>

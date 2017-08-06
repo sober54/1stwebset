@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+// 默认字体变量
+//-----------------------
+
+$ff-allpage: "Microsoft YaHei", SimSun, SimHei;
+
+//任务配色部分
+//=======================================================================================
+//任务4-5-6配色变量
+//-------------------
+
+$color-t456-bg: #5ac0ce !default;
+$color-t456-text: #fefefe !default;
+
+//全局默认设置
+//=========================================================================================
+//全局body设置
+//-------------
+
+@mixin global-body {
+  body, .body {
+    font-family: $ff-allpage;
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    outline: none !important;
+    text-decoration: none !important;
+  }
+}
+
+//全局默认页头布局
+//----------------------------
+
+@mixin layout-global-head {
+  header, .head {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-color: $color-t456-bg;
+    padding: .5rem 1rem;
+    &:first-child {
+      display: flex;
+      box-sizing: inherit;
+    }
+  }
+}
