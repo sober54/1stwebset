@@ -1,9 +1,0 @@
-@charset "UTF-8";
-@import "mixins-allpage";
-//局部样式
-@import "style-page-head";
-@import "style-page-from";
-
-* {
-  @include global-box-size
-}

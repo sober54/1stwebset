@@ -41,30 +41,23 @@ $back-img-position: center !default;
 @mixin style-head-block() {
   width: 100%;
   position: relative;
-  top: 50%;
-  transform: translatey(-50%);
-  left: 0;
+
   box-sizing: border-box;
 
   & :first-child {
     display: flex;
     text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%);
     & .btn-back {
       float: left;
-      display: inline-block;
-      clear: none;
     }
     & .btn-close {
       float: right;
-
-      display: inline-block;
-
     }
     & .title {
       font-size: 1.5rem;
-      position: relative;
-      top: 50%;
-      transform: translatey(-50%);
     }
   }
 }
