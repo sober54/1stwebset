@@ -4,6 +4,6 @@
 @import "style-page-head";
 @import "style-page-from";
 
-*, * *, * * *, * * * *, * * * * * {
-  border: 1px red solid;
+* {
+  @include global-box-size
 }

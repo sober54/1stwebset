@@ -3,18 +3,18 @@
 // 头部默认字体变量
 //-----------------------
 
-$ff-allpage: "Segoe UI" ，Helvetica, Arial, sans-serif;
-$color-bg-head: #1999dd;
-$color-text-block: white;
+$ff-allpage: "Microsoft YaHei", SimSun, SimHei;
+$color-bg-head: #1999dd !default;
+$color-text-block: white !default;
 
 // 默认背景图初始化设置
 //---------------------
-$back-img-repeat: norepeat;
-$back-img-position: center;
+$back-img-repeat: norepeat !default;
+$back-img-position: center !default;
 
 //全局boxsize
 //-------------
-@mixin globle-box-size {
+@mixin global-box-size {
   box-sizing: border-box;
 }
 
@@ -27,41 +27,44 @@ $back-img-position: center;
   font-family: $ff-allpage;
 }
 
+//背景图片默认设置
 @mixin back-img-defulit {
   background: {
     repeat: $back-img-repeat;
     position: $back-img-position;
   }
-;
+
 }
+
+//通用头部组件
 
 @mixin style-head-block() {
   width: 100%;
   position: relative;
-  top: 0;
+  top: 50%;
+  transform: translatey(-50%);
   left: 0;
+  box-sizing: border-box;
 
   & :first-child {
-    display: block;
-    position: relative;
+    display: flex;
     text-align: center;
     & .btn-back {
       float: left;
+      display: inline-block;
       clear: none;
-      display: table;
-      vertical-align: middle;
     }
     & .btn-close {
       float: right;
-      clear: none;
-      display: table;
-      vertical-align: middle;
+
+      display: inline-block;
+
     }
     & .title {
       font-size: 1.5rem;
-      clear: none;
-      display: inline-block;
-
+      position: relative;
+      top: 50%;
+      transform: translatey(-50%);
     }
   }
 }

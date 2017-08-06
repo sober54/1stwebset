@@ -10,6 +10,11 @@ body {
   margin: 0;
 }
 
+*, * *, * * *, * * * *, * * * * * {
+  border: 1px red solid;
+}
+
+
 /*链接及按钮各状态样式*/
 .pointer {
   &:link,
