@@ -54,8 +54,8 @@
       <file leaf-file-name="day11homework.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day11homework.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+            <state relative-caret-position="125">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -481,7 +481,7 @@
       <workItem from="1501952731384" duration="862000" />
       <workItem from="1501984233921" duration="15515000" />
       <workItem from="1502016274292" duration="14193000" />
-      <workItem from="1502063153668" duration="8761000" />
+      <workItem from="1502063153668" duration="8816000" />
     </task>
     <task id="LOCAL-00001" summary="任务7">
       <created>1500912954756</created>
@@ -812,11 +812,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502072164269</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="抽抽了">
+      <created>1502072345443</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1502072345443</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="498103000" />
+    <option name="totallyTimeSpent" value="498158000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1218,8 +1225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day11homework.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+        <state relative-caret-position="125">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
