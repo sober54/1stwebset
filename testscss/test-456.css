@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/*头部左中右组件*/
+header, .head {
+    position: relative;
+    box-sizing: border-box;
+    display: inherit;
+    padding: 1.5rem 1rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #5ac0ce;
+    color: #fefefe;
+}
+
+header:first-child, .head:first-child {
+    position: relative;
+    top: 0;
+    left: 0;
+    box-sizing: inherit;
+    text-align: center;
+    font-size: 1rem;
+}
+
+header .link-back, .head .link-back {
+    color: inherit;
+    float: left;
+    box-sizing: inherit;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+header .link-back:hover, header .link-back:focus, .head .link-back:hover, .head .link-back:focus {
+    transform: translatex(-0.3rem);
+}
+
+header .title, .head .title {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 auto;
+    cursor: default;
+    font-size: 2rem;
+    position: relative;
+    top: 50%;
+    transform: translatey(-10%);
+}
+
+header .link-close, .head .link-close {
+    display: inline-block;
+    color: inherit;
+    float: right;
+    width: 5rem;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+header .link-close:hover, header .link-close:focus, .head .link-close:hover, .head .link-close:focus {
+    transform: scale(0.95) translate(0, 0);
+}
+
+body, .body {
+    font-family: "Microsoft YaHei", SimSun, SimHei;
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body a, body input, .body a, .body input {
+    outline: none !important;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+body > *, .body > * {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+
+.input-text {
+    padding: .5rem;
+    border: none;
+    border-left: dotted 1px #5ac0ce;
+    font-size: 1.1rem;
+}
+
+.bg-t456 {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    display: inline-block;
+    float: left;
+    background-color: transparent;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
+}
+
+.btn-block {
+    display: inline-block;
+    line-height: 2rem;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    text-align: center;
+    color: #fefefe;
+    background-color: #5ac0ce;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn-block:link,
+.btn-block:visited {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.btn-block:hover,
+.btn-block:focus {
+    color: whitesmoke;
+}
+
+.bg-1 {
+    padding-left: 2.8rem;
+    width: 100%;
+    line-height: 4rem;
+    background-image: url(../images/phone.png);
+}
+
+.bg-2 {
+    clear: both;
+    padding-left: 2.8rem;
+    width: 100%;
+    line-height: 4rem;
+    background-image: url(../images/lock.png);
+}
+
+.link-tag {
+    color: #ccc;
+    float: right;
+    padding: .5rem;
+    padding-right: 1rem;
+}
+
+/*# sourceMappingURL=test-456.css.map */
