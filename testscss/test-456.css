@@ -77,6 +77,10 @@ body, .body {
   background-repeat: no-repeat;
   background-size: 3.5rem; }
 
+body *, body * *, body * * *, body * * * *, .body *, .body * *, .body * * *, .body * * * * {
+  border: solid red 1px;
+}
+
 .btn-block {
   display: inline-block;
   line-height: 2rem;
@@ -118,5 +122,17 @@ body, .body {
   float: right;
   padding: .5rem;
   padding-right: 1rem; }
+
+.head-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.foot-fiexd {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
 
 /*# sourceMappingURL=test-456.css.map */

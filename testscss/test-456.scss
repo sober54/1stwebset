@@ -8,7 +8,7 @@
 @include global-body;
 @include text-input-form;
 @include bg-t456-default;
-
+@include kuangkuang;
 @include btn-block;
 
 .bg-1 {
@@ -38,5 +38,17 @@
   padding: {
     right: 1rem;
   }
-;
+
+}
+
+.head-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.foot-fiexd {
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }

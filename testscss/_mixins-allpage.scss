@@ -54,6 +54,7 @@ $color-t456-text: #fefefe !default;
 //----------------------------
 
 /*头部左中右组件*/
+//fixed就在这个基础上写个posirion改动吧
 @mixin layout-global-head {
   header, .head {
     position: relative;
