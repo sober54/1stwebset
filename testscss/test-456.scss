@@ -6,3 +6,37 @@
 
 @include layout-global-head();
 @include global-body;
+@include text-input-form;
+@include bg-t456-default;
+
+@include btn-block;
+
+.bg-1 {
+  padding-left: 2.8rem;
+  width: 100%;
+  line-height: 4rem;
+  background: {
+    image: url(../images/phone.png);
+  }
+
+}
+
+.bg-2 {
+  clear: both;
+  padding-left: 2.8rem;
+  width: 100%;
+  line-height: 4rem;
+  background: {
+    image: url(../images/lock.png);
+  }
+}
+
+.link-tag {
+  color: #ccc;
+  float: right;
+  padding: .5rem;
+  padding: {
+    right: 1rem;
+  }
+;
+}

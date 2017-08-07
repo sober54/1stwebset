@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+//所有变量最后设个局部表
 // 默认字体变量
 //-----------------------
 
@@ -8,7 +9,7 @@ $ff-allpage: "Microsoft YaHei", SimSun, SimHei;
 //任务配色部分
 //=======================================================================================
 //任务4-5-6配色变量
-//-------------------
+//------------------
 
 $color-t456-bg: #5ac0ce !default;
 $color-t456-text: #fefefe !default;
@@ -16,34 +17,169 @@ $color-t456-text: #fefefe !default;
 //全局默认设置
 //=========================================================================================
 //全局body设置
-//-------------
+//-----------------
 
+//框框。。。。。。。
+@mixin kuangkuang {
+  body, .body {
+    & *, * *, * * *, * * * * {
+      border: solid red 1px;
+    }
+  }
+}
+
+//body开局设置
 @mixin global-body {
   body, .body {
     font-family: $ff-allpage;
     padding: 0;
     margin: 0;
     font-size: 62.5%;
-    outline: none !important;
-    text-decoration: none !important;
+    box-sizing: border-box;
+    & a, input {
+      outline: none !important;
+      text-decoration: none !important;
+      cursor: pointer;
+    }
+    & > * {
+      box-sizing: border-box;
+      position: relative;
+      width: 100%;
+    }
   }
 }
 
 //全局默认页头布局
+//......大概算个组件吧
 //----------------------------
 
+/*头部左中右组件*/
 @mixin layout-global-head {
   header, .head {
     position: relative;
     box-sizing: border-box;
-    margin: 0;
+    display: inherit;
+    padding: 1.5rem 1rem;
+    width: 100%;
     top: 0;
     left: 0;
     background-color: $color-t456-bg;
-    padding: .5rem 1rem;
+    color: $color-t456-text;
+
+    //父容器作为组件的总体
     &:first-child {
-      display: flex;
+      position: relative;
+      top: 0;
+      left: 0;
       box-sizing: inherit;
+      text-align: center;
+      font-size: 1rem;
     }
+
+    //左侧按钮
+    & .link-back {
+      color: inherit;
+      float: left;
+      box-sizing: inherit;
+      display: inline-block;
+      font-size: 1.5rem;
+    }
+    & .link-back:hover,
+    & .link-back:focus {
+      transform: translatex(-.3rem);
+    }
+    //标题
+    & .title {
+      display: inline-block;
+      margin: 0 auto;
+      padding: 0 auto;
+      cursor: default;
+      font-size: 2rem;
+      position: relative;
+      top: 50%;
+      transform: translatey(-10%);
+    }
+
+    //右侧按钮
+    & .link-close {
+      display: inline-block;
+      color: inherit;
+      float: right;
+      width: 5rem;
+      text-align: right;
+      font-size: 1.5rem;
+    }
+    & .link-close:hover,
+    & .link-close:focus {
+      transform: scale(.95) translate(0, 0);
+
+    }
+  }
+}
+
+//背景图默认设置
+//---------------------------------
+
+@mixin bg-t456-default {
+  .bg-t456 {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    display: inline-block;
+    float: left;
+    background: {
+      color: transparent;
+      position: left;
+      repeat: no-repeat;
+      size: 3.5rem;
+    }
+  }
+}
+
+//表单通用部分
+//------------------------
+
+//文本框
+//----------------
+
+@mixin text-input-form {
+  .input-text {
+    padding: .5rem;
+    border: none;
+    border-left: dotted 1px $color-t456-bg;
+    font-size: 1.1rem;
+  }
+}
+
+//全宽按钮
+//-----------------------------------
+
+@mixin btn-block {
+  .btn-block {
+    display: inline-block;
+    line-height: 2rem;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    text-align: center;
+    color: $color-t456-text;
+    background-color: $color-t456-bg;
+    font-size: 1.2rem;
+    padding: {
+      top: 1rem;
+      bottom: 1rem;
+    }
+  ;
+  }
+  .btn-block:link,
+  .btn-block:visited {
+    text-decoration: none;
+    color: $color-t456-text;
+  }
+  .btn-block:hover,
+  .btn-block:focus {
+    color: whitesmoke;
   }
 }
