@@ -82,11 +82,14 @@ button:focus{
  }
 .about
 {
-    border: 1.5px #ccc solid;
+    border: 1px #ccc solid;
+    margin-right: 15px;
+    margin-left: 15px;
+
 }
 
 .card-block{
-    border-bottom: 1.5px #ccc solid;;
+    border-bottom: 1px #ccc solid;;
 }
 .part-left-sidebar{
     margin-bottom:3rem;

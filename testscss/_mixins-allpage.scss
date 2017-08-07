@@ -13,6 +13,8 @@ $ff-allpage: "Microsoft YaHei", SimSun, SimHei;
 
 $color-t456-bg: #5ac0ce !default;
 $color-t456-text: #fefefe !default;
+$bgcolor-t456-footer-checked: white !default;
+$color-t456-footer-checked: #5ac0ce !default;
 
 //全局默认设置
 //=========================================================================================
@@ -66,6 +68,7 @@ $color-t456-text: #fefefe !default;
     left: 0;
     background-color: $color-t456-bg;
     color: $color-t456-text;
+    z-index: 15;
 
     //父容器作为组件的总体
     &:first-child {
@@ -114,6 +117,69 @@ $color-t456-text: #fefefe !default;
     & .link-close:focus {
       transform: scale(.95) translate(0, 0);
 
+    }
+  }
+}
+
+//看了看还是把脚部能通用的组件做出来，左右浮动按钮，也不写fixed部分
+//------------------------------------------------------
+
+@mixin layout-global-foot {
+  footer, .foot {
+    position: relative;
+    box-sizing: border-box;
+    display: inherit;
+    padding: 1.5rem 1rem;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: $color-t456-text;
+    color: $color-t456-text;
+    z-index: 15;
+
+    //父容器作为组件的总体
+    &:first-child {
+      position: relative;
+      top: 0;
+      left: 0;
+      box-sizing: inherit;
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    //左侧按钮
+    & .link-left {
+      float: left;
+      box-sizing: inherit;
+      display: inline-block;
+      font-size: 1.5rem;
+      vertical-align: middle;
+      background-color: $bgcolor-t456-footer-checked;
+      color: $color-t456-footer-checked;
+      border: $color-t456-footer-checked 1.5px solid;
+      width: 49%;
+      text-align: center;
+      padding: {
+        top: .5rem;
+        bottom: .5rem;
+      }
+    }
+
+    //右侧按钮
+    & .link-right {
+      display: inline-block;
+      float: right;
+      font-size: 1.5rem;
+      vertical-align: middle;
+      color: $bgcolor-t456-footer-checked;
+      background-color: $color-t456-footer-checked;
+      border: $color-t456-footer-checked 1.5px solid;
+      width: 49%;
+      text-align: center;
+      padding: {
+        top: .5rem;
+        bottom: .5rem;
+      }
     }
   }
 }

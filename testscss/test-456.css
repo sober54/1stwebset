@@ -9,7 +9,8 @@ header, .head {
   top: 0;
   left: 0;
   background-color: #5ac0ce;
-  color: #fefefe; }
+  color: #fefefe;
+  z-index: 15; }
   header:first-child, .head:first-child {
     position: relative;
     top: 0;
@@ -77,10 +78,6 @@ body, .body {
   background-repeat: no-repeat;
   background-size: 3.5rem; }
 
-body *, body * *, body * * *, body * * * *, .body *, .body * *, .body * * *, .body * * * * {
-  border: solid red 1px;
-}
-
 .btn-block {
   display: inline-block;
   line-height: 2rem;
@@ -104,6 +101,50 @@ body *, body * *, body * * *, body * * * *, .body *, .body * *, .body * * *, .bo
 .btn-block:focus {
   color: whitesmoke; }
 
+footer, .foot {
+  position: relative;
+  box-sizing: border-box;
+  display: inherit;
+  padding: 1.5rem 1rem;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #fefefe;
+  color: #fefefe;
+  z-index: 15; }
+  footer:first-child, .foot:first-child {
+    position: relative;
+    top: 0;
+    left: 0;
+    box-sizing: inherit;
+    text-align: center;
+    font-size: 1rem; }
+  footer .link-left, .foot .link-left {
+    float: left;
+    box-sizing: inherit;
+    display: inline-block;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    background-color: white;
+    color: #5ac0ce;
+    border: #5ac0ce 1.5px solid;
+    width: 49%;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem; }
+  footer .link-right, .foot .link-right {
+    display: inline-block;
+    float: right;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    color: white;
+    background-color: #5ac0ce;
+    border: #5ac0ce 1.5px solid;
+    width: 49%;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem; }
+
 .bg-1 {
   padding-left: 2.8rem;
   width: 100%;
@@ -124,15 +165,108 @@ body *, body * *, body * * *, body * * * *, .body *, .body * *, .body * * *, .bo
   padding-right: 1rem; }
 
 .head-fixed {
-  position: fixed;
+  position: fixed !important;
   top: 0;
-  left: 0;
-}
+  left: 0; }
 
+/*footer标签用head类名实在太诡异。。。所以这部分直接写CSS了有空我去规范下类名 表明头脚都能用*/
 .foot-fiexd {
-  position: fixed;
+  position: fixed !important;
   bottom: 0;
   left: 0;
-}
+  z-index: 15; }
+
+.info-nerse {
+  z-index: 0;
+  margin-top: 5.2rem;
+  padding: 10% 3%;
+  background-image: url(../images/bgimg.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 120%; }
+  .info-nerse :first-child {
+    position: relative;
+    height: 6rem; }
+    .info-nerse :first-child .t5-info-bg {
+      float: left;
+      line-height: 1rem;
+      margin: 0;
+      width: 6rem;
+      border-radius: 50%;
+      margin-right: 1rem;
+      background-image: url(../images/girl.png);
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat; }
+    .info-nerse :first-child .text-info {
+      line-height: 1.5rem;
+      position: relative;
+      top: 50%;
+      transform: translatey(-50%);
+      color: white; }
+      .info-nerse :first-child .text-info :first-child {
+        font-size: 1.2rem;
+        margin-bottom: 1rem; }
+      .info-nerse :first-child .text-info .pin-bg {
+        display: inline;
+        line-height: 2rem;
+        background-image: url(../images/pin.png);
+        background-repeat: no-repeat;
+        background-position: center; }
+
+.detail-nerse-info ul {
+  list-style: none;
+  border-top: 1px solid #ccc; }
+.detail-nerse-info li {
+  font-size: 1rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px #ccc solid; }
+.detail-nerse-info .info-title {
+  display: inline-block;
+  font-size: 1.2rem;
+  vertical-align: middle;
+  color: #1d1e1f;
+  padding-left: .5rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-left: 3px solid #5ac0ce; }
+
+.bg-star {
+  padding-left: 1rem;
+  margin-right: .5rem;
+  background-image: url(../images/star.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.info-t {
+  border-right: 1px dotted #5ac0ce;
+  color: #ccc;
+  padding-left: .5rem;
+  padding-right: .5rem; }
+
+.info-d {
+  padding-left: .5rem; }
+
+.info-d1 {
+  color: red; }
+
+.intro {
+  display: table; }
+
+.info-t1 {
+  display: table-cell;
+  float: left;
+  width: 4rem;
+  vertical-align: middle; }
+
+.info-d2 {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: .5rem;
+  width: 100%; }
 
 /*# sourceMappingURL=test-456.css.map */

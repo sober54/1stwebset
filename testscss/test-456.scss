@@ -8,8 +8,10 @@
 @include global-body;
 @include text-input-form;
 @include bg-t456-default;
-@include kuangkuang;
 @include btn-block;
+@include layout-global-foot;
+
+//label当背景图层用了  这部分不打算写成组件感觉这个用法不是很正统 套其他页面还是有问题的 而且背景图就算做了雪碧的也涉及到背景图定位，肯定要写下边两个样式，综上不写组件
 
 .bg-1 {
   padding-left: 2.8rem;
@@ -18,7 +20,6 @@
   background: {
     image: url(../images/phone.png);
   }
-
 }
 
 .bg-2 {
@@ -31,6 +32,9 @@
   }
 }
 
+//不写组件是因为这部分央视简短 但是颜色变化多 下边这个样式肯定要每次改颜色才能用 所以不写组件了 意义不大
+
+
 .link-tag {
   color: #ccc;
   float: right;
@@ -38,17 +42,158 @@
   padding: {
     right: 1rem;
   }
-
 }
 
+//fixed就是这三行的事 再写写看有没必要做组件
+
+
 .head-fixed {
-  position: fixed;
+  position: fixed !important;
   top: 0;
   left: 0;
 }
 
+/*footer标签用head类名实在太诡异。。。所以这部分直接写CSS了有空我去规范下类名 表明头脚都能用*/
+
 .foot-fiexd {
-  position: fixed;
+  position: fixed !important;
   bottom: 0;
   left: 0;
+  z-index: 15;
 }
+
+//这部分不打算写成组件 后边任务这个场景少
+//------------护工简要信息头像，姓名，地址。--------------------
+
+.info-nerse {
+  z-index: 0;
+  margin-top: 5.2rem;
+  padding: 10% 3%;
+  background: {
+    image: url(../images/bgimg.png);
+    position: 50% 50%;
+    repeat: no-repeat;
+    size: 120%;
+  }
+  & :first-child {
+    position: relative;
+    height: 6rem;
+    & .t5-info-bg {
+      float: left;
+      line-height: 1rem;
+      margin: 0;
+      width: 6rem;
+      border-radius: 50%;
+      margin-right: 1rem;
+      background: {
+        image: url(../images/girl.png);
+        position: center;
+        size: 100%;
+        repeat: no-repeat;
+      }
+    }
+    & .text-info {
+      line-height: 1.5rem;
+      position: relative;
+      top: 50%;
+      transform: translatey(-50%);
+      color: white;
+      & :first-child {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+      & .pin-bg {
+        display: inline;
+        line-height: 2rem;
+        background: {
+          image: url(../images/pin.png);
+          repeat: no-repeat;
+          position: center;
+        }
+      }
+    }
+  }
+}
+
+//同上部分这种类似表格的场景用的也少所以也不写组件
+//。。。。。。。。。。真没必要写成组件
+
+.detail-nerse-info {
+  & ul {
+    list-style: none;
+    border-top: 1px solid #ccc;
+  }
+  & li {
+    font-size: 1rem;
+    margin: {
+      top: .5rem;
+      bottom: .5rem;
+    }
+  ;
+    padding: {
+      top: .5rem;
+      bottom: .5rem;
+    }
+  ;
+    border-bottom: 1px #ccc solid;
+  }
+  .info-title {
+    display: inline-block;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    color: #1d1e1f;
+    padding-left: .5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-left: 3px solid $color-t456-bg;
+  }
+}
+
+.bg-star {
+  padding-left: 1rem;
+  margin-right: .5rem;
+  background: {
+    image: url(../images/star.png);
+    position: center;
+    repeat: no-repeat;
+    size: 100%;
+  }
+}
+
+;
+
+.info-t {
+  border-right: 1px dotted #5ac0ce;
+  color: #ccc;
+  padding: {
+    left: .5rem;
+    right: .5rem;
+  }
+}
+
+.info-d {
+  padding-left: .5rem;
+}
+
+.info-d1 {
+  color: red;
+}
+
+.intro {
+  display: table;
+}
+
+.info-t1 {
+  display: table-cell;
+  float: left;
+  width: 4rem;
+  vertical-align: middle;
+}
+
+.info-d2 {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: .5rem;
+  width: 100%;
+}
+

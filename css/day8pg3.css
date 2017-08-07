@@ -150,6 +150,8 @@ a:link{
     height: auto;
     max-width: 100%;
     display: block;
+    min-width: 4.7rem;
+    align-self: center;
 }
 
 .userinfo .valign {
