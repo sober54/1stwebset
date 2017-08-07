@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c8f5486-83ab-4ddb-9ca9-03402067cfb3" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12homework.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day8-pg2.html" afterPath="$PROJECT_DIR$/day8-pg2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day8homework.html" afterPath="$PROJECT_DIR$/day8homework.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day8p-pg3.html" afterPath="$PROJECT_DIR$/day8p-pg3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/_mixins-allpage.scss" afterPath="$PROJECT_DIR$/testscss/_mixins-allpage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/test-456.css" afterPath="$PROJECT_DIR$/testscss/test-456.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/test-456.css.map" afterPath="$PROJECT_DIR$/testscss/test-456.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/test-456.scss" afterPath="$PROJECT_DIR$/testscss/test-456.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/day8pg2.css" afterPath="$PROJECT_DIR$/css/day8pg2.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,84 +20,105 @@
     <favorites_list name="1stwebset" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_mixins-allpage.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testscss/_mixins-allpage.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-456.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testscss/test-456.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1254">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-456.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testscss/test-456.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day12homework.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day12homework.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day8homework.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day8homework.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="135" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day8-pg2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day8-pg2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="37" column="135" lean-forward="false" selection-start-line="37" selection-start-column="135" selection-end-line="37" selection-end-column="135" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day8p-pg3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day8p-pg3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="37" column="135" lean-forward="false" selection-start-line="37" selection-start-column="135" selection-end-line="37" selection-end-column="135" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="_mixins-allpage.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/testscss/_mixins-allpage.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-95">
+                  <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test-456.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/testscss/test-456.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1254">
+                  <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+                  <folding>
+                    <marker date="1502078977497" expanded="true" signature="2056:2082" ph="{...}" />
+                    <marker date="1502078977497" expanded="true" signature="2960:2961" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test-456.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/testscss/test-456.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="248">
+                  <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="day12homework.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day12homework.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="201">
+                  <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="day8homework.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day8homework.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="57">
+                  <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="37" selection-end-column="99" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="day8-pg2.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/day8-pg2.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1862">
+                  <caret line="37" column="72" lean-forward="true" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="day8p-pg3.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day8p-pg3.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="76">
+                  <caret line="38" column="99" lean-forward="false" selection-start-line="38" selection-start-column="99" selection-end-line="38" selection-end-column="99" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="day8pg2.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/day8pg2.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="228">
+                  <caret line="66" column="23" lean-forward="false" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -209,7 +223,6 @@
         <option value="$PROJECT_DIR$/TESTSASS/myscss.css" />
         <option value="$PROJECT_DIR$/bootstrap-4.0.0-alpha.6/scss/bootstrap.scss" />
         <option value="$PROJECT_DIR$/TESTSASS/_style-page-from.scss" />
-        <option value="$PROJECT_DIR$/css/day8pg2.css" />
         <option value="$PROJECT_DIR$/css/day8pg3.css" />
         <option value="$PROJECT_DIR$/css/day8pg1.css" />
         <option value="$PROJECT_DIR$/css/day8-allpage.css" />
@@ -224,8 +237,9 @@
         <option value="$PROJECT_DIR$/testscss/test-456.scss" />
         <option value="$PROJECT_DIR$/day12homework.html" />
         <option value="$PROJECT_DIR$/day8homework.html" />
-        <option value="$PROJECT_DIR$/day8-pg2.html" />
         <option value="$PROJECT_DIR$/day8p-pg3.html" />
+        <option value="$PROJECT_DIR$/day8-pg2.html" />
+        <option value="$PROJECT_DIR$/css/day8pg2.css" />
       </list>
     </option>
   </component>
@@ -316,6 +330,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="testscss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1stwebset" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1stwebset" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -525,14 +553,7 @@
       <workItem from="1501952731384" duration="862000" />
       <workItem from="1501984233921" duration="15515000" />
       <workItem from="1502016274292" duration="14193000" />
-      <workItem from="1502063153668" duration="14494000" />
-    </task>
-    <task id="LOCAL-00003" summary="任务7">
-      <created>1500958330456</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1500958330456</updated>
+      <workItem from="1502063153668" duration="15065000" />
     </task>
     <task id="LOCAL-00004" summary="任务7">
       <created>1501049402354</created>
@@ -870,11 +891,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502074144279</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="抽抽了">
+      <created>1502079008150</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1502079008150</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="503836000" />
+    <option name="totallyTimeSpent" value="504407000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1087,13 +1115,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TESTSASS/_style-page-from.scss" />
     <entry file="file://$PROJECT_DIR$/TESTSASS/_style-page-head.scss" />
-    <entry file="file://$PROJECT_DIR$/css/day8pg2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-4.0.0-alpha.6/scss/_nav.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19">
@@ -1234,7 +1255,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1254">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1502078977497" expanded="true" signature="2056:2082" ph="{...}" />
+            <marker date="1502078977497" expanded="true" signature="2960:2961" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1249,7 +1273,7 @@
     <entry file="file://$PROJECT_DIR$/testscss/test-456.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1257,7 +1281,7 @@
     <entry file="file://$PROJECT_DIR$/day12homework.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1265,7 +1289,7 @@
     <entry file="file://$PROJECT_DIR$/day8homework.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="135" />
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="37" selection-end-column="99" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1275,7 +1299,7 @@
     <entry file="file://$PROJECT_DIR$/day8p-pg3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="37" column="135" lean-forward="false" selection-start-line="37" selection-start-column="135" selection-end-line="37" selection-end-column="135" />
+          <caret line="38" column="99" lean-forward="false" selection-start-line="38" selection-start-column="99" selection-end-line="38" selection-end-column="99" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1284,11 +1308,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day8-pg2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="37" column="135" lean-forward="false" selection-start-line="37" selection-start-column="135" selection-end-line="37" selection-end-column="135" />
+        <state relative-caret-position="-1862">
+          <caret line="37" column="72" lean-forward="true" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/day8pg2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="66" column="23" lean-forward="false" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
