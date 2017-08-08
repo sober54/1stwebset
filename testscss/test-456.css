@@ -120,6 +120,7 @@ footer, .foot {
     text-align: center;
     font-size: 1rem; }
   footer .link-left, .foot .link-left {
+    border-radius: 5px 5px;
     float: left;
     box-sizing: inherit;
     display: inline-block;
@@ -128,11 +129,12 @@ footer, .foot {
     background-color: white;
     color: #5ac0ce;
     border: #5ac0ce 1.5px solid;
-    width: 49%;
+    width: 47.5%;
     text-align: center;
     padding-top: .5rem;
     padding-bottom: .5rem; }
   footer .link-right, .foot .link-right {
+    border-radius: 5px 5px;
     display: inline-block;
     float: right;
     font-size: 1.5rem;
@@ -140,10 +142,14 @@ footer, .foot {
     color: white;
     background-color: #5ac0ce;
     border: #5ac0ce 1.5px solid;
-    width: 49%;
+    width: 47.5%;
     text-align: center;
     padding-top: .5rem;
     padding-bottom: .5rem; }
+
+body *, body * *, body * * *, body * * * *, .body *, .body * *, .body * * *, .body * * * * {
+  border: solid red 1px;
+}
 
 .bg-1 {
   padding-left: 2.8rem;
@@ -268,5 +274,9 @@ footer, .foot {
   vertical-align: middle;
   padding-left: .5rem;
   width: 100%; }
+
+.info-list {
+  height: 30rem;
+}
 
 /*# sourceMappingURL=test-456.css.map */

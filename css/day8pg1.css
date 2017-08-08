@@ -144,15 +144,17 @@
     height: 30%;
     width: 30%;
     border-radius: 50%;
-    margin: .8rem 35%;
+    margin: 2% 35%;
     box-shadow: black .1rem .1rem .4rem;
     min-width: 6rem;
+    max-width: 8rem;
     align-self: center;
 }
 
 .card-title {
     font-size: 1.2rem;
-    padding: 10%;
+    padding: 5%;
+    margin-bottom: 0;
 }
 
 .card-text {
@@ -161,9 +163,27 @@
     padding-bottom: 10%;
 }
 
+.card {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#rollroll2 .carousel-item {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.carousel-item .col-lg-3 {
+    padding-left: 2px;
+    padding-right: 2px;
+}
 .card-block {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+
 }
 
 .rollroll2 {
@@ -274,7 +294,6 @@
 .green-logo {
     background: url(../images/t-8-p1-footerlogo4.png);
     background-position: 50% 50%;
-
     background-repeat: no-repeat;
 }
 

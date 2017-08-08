@@ -8,6 +8,22 @@ a:link {
     text-decoration: none;
 }
 
+body {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.soclear {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
 
 
 .valign{
@@ -180,7 +196,7 @@ a:link {
     background-position: left;
     background-repeat: no-repeat;
     padding: 2rem 25% 1rem 1rem;
-    background-size: 60%;
+    background-size: 40%;
 }
 .smup-info p{
     padding-left: 6px;
@@ -191,12 +207,31 @@ a:link {
     padding:  1rem ;
     background: url(../images/menu.png);
     background-position: right;
-    background-size: 80%;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-clip: padding-box;
-    transform: translatex(-15px)
+    transform: translatex(-15px);
+
 }
 
+.sm-dropmenu1 {
+    display: inline-block;
+    padding: 1rem;
+    background: url(../images/menu.png);
+    background-position: right;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    transform: translatex(-15px);
+}
+
+.sm-logo1 {
+    background: url(../images/t-8-p1-logojinengshu.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 2rem 25% 1rem 1rem;
+    background-size: 60%;
+}
 .dropmenu-list a {
     padding-top: .5rem;
     padding-bottom: .5rem;

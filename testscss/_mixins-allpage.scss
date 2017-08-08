@@ -149,6 +149,7 @@ $color-t456-footer-checked: #5ac0ce !default;
 
     //左侧按钮
     & .link-left {
+      border-radius: 5px 5px;
       float: left;
       box-sizing: inherit;
       display: inline-block;
@@ -157,8 +158,9 @@ $color-t456-footer-checked: #5ac0ce !default;
       background-color: $bgcolor-t456-footer-checked;
       color: $color-t456-footer-checked;
       border: $color-t456-footer-checked 1.5px solid;
-      width: 49%;
+      width: 47.5%;
       text-align: center;
+
       padding: {
         top: .5rem;
         bottom: .5rem;
@@ -167,6 +169,8 @@ $color-t456-footer-checked: #5ac0ce !default;
 
     //右侧按钮
     & .link-right {
+
+      border-radius: 5px 5px;
       display: inline-block;
       float: right;
       font-size: 1.5rem;
@@ -174,7 +178,7 @@ $color-t456-footer-checked: #5ac0ce !default;
       color: $bgcolor-t456-footer-checked;
       background-color: $color-t456-footer-checked;
       border: $color-t456-footer-checked 1.5px solid;
-      width: 49%;
+      width: 47.5%;
       text-align: center;
       padding: {
         top: .5rem;
@@ -248,5 +252,22 @@ $color-t456-footer-checked: #5ac0ce !default;
   .btn-block:hover,
   .btn-block:focus {
     color: whitesmoke;
+  }
+}
+
+//下拉菜单
+//-------------------------
+
+@mixin dropdown-menu-default {
+  .dropdown-menu-default {
+    display: table;
+    & .dropdown-menu-grope {
+      & > div {
+        display: table-cell;
+        float: left;
+        clear: none;
+        width: 32%;
+      }
+    }
   }
 }
