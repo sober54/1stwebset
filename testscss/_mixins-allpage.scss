@@ -255,19 +255,124 @@ $color-t456-footer-checked: #5ac0ce !default;
   }
 }
 
-//下拉菜单
+//下拉菜单组现阶段是只做了组，固定三个。。。。。这个可以看情况用到单独下拉菜单的情况可以LIST2宽度100% 1和3没宽度，不过这么做会拖性能，之后再拆单独的了。
 //-------------------------
 
 @mixin dropdown-menu-default {
   .dropdown-menu-default {
-    display: table;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
     & .dropdown-menu-grope {
-      & > div {
-        display: table-cell;
-        float: left;
+      display: inline-block;
+      white-space: nowrap;
+      width: 100%;
+      min-width: 100%;
+      overflow: hidden;
+      & .dropdown {
+        position: relative;
+        box-sizing: border-box;
+        width: 33.3%;
+        max-width: 33.3%;
         clear: none;
-        width: 32%;
+        float: left;
+        border-bottom: 1px solid #5ac0ce;
+        z-index: inherit;
+        background-color: white;
+        padding: 0;
       }
+    }
+    .dropdown2 {
+      border: {
+        left: 1px dotted #5ac0ce;
+        right: 1px dotted #5ac0ce;
+      }
+    }
+    .dropdown-btn {
+      display: inline-block;
+      line-height: 1.5rem;
+      width: 100%;
+      color: #ccc;
+      font-size: 1rem;
+      padding: {
+        top: .5rem;
+        bottom: .5rem;
+      }
+      margin-top: .5rem;
+      margin-bottom: .5rem;
+    }
+    .dropdown-btn::after {
+      content: "▼";
+      position: absolute;
+      right: 5%;
+    }
+    .dropdown1:hover .dropdown-list1,
+    .dropdown-btn1:hover ~ .dropdown-list1,
+    .dropdown-btn1:focus ~ .dropdown-list1 {
+      position: relative;
+      visibility: visible;
+    }
+    .dropdown2:hover .dropdown-list2,
+    .dropdown-btn2:hover ~ .dropdown-list2,
+    .dropdown-btn2:focus ~ .dropdown-list2 {
+      position: relative;
+      visibility: visible;
+    }
+    .dropdown3:hover .dropdown-list3,
+    .dropdown-btn3:hover ~ .dropdown-list3,
+    .dropdown-btn3:focus ~ .dropdown-list3 {
+      position: relative;
+      visibility: visible;
+    }
+
+    .dropdown-list {
+      border: 1px solid #5ac0ce;
+      position: absolute;
+      visibility: hidden;
+
+    }
+    & ul {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+    & li {
+      position: relative;
+      list-style: none;
+      border-bottom: 1px solid #5ac0ce;
+
+      line-height: 1.5rem;
+      & a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: {
+          top: .5rem;
+          bottom: .5rem;
+        }
+      }
+    }
+  }
+}
+
+//信息块组件 大概就是BOOTSTRAP的卡片
+//--------------------------------------------------------
+
+.info-block {
+  font-size: 1.1rem;
+  padding: {
+    left: 1rem;
+    right: 1rem;
+  }
+  .ft-style {
+    & .bg-img {
+      display: inline-block;
+      padding: .7rem;
+      margin-right: .5rem;
     }
   }
 }

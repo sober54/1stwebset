@@ -104,7 +104,7 @@ header .tele p{
     position: absolute;
     width: 100%;
     left: 0;
-    top: 16.5%;
+    top: 1rem;
     border: 3px solid #d8d8d8;
     z-index: -1;
 }

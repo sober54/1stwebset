@@ -10,6 +10,7 @@
 @include bg-t456-default;
 @include btn-block;
 @include layout-global-foot;
+@include dropdown-menu-default;
 @include kuangkuang;
 
 //label当背景图层用了  这部分不打算写成组件感觉这个用法不是很正统 套其他页面还是有问题的 而且背景图就算做了雪碧的也涉及到背景图定位，肯定要写下边两个样式，综上不写组件
@@ -52,6 +53,7 @@
   position: fixed !important;
   top: 0;
   left: 0;
+  z-index: 1000;
 }
 
 /*footer标签用head类名实在太诡异。。。所以这部分直接写CSS了有空我去规范下类名 表明头脚都能用*/
@@ -200,4 +202,37 @@
 
 .info-list {
   height: 30rem;
+}
+
+.dropdown-menu-default {
+  top: 5.2rem
+}
+
+.block-info {
+  position: relative;
+  top: 9.5rem;
+  height: 100rem;
+  & b {
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    float: right;
+    height: inherit;
+    line-height: 100%;
+  }
+}
+
+.bg-img1 {
+  background: url(../images/day23.png);
+}
+
+.bg-img2 {
+  background: url(../images/t-12location2.png);
+}
+
+.bg-img {
+  background: {
+    repeat: no-repeat;
+    position: center;
+  }
 }
