@@ -1,30 +1,10 @@
 @charset "UTF-8";
-
-//所有变量最后设个局部表
-// 默认字体变量
-//-----------------------
-
-$ff-allpage: "Microsoft YaHei", SimSun, SimHei;
-
-//任务配色部分
-//=======================================================================================
-//任务4-5-6配色变量
-//------------------
-
-$color-t456-bg: #5ac0ce !default;
-$color-t456-text: #fefefe !default;
-$bgcolor-t456-footer-checked: white !default;
-$color-t456-footer-checked: #5ac0ce !default;
-
-//全局默认设置
-//=========================================================================================
-//全局body设置
-//-----------------
+@import "setting-global";
 
 //框框。。。。。。。
 @mixin kuangkuang {
   body, .body {
-    & *, * *, * * *, * * * * {
+    & *, * *, * * *, * * * *, * * * * * {
       border: solid red 1px;
     }
   }
@@ -153,7 +133,7 @@ $color-t456-footer-checked: #5ac0ce !default;
       float: left;
       box-sizing: inherit;
       display: inline-block;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       vertical-align: middle;
       background-color: $bgcolor-t456-footer-checked;
       color: $color-t456-footer-checked;
@@ -173,7 +153,7 @@ $color-t456-footer-checked: #5ac0ce !default;
       border-radius: 5px 5px;
       display: inline-block;
       float: right;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       vertical-align: middle;
       color: $bgcolor-t456-footer-checked;
       background-color: $color-t456-footer-checked;
@@ -359,16 +339,16 @@ $color-t456-footer-checked: #5ac0ce !default;
   }
 }
 
-//信息块组件 大概就是BOOTSTRAP的卡片
+//信息块组件 大概就是BOOTSTRAP的卡片,用于多行文字
 //--------------------------------------------------------
 
 .info-block {
   font-size: 1.1rem;
-  padding: {
-    left: 1rem;
-    right: 1rem;
-  }
   .ft-style {
+    padding: {
+      left: 1rem;
+    }
+  ;
     & .bg-img {
       display: inline-block;
       padding: .7rem;

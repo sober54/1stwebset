@@ -1,9 +1,12 @@
 @charset "UTF-8";
+/*全局字体设置........个人习惯，感觉这个值最合适*/
 /*头部左中右组件*/
 .info-block {
   font-size: 1.1rem;
+}
+
+.info-block .ft-style {
   padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .info-block .ft-style .bg-img {
@@ -136,7 +139,7 @@ footer, .foot {
     float: left;
     box-sizing: inherit;
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     vertical-align: middle;
     background-color: white;
     color: #5ac0ce;
@@ -149,7 +152,7 @@ footer, .foot {
     border-radius: 5px 5px;
     display: inline-block;
     float: right;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     vertical-align: middle;
     color: white;
     background-color: #5ac0ce;
@@ -259,10 +262,6 @@ footer, .foot {
   height: 100%;
   padding-top: .5rem;
   padding-bottom: .5rem;
-}
-
-body *, body * *, body * * *, body * * * *, .body *, .body * *, .body * * *, .body * * * * {
-  border: solid red 1px;
 }
 
 .bg-1 {
@@ -400,18 +399,43 @@ body *, body * *, body * * *, body * * * *, .body *, .body * *, .body * * *, .bo
 }
 
 .block-info {
+  border-top: 1px #5ac0ce solid;
+  border-bottom: 1px #5ac0ce solid;
   position: relative;
   top: 9.5rem;
-  height: 100rem;
+}
+
+.block-info .ft-style2 {
+  display: inline-block;
+  width: 97%;
+  position: relative;
+}
+
+.block-info .ft-style2 .valign-b-a {
+  position: absolute;
+  width: 40%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  top: 50%;
+  left: 3.5rem;
+  margin: 0;
+  transform: translateY(-50%);
 }
 
 .block-info b {
-  position: relative;
-  display: block;
-  vertical-align: middle;
-  float: right;
-  height: inherit;
-  line-height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  color: red;
+  text-align: right;
+}
+
+.block-info b a {
+  padding-left: 1.5rem;
+  color: #5ec0ce;
 }
 
 .bg-img1 {
@@ -423,8 +447,104 @@ body *, body * *, body * * *, body * * * *, .body *, .body * *, .body * * *, .bo
 }
 
 .bg-img {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.t6-foot-fiexd {
+  text-align: center;
+  padding: 0 1rem !important;
+}
+
+.t6-foot-fiexd *, .t6-foot-fiexd * * {
+  border: none !important;
+}
+
+.t6-foot-fiexd .footer-title {
+  display: inline-block;
+}
+
+.t6-foot-fiexd .footer-link-left,
+.t6-foot-fiexd .footer-link-right {
+  background-color: transparent;
+  color: #ccc;
+  font-size: 1rem;
+  padding: 2rem 0 0 0;
+  position: relative;
+  top: 50%;
+  transform: translatey(15%);
+}
+
+.t6-foot-fiexd .footer-link-left {
+  margin: 0;
+  width: 20%;
+  background-image: url(../images/footer-left.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 2.5rem 2rem;
+}
+
+.t6-foot-fiexd .footer-link-left p {
+  margin: 0;
+}
+
+.t6-foot-fiexd .footer-link-right {
+  background-image: url(../images/footer-right.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 2rem 2rem;
+  margin: 0;
+  width: 20%;
+}
+
+.t6-foot-fiexd .footer-link-right p {
+  margin: 0;
+}
+
+.t6-foot-fiexd .footer-title {
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #5ac0ce;
+}
+
+.t6-foot-fiexd .footer-title p {
+  padding: .5rem;
+  background-image: url(../images/sprint.png);
+  background-position: -20% 8%;
+}
+
+footer {
+  border-top: 1px solid #5ac0ce;
+}
+
+.title-btn1 {
+  position: relative;
+  left: 3.5rem;
+  background-color: #55a7b2;
+  color: white;
+  border-radius: .3rem;
+  padding: .3rem;
+  font-size: 1.5rem !important;
+}
+
+.title-btn2 {
+  position: relative;
+  left: 3rem;
+  background-color: white;
+  color: #5ac0ce;
+  border-radius: .3rem;
+  padding: .3rem;
+  font-size: 1.5rem !important;
+}
+
+.t6-link-close {
+  background-image: url(../images/t-12location2.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 /*# sourceMappingURL=test-456.css.map */

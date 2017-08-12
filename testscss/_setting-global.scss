@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+//全局默认设置
+//=========================================================================================
+//全局body设置
+//-----------------
+
+//body的padding设置
+$paddingx-global: 0 1rem !default;
+$paddingy-global: .5rem 0 !default;
+$margin-global: 0 !default;
+
+/*全局字体设置........个人习惯，感觉这个值最合适*/
+$ff-allpage: "Microsoft YaHei", SimSun, SimHei !default;
+$ff-global: "Microsoft YaHei", SimSun, SimHei !default;
+$fontsize-global: 1.3rem !default;
+
+//任务配色部分
+//=======================================================================================
+//任务4-5-6配色变量
+//------------------
+
+$color-t456-bg: #5ac0ce !default;
+$color-t456-text: #fefefe !default;
+$bgcolor-t456-footer-checked: white !default;
+$color-t456-footer-checked: #5ac0ce !default;
+

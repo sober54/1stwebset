@@ -11,7 +11,7 @@
 @include btn-block;
 @include layout-global-foot;
 @include dropdown-menu-default;
-@include kuangkuang;
+//@include kuangkuang;
 
 //label当背景图层用了  这部分不打算写成组件感觉这个用法不是很正统 套其他页面还是有问题的 而且背景图就算做了雪碧的也涉及到背景图定位，肯定要写下边两个样式，综上不写组件
 
@@ -163,7 +163,6 @@
   }
 }
 
-;
 
 .info-t {
   border-right: 1px dotted #5ac0ce;
@@ -209,18 +208,47 @@
 }
 
 .block-info {
+  border: {
+    top: 1px #5ac0ce solid;
+    bottom: 1px #5ac0ce solid;
+  }
+;
+  .ft-style2 {
+    display: inline-block;
+    width: 97%;
+    position: relative;
+
+    .valign-b-a {
+      position: absolute;
+      width: 40%;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      top: 50%;
+      left: 3.5rem;
+      margin: 0;
+      transform: translateY(-50%);
+    }
+  }
   position: relative;
   top: 9.5rem;
-  height: 100rem;
   & b {
-    position: relative;
-    display: block;
-    vertical-align: middle;
-    float: right;
-    height: inherit;
-    line-height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    color: red;
+    text-align: right;
+    & a {
+      padding-left: 1.5rem;
+      color: #5ec0ce;
+    }
   }
 }
+
+
+
 
 .bg-img1 {
   background: url(../images/day23.png);
@@ -231,8 +259,110 @@
 }
 
 .bg-img {
+  margin: {
+    top: .5rem;
+    bottom: .5rem;
+  }
+;
   background: {
     repeat: no-repeat;
     position: center;
   }
+}
+
+.t6-foot-fiexd {
+  text-align: center;
+  padding: 0 1rem !important;
+  *, * * {
+    border: none !important;
+  }
+  .footer-title {
+    display: inline-block;
+  }
+  .footer-link-left,
+  .footer-link-right {
+    background-color: transparent;
+    color: #ccc;
+    font-size: 1rem;
+    padding: 2rem 0 0 0;
+    position: relative;
+    top: 50%;
+    transform: translatey(15%);
+  }
+  .footer-link-left {
+    margin: 0;
+
+    width: 20%;
+    background: {
+      image: url(../images/footer-left.png);
+      position: top;
+      repeat: no-repeat;
+      size: 2.5rem 2rem;
+    }
+    & p {
+      margin: 0;
+    }
+  }
+  .footer-link-right {
+    background: {
+      image: url(../images/footer-right.png);
+      position: top;
+      repeat: no-repeat;
+      size: 2rem 2rem;
+    }
+    margin: 0;
+
+    width: 20%;
+    & p {
+      margin: 0;
+    }
+  }
+  .footer-title {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #5ac0ce;
+    & p {
+      padding: .5rem;
+      background: {
+        image: url(../images/sprint.png);
+        position: -20% 8%;
+      }
+    ;
+    }
+  }
+}
+
+footer {
+  border-top: 1px solid #5ac0ce;
+}
+
+.title-btn1 {
+  position: relative;
+  left: 3.5rem;
+  background-color: #55a7b2;
+  color: white;
+  border-radius: .3rem;
+  padding: .3rem;
+  font-size: 1.5rem !important;
+}
+
+.title-btn2 {
+  position: relative;
+  left: 3rem;
+  background-color: white;
+  color: #5ac0ce;
+  border-radius: .3rem;
+  padding: .3rem;
+  font-size: 1.5rem !important;
+}
+
+.t6-link-close {
+  background: {
+    image: url(../images/t-12location2.png);
+    repeat: no-repeat;
+    position: right;
+  }
+;
 }
