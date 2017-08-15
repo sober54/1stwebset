@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.nine-box {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 10vw;
+    height: 10vw;
+}
+
+.nine-box:before {
+    content: "开始闪";
+    position: absolute;
+    top: 12vw;
+    width: 10vw;
+    background-color: #e59500;
+    display: inline-block;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    color: white;
+}
+
+.nine-box:after {
+    content: "";
+    position: absolute;
+    width: 3.3vw;
+    height: 3.3vw;
+    background: #ffa600;
+    box-shadow: 0vw 0vw 0 rgba(36, 150, 1, 0.39), 0vw 3.3vw 0 rgba(105, 33, 168, 0.11), 0vw 6.6vw 0 rgba(68, 211, 79, 0.73), 3.3vw 0vw 0 rgba(195, 153, 70, 0.54), 3.3vw 3.3vw 0 rgba(247, 41, 201, 0.76), 3.3vw 6.6vw 0 rgba(22, 148, 64, 0.61), 6.6vw 0vw 0 rgba(57, 133, 187, 0.91), 6.6vw 3.3vw 0 rgba(2, 90, 117, 0.11), 6.6vw 6.6vw 0 rgba(218, 158, 146, 0.52);
+}
+
+.nine-box:hover:before, .nine-box:focus:before {
+    transform: scale(0.8);
+    color: white;
+}
+
+.nine-box:hover:after, .nine-box:focus:after {
+    animation: duang 5s infinite;
+}
+
+@keyframes duang {
+    20% {
+        background: #96baa3;
+        box-shadow: 0vw 0vw 0 rgba(28, 166, 156, 0.16), 0vw 3.3vw 0 rgba(249, 243, 194, 0.28), 0vw 6.6vw 0 rgba(95, 29, 166, 0.54), 3.3vw 0vw 0 rgba(114, 206, 54, 0.38), 3.3vw 3.3vw 0 rgba(198, 190, 24, 0.03), 3.3vw 6.6vw 0 rgba(233, 117, 69, 0.7), 6.6vw 0vw 0 rgba(69, 149, 41, 0.76), 6.6vw 3.3vw 0 rgba(81, 105, 68, 0.01), 6.6vw 6.6vw 0 rgba(175, 115, 7, 0.13);
+    }
+    40% {
+        background: #955bba;
+        box-shadow: 0vw 0vw 0 rgba(217, 170, 74, 0.49), 0vw 3.3vw 0 rgba(243, 125, 43, 0.65), 0vw 6.6vw 0 rgba(93, 191, 129, 0.8), 3.3vw 0vw 0 rgba(178, 153, 152, 0.65), 3.3vw 3.3vw 0 rgba(169, 212, 235, 0.15), 3.3vw 6.6vw 0 rgba(249, 161, 147, 0.24), 6.6vw 0vw 0 rgba(229, 213, 169, 0.93), 6.6vw 3.3vw 0 rgba(206, 25, 43, 0.48), 6.6vw 6.6vw 0 rgba(207, 186, 90, 0.44);
+    }
+    60% {
+        background: #173ef0;
+        box-shadow: 0vw 0vw 0 rgba(185, 249, 229, 0.78), 0vw 3.3vw 0 rgba(207, 179, 2, 0.4), 0vw 6.6vw 0 rgba(190, 182, 234, 0.32), 3.3vw 0vw 0 rgba(64, 10, 205, 0.69), 3.3vw 3.3vw 0 rgba(210, 116, 195, 0.22), 3.3vw 6.6vw 0 rgba(74, 168, 144, 0.36), 6.6vw 0vw 0 rgba(126, 192, 55, 0.47), 6.6vw 3.3vw 0 rgba(118, 27, 225, 0.58), 6.6vw 6.6vw 0 rgba(59, 38, 38, 0.56);
+    }
+    80% {
+        background: #23fe28;
+        box-shadow: 0vw 0vw 0 rgba(4, 233, 139, 0.48), 0vw 3.3vw 0 rgba(210, 158, 25, 0.76), 0vw 6.6vw 0 rgba(74, 104, 116, 0.29), 3.3vw 0vw 0 rgba(116, 100, 244, 0.4), 3.3vw 3.3vw 0 rgba(4, 39, 253, 0.41), 3.3vw 6.6vw 0 rgba(199, 115, 228, 0.22), 6.6vw 0vw 0 rgba(126, 240, 207, 0.73), 6.6vw 3.3vw 0 rgba(19, 52, 111, 0.03), 6.6vw 6.6vw 0 rgba(118, 87, 65, 0.14);
+    }
+    100% {
+        background: #19623a;
+        box-shadow: 0vw 0vw 0 rgba(139, 139, 147, 0.21), 0vw 3.3vw 0 rgba(119, 228, 4, 0.89), 0vw 6.6vw 0 rgba(43, 120, 155, 0.77), 3.3vw 0vw 0 rgba(35, 48, 253, 0.61), 3.3vw 3.3vw 0 rgba(52, 22, 116, 0.66), 3.3vw 6.6vw 0 rgba(101, 207, 66, 0.08), 6.6vw 0vw 0 rgba(133, 15, 132, 0.74), 6.6vw 3.3vw 0 rgba(131, 5, 98, 0.1), 6.6vw 6.6vw 0 rgba(8, 233, 181, 0.33);
+    }
+}
+
+/*# sourceMappingURL=nine-block.css.map */
