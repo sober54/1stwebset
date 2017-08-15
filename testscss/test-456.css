@@ -2,17 +2,17 @@
 /*全局字体设置........个人习惯，感觉这个值最合适*/
 /*头部左中右组件*/
 .info-block {
-  font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 
 .info-block .ft-style {
-  padding-left: 1rem;
+    padding-left: 1rem;
 }
 
 .info-block .ft-style .bg-img {
-  display: inline-block;
-  padding: .7rem;
-  margin-right: .5rem;
+    display: inline-block;
+    padding: .7rem;
+    margin-right: .5rem;
 }
 
 header, .head {
@@ -66,12 +66,15 @@ body, .body {
   margin: 0;
   font-size: 62.5%;
   box-sizing: border-box; }
+
+body *, body * *, body * * *, body * * * *, body * * * * *, .body *, .body * *, .body * * *, .body * * * *, .body * * * * * {
+    box-sizing: border-box !important;
+}
   body a, body input, .body a, .body input {
     outline: none !important;
     text-decoration: none !important;
     cursor: pointer; }
   body > *, .body > * {
-    box-sizing: border-box;
     position: relative;
     width: 100%; }
 
@@ -167,101 +170,101 @@ footer, .foot {
   position: fixed;
   width: 100%;
   text-align: center;
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .dropdown-menu-default .dropdown-menu-grope {
-  display: inline-block;
-  white-space: nowrap;
-  width: 100%;
-  min-width: 100%;
-  overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    min-width: 100%;
+    overflow: hidden;
 }
 
 .dropdown-menu-default .dropdown-menu-grope .dropdown {
-  position: relative;
-  box-sizing: border-box;
-  width: 33.3%;
-  max-width: 33.3%;
-  clear: none;
-  float: left;
-  border-bottom: 1px solid #5ac0ce;
-  z-index: inherit;
-  background-color: white;
-  padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    width: 33.3%;
+    max-width: 33.3%;
+    clear: none;
+    float: left;
+    border-bottom: 1px solid #5ac0ce;
+    z-index: inherit;
+    background-color: white;
+    padding: 0;
 }
 
 .dropdown-menu-default .dropdown2 {
-  border-left: 1px dotted #5ac0ce;
-  border-right: 1px dotted #5ac0ce;
+    border-left: 1px dotted #5ac0ce;
+    border-right: 1px dotted #5ac0ce;
 }
 
 .dropdown-menu-default .dropdown-btn {
-  display: inline-block;
-  line-height: 1.5rem;
-  width: 100%;
-  color: #ccc;
-  font-size: 1rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+    display: inline-block;
+    line-height: 1.5rem;
+    width: 100%;
+    color: #ccc;
+    font-size: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 .dropdown-menu-default .dropdown-btn::after {
-  content: "▼";
-  position: absolute;
-  right: 5%;
+    content: "▼";
+    position: absolute;
+    right: 5%;
 }
 
 .dropdown-menu-default .dropdown1:hover .dropdown-list1,
 .dropdown-menu-default .dropdown-btn1:hover ~ .dropdown-list1,
 .dropdown-menu-default .dropdown-btn1:focus ~ .dropdown-list1 {
-  position: relative;
-  visibility: visible;
+    position: relative;
+    visibility: visible;
 }
 
 .dropdown-menu-default .dropdown2:hover .dropdown-list2,
 .dropdown-menu-default .dropdown-btn2:hover ~ .dropdown-list2,
 .dropdown-menu-default .dropdown-btn2:focus ~ .dropdown-list2 {
-  position: relative;
-  visibility: visible;
+    position: relative;
+    visibility: visible;
 }
 
 .dropdown-menu-default .dropdown3:hover .dropdown-list3,
 .dropdown-menu-default .dropdown-btn3:hover ~ .dropdown-list3,
 .dropdown-menu-default .dropdown-btn3:focus ~ .dropdown-list3 {
-  position: relative;
-  visibility: visible;
+    position: relative;
+    visibility: visible;
 }
 
 .dropdown-menu-default .dropdown-list {
-  border: 1px solid #5ac0ce;
-  position: absolute;
-  visibility: hidden;
+    border: 1px solid #5ac0ce;
+    position: absolute;
+    visibility: hidden;
 }
 
 .dropdown-menu-default ul {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .dropdown-menu-default li {
-  position: relative;
-  list-style: none;
-  border-bottom: 1px solid #5ac0ce;
-  line-height: 1.5rem;
+    position: relative;
+    list-style: none;
+    border-bottom: 1px solid #5ac0ce;
+    line-height: 1.5rem;
 }
 
 .dropdown-menu-default li a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 .bg-1 {
@@ -287,7 +290,7 @@ footer, .foot {
   position: fixed !important;
   top: 0;
   left: 0;
-  z-index: 1000;
+    z-index: 1000;
 }
 
 /*footer标签用head类名实在太诡异。。。所以这部分直接写CSS了有空我去规范下类名 表明头脚都能用*/
@@ -391,134 +394,134 @@ footer, .foot {
   width: 100%; }
 
 .info-list {
-  height: 30rem;
+    height: 30rem;
 }
 
 .dropdown-menu-default {
-  top: 5.2rem;
+    top: 5.2rem;
 }
 
 .block-info {
   border-top: 1px #5ac0ce solid;
   border-bottom: 1px #5ac0ce solid;
   position: relative;
-  top: 9.5rem;
+    top: 9.5rem;
 }
 
 .block-info .ft-style2 {
-  display: inline-block;
-  width: 97%;
-  position: relative;
+    display: inline-block;
+    width: 97%;
+    position: relative;
 }
 
 .block-info .ft-style2 .valign-b-a {
-  position: absolute;
-  width: 40%;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  top: 50%;
-  left: 3.5rem;
-  margin: 0;
-  transform: translateY(-50%);
+    position: absolute;
+    width: 40%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    top: 50%;
+    left: 3.5rem;
+    margin: 0;
+    transform: translateY(-50%);
 }
 
 .block-info b {
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  color: red;
-  text-align: right;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    color: red;
+    text-align: right;
 }
 
 .block-info b a {
-  padding-left: 1.5rem;
-  color: #5ec0ce;
+    padding-left: 1.5rem;
+    color: #5ec0ce;
 }
 
 .bg-img1 {
-  background: url(../images/day23.png);
+    background: url(../images/day23.png);
 }
 
 .bg-img2 {
-  background: url(../images/t-12location2.png);
+    background: url(../images/t-12location2.png);
 }
 
 .bg-img {
   margin-top: .5rem;
   margin-bottom: .5rem;
   background-repeat: no-repeat;
-  background-position: center;
+    background-position: center;
 }
 
 .t6-foot-fiexd {
   text-align: center;
-  padding: 0 1rem !important;
+    padding: 0 1rem !important;
 }
 
 .t6-foot-fiexd *, .t6-foot-fiexd * * {
-  border: none !important;
+    border: none !important;
 }
 
 .t6-foot-fiexd .footer-title {
-  display: inline-block;
+    display: inline-block;
 }
 
 .t6-foot-fiexd .footer-link-left,
 .t6-foot-fiexd .footer-link-right {
-  background-color: transparent;
-  color: #ccc;
-  font-size: 1rem;
-  padding: 2rem 0 0 0;
-  position: relative;
-  top: 50%;
-  transform: translatey(15%);
+    background-color: transparent;
+    color: #ccc;
+    font-size: 1rem;
+    padding: 2rem 0 0 0;
+    position: relative;
+    top: 50%;
+    transform: translatey(15%);
 }
 
 .t6-foot-fiexd .footer-link-left {
-  margin: 0;
-  width: 20%;
-  background-image: url(../images/footer-left.png);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 2.5rem 2rem;
+    margin: 0;
+    width: 20%;
+    background-image: url(../images/footer-left.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 2.5rem 2rem;
 }
 
 .t6-foot-fiexd .footer-link-left p {
-  margin: 0;
+    margin: 0;
 }
 
 .t6-foot-fiexd .footer-link-right {
-  background-image: url(../images/footer-right.png);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 2rem 2rem;
-  margin: 0;
-  width: 20%;
+    background-image: url(../images/footer-right.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 2rem 2rem;
+    margin: 0;
+    width: 20%;
 }
 
 .t6-foot-fiexd .footer-link-right p {
-  margin: 0;
+    margin: 0;
 }
 
 .t6-foot-fiexd .footer-title {
-  position: relative;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
-  background-color: #5ac0ce;
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #5ac0ce;
 }
 
 .t6-foot-fiexd .footer-title p {
-  padding: .5rem;
-  background-image: url(../images/sprint.png);
-  background-position: -20% 8%;
+    padding: .5rem;
+    background-image: url(../images/sprint.png);
+    background-position: -20% 8%;
 }
 
 footer {
-  border-top: 1px solid #5ac0ce;
+    border-top: 1px solid #5ac0ce;
 }
 
 .title-btn1 {
@@ -528,7 +531,7 @@ footer {
   color: white;
   border-radius: .3rem;
   padding: .3rem;
-  font-size: 1.5rem !important;
+    font-size: 1.5rem !important;
 }
 
 .title-btn2 {
@@ -538,13 +541,13 @@ footer {
   color: #5ac0ce;
   border-radius: .3rem;
   padding: .3rem;
-  font-size: 1.5rem !important;
+    font-size: 1.5rem !important;
 }
 
 .t6-link-close {
   background-image: url(../images/t-12location2.png);
   background-repeat: no-repeat;
-  background-position: right;
+    background-position: right;
 }
 
 /*# sourceMappingURL=test-456.css.map */

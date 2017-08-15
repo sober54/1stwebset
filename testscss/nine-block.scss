@@ -1,0 +1,77 @@
+@charset "UTF-8";
+$box-x: 3;
+$box-y: 3;
+@function shadow($box-x,$box-y) {
+  $shadow: ();
+  @for $i from 1 through $box-x {
+    @for $i2 from 1 through $box-y {
+      $shadow: $shadow, (($i*3.3vw)-(3.3vw)) (($i2*3.3vw)-(3.3vw)) 0 rgba(random(256)-1, random(256)-1, random(256)-1, random(100)/100);
+    }
+  }
+  @return $shadow;
+}
+
+.nine-box {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 10vw;
+  height: 10vw;
+  &:before {
+    content: "开始闪";
+    position: absolute;
+    top: 12vw;
+    width: 10vw;
+    background-color: #e59500;
+    display: inline-block;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    color: white;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    width: 3.3vw;
+    height: 3.3vw;
+    background: #ffa600;
+    box-shadow: shadow($box-x, $box-y);
+  }
+  &:hover:before,
+  &:focus:before {
+    transform: scale(.8);
+    color: white;
+  }
+  &:hover:after,
+  &:focus:after {
+    animation: duang 5s infinite;
+  }
+
+}
+
+@keyframes duang {
+  20% {
+    background: rgb(random(255), random(255), random(255));
+    box-shadow: shadow($box-x, $box-y);
+  }
+  40% {
+    background: rgb(random(255), random(255), random(255));
+    box-shadow: shadow($box-x, $box-y);
+  }
+  60% {
+    background: rgb(random(255), random(255), random(255));
+    box-shadow: shadow($box-x, $box-y);
+  }
+  80% {
+    background: rgb(random(255), random(255), random(255));
+    box-shadow: shadow($box-x, $box-y);
+  }
+  100% {
+    background: rgb(random(255), random(255), random(255));
+    box-shadow: shadow($box-x, $box-y);
+  }
+}

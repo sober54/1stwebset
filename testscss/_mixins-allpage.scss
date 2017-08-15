@@ -1,16 +1,51 @@
 @charset "UTF-8";
 @import "setting-global";
 
+//全局
+
+
 //框框。。。。。。。
 @mixin kuangkuang {
   body, .body {
-    & *, * *, * * *, * * * *, * * * * * {
+    *, * *, * * *, * * * *, * * * * * {
       border: solid red 1px;
     }
   }
 }
 
-//body开局设置
+//水平居中
+//二逼型。。。我不知道为啥要写个宏
+@mixin center-align {
+  text-align: center;
+}
+
+%text-center {
+  @include center-align;
+}
+
+//整列的无关元素种类和数量的水平居中,用法的话类似于BOOTSTRAP的轮播底下那三个小点
+@mixin center-list {
+  %center-list {
+    position: relative;
+    ul {
+      position: absolute;
+      left: 50%;
+      li {
+        float: left;
+        position: relative;
+        right: 50%;
+      }
+    }
+  }
+}
+
+.center-row {
+  @include center-list;
+}
+
+//垂直居中
+
+//开局设置（加入normalizeSASS）
 @mixin global-body {
   body, .body {
     font-family: $ff-allpage;
@@ -18,13 +53,15 @@
     margin: 0;
     font-size: 62.5%;
     box-sizing: border-box;
-    & a, input {
+    *, * *, * * *, * * * *, * * * * * {
+      box-sizing: border-box !important; //。。。。。做个耻辱表？？
+    }
+    a, input {
       outline: none !important;
       text-decoration: none !important;
       cursor: pointer;
     }
     & > * {
-      box-sizing: border-box;
       position: relative;
       width: 100%;
     }
@@ -222,7 +259,6 @@
       top: 1rem;
       bottom: 1rem;
     }
-  ;
   }
   .btn-block:link,
   .btn-block:visited {

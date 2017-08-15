@@ -5,10 +5,19 @@
 //全局body设置
 //-----------------
 
-//body的padding设置
-$paddingx-global: 0 1rem !default;
-$paddingy-global: .5rem 0 !default;
-$margin-global: 0 !default;
+//一鞋全局的设置
+$paddingx-global: 1rem !default;
+$paddingy-global: 0.5rem !default;
+$marginx-global: 0 !default;
+$marginy-global: 0 !default;
+$lineheight-global: 1.15rem !default;
+$boxsize-border: border-box !default;
+$display-global: block !default;
+
+
+
+
+
 
 /*全局字体设置........个人习惯，感觉这个值最合适*/
 $ff-allpage: "Microsoft YaHei", SimSun, SimHei !default;
