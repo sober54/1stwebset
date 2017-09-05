@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import "setting-global";
+@import "mixins-allpage";
+@import "reset-default";
+
+$color-active: #92a5ff;
+$cloor-gridbg: #cacaca;
+$margin-grid-base: .5rem;
+$padding-grid-base: .5rem;
+
+//ROW
+//------------------------
+
+.#{row} {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  &.nowrap {
+    flex-wrap: nowrap;
+  }
+  &.top {
+    align-items: flex-start;
+  }
+  &.bottom {
+    align-items: flex-end;
+  }
+  &.stretch {
+    align-items: stretch;
+  }
+  &.valign {
+    align-items: center;
+  }
+  &.text-base {
+    align-items: baseline;
+  }
+  &.l-2r {
+    justify-content: flex-start;
+  }
+  &.r-2l {
+    justify-content: flex-end;
+  }
+  &.center {
+    justify-content: center;
+  }
+  &.between {
+    justify-content: space-between;
+  }
+  &.around {
+    justify-content: space-around;
+  }
+}
+
+//col
+//--------------------------------------
+
+[class^='col-'] {
+  box-sizing: border-box;
+  min-height: 1px;
+  padding: .5rem;
+  flex-basis: 100%;
+  &.top {
+    align-self: flex-start;
+  }
+  &.bottom {
+    align-self: flex-end;
+  }
+  &.stretch {
+    align-self: stretch;
+  }
+  &.middle {
+    align-self: center;
+  }
+  &.no-gutter {
+    padding: 0;
+  }
+}
+
+@each $breakpoint, $size in $breakpoints {
+  .col {
+    @media screen and (min-width: $size) {
+      @for $i from 1 through 12 {
+        $width: 100%/12*$i;
+        &-#{$breakpoint+$i} {
+          flex-basis: $width;
+          margin-bottom: 0;
+          &-offset-#{$breakpoint+$i} {
+            margin-left: $width;
+          }
+        }
+      }
+    }
+  }
+}

@@ -3,34 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <title>flex</title>
-    <style>
-        body{
-            font-size: 62.5%;
-        }
-        * div{
-            height:  5rem;
-            width:  5rem;
-            background-color:  pink;
-            margin: 0.2rem;
-        }
-        .flxdere{
-            float:  left;
-            flex-direction:row;
-        }.flxdere1{
-            margin: 0 8rem;
-            flex-direction: row-reverse;
-            clear:  left;
-                 }
-    </style>
+
 </head>
 <body>
-<div class="flxdere">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
+<h2>Normal use (i.e. <code>.row row1 .demo>.col-6</code>)</h2>
+<div class="row row1">
+    <div class="col-12">12</div>
+</div>
+<div class="row row1">
+    <div class="col-11">11</div>
+    <div class="col-1">1</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-10">10</div>
+    <div class="col-2">2</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-9">9</div>
+    <div class="col-3">3</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-8">8</div>
+    <div class="col-4">4</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-7">7</div>
+    <div class="col-5">5</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-6">6</div>
+    <div class="col-6">6</div>
 </div>
 
+<hr/>
+
+<h2>Offset (i.e. <code>.row row1 .demo>.col-offset-10</code>)</h2>
+<div class="row row1  demo">
+    <div class="col-2 col-offset-10">offset 10</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-3 col-offset-9">offset 9</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-4 col-offset-8">offset 8</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-5 col-offset-7">offset 7</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-6 col-offset-6">offset 6</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-7 col-offset-5">offset 5</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-8 col-offset-4">offset 4</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-9 col-offset-3">offset 3</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-10 col-offset-2">offset 2</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-11 col-offset-1">offset 1</div>
+</div>
+
+<hr/>
+
+<h2>align-items (i.e. <code>.row row1 .demo.center</code>)</h2>
+<div class="row row1  demo l-2r">
+    <div class="col-3">.near/ default</div>
+</div>
+<div class="row row1  demo center">
+    <div class="col-3">.center</div>
+</div>
+<div class="row row1  demo r-2l">
+    <div class="col-3">.far</div>
+</div>
+<div class="row row1  demo around">
+    <div class="col-3">.around</div>
+    <div class="col-3">.around</div>
+    <div class="col-3">.around</div>
+</div>
+<div class="row row1  demo between">
+    <div class="col-3">.between</div>
+    <div class="col-3">.between</div>
+    <div class="col-3">.between</div>
+</div>
+<hr/>
+
+<h2>justify-content (i.e. <code>.row row1 .demo.middle</code>)</h2>
+<div class="row row1  demo center top">
+    <div class="col-3">.top/ default</div>
+</div>
+<div class="row row1  demo center middle">
+    <div class="col-3">.middle</div>
+</div>
+<div class="row row1  demo center bottom">
+    <div class="col-3">.bottom</div>
+</div>
+<div class="row row1  demo center stretch">
+    <div class="col-3">.stretch</div>
+</div>
+<hr/>
+
+<h2>Responsive cols (i.e. <code>.row row1 .demo>.col-md4</code>)</h2>
+<div class="row row1   ">
+    <div class="col-sm4">s4</div>
+    <div class="col-sm4">s4</div>
+    <div class="col-sm4">s4</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-md2">m2</div>
+    <div class="col-md4">m4</div>
+    <div class="col-md6">m6</div>
+</div>
+<div class="row row1  demo">
+    <div class="col-lg4">l4</div>
+    <div class="col-lg2">l2</div>
+    <div class="col-lg4">l4</div>
+    <div class="col-lg2">l2</div>
+</div>
+<hr/>
+
+<h2>Layout example</h2>
+<div class="page row row1 ">
+    <header class="col-12"><h3>The Header</h3></header>
+    <div class="col-12 content row row1  no-mdargin">
+        <aside class="col-md3">A aside</aside>
+        <main class="col-md6">Main</main>
+        <aside class="col-md3">Another aside</aside>
+    </div>
+    <footer class="col-12">Footer</footer>
+</div>
 <div class="flxdere1">
     <div>1</div>
     <div>2</div>

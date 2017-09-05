@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@import "setting-global";
+
+//nomrmalizeCSS对着CSS版本重写一遍
+
+//全局的行高加HACK
+
+//----------------------------------------------------
+
+html {
+  font-family: $ff-global;
+  line-height: $lineheight-global;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* 前三层的盒模型设置*/
+  > *,
+  > * * {
+    box-sizing: $boxsize-border;
+    display: block;
+  }
+}
+
+body, .body {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+//一些小功能 都写成占位符和混合宏的形式 看情况选调用哪个
+/*清浮动*/
+
+@mixin clear-fix($extend:true) {
+  @if $extend {
+    @extend %clear-fix;
+  } @else {
+    @if $lte7 {
+      *zoom: 1;
+    }
+
+    &:before,
+    &:after {
+      content: "";
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+  }
+}
+
+%clear-fix {
+  @include clear-fix(false);
+}
+
+/*
+各种元素设置默认字体大小  */
+
+h1 {
+  font-size: map_get($fontsize-global, xxl);
+}
+
+h2,
+a:hover,
+a:focus {
+  font-size: map_get($fontsize-global, xl);
+}
+
+h3,
+a,
+button,
+b {
+  font-size: map_get($fontsize-global, l);
+}
+
+body,
+header,
+main,
+footer,
+h4,
+p,
+span,
+form,
+input,
+button:hover,
+button:focus,
+pre,
+quotient,
+code,
+kbd,
+samp {
+  font-size: map_get($fontsize-global, md);
+}
+
+.link-tips,
+h5,
+small {
+  font-size: map_get($fontsize-global, sm);
+}
+
+sub,
+sup {
+  font-size: map_get($fontsize-global, xs);
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+//特殊字宽
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+//图片默认
+img {
+  border: $none;
+  vertical-align: middle;
+  display: $display-line;
+  max-width: 100%;
+  height: auto;
+
+  @if $lte7 {
+    -ms-interpolation-mode: bicubic;
+  }
+}
+
+//列表默认
+
+ul, ol, li, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none outside none;
+}
+
+//互动型元素的统一设置
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: $marginx-global;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: $display-line;
+  vertical-align: baseline;
+
+  @if $lte7 {
+    *display: inline;
+    *zoom: 1;
+  }
+}
+
+audio:not([controls]) {
+  display: $none;
+  height: 0;
+}
+
+//reset部分结束
+
+//媒体查询也写在这吧
+@mixin breakpoints($breakpoint) {
+  $size: map-get($breakpoints, $breakpoint);
+  @media (min-width: $size) {
+    @content
+  }
+}
+
+/*用法
+h1{
+  @include breakpoints(sm){
+    font-size: .5rem;
+  }
+}*/
+

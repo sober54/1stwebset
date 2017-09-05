@@ -198,17 +198,22 @@ div.option input[type=radio]:checked~.boxtype-lable::before{
 .dropdownmenu p{
     display: inline-block;
     transform: rotate(90deg);
-    background-color: #1277dc;
+    background-color: #105edc;
     padding: .2rem .5rem;
     cursor: pointer;
     color: white;
 }
+
+.baddropmenu:hover .dropdownmenu p,
+.baddropmenu:active .dropdownmenu p {
+    background-color: #218edc;
+}
 .baddropmenu a::before{
-    content: " 1";
+    content: " ";
     position: absolute;
     border: 1px black solid;
-    padding: .8rem 3.5rem;
-    top: .2rem;
+    padding: 1.25rem 3.5rem;
+    top: .5rem;
     left:-.3rem
 
 }
@@ -217,7 +222,7 @@ div.option input[type=radio]:checked~.boxtype-lable::before{
     content: "123";
     transform: rotate(-90deg);
     position: absolute;
-    top: .6rem;
+    top: .9rem;
     left: 1.2rem;
     width: 0;
     height: 5rem;
@@ -229,10 +234,10 @@ div.option input[type=radio]:checked~.boxtype-lable::before{
 }
 .dropdownmenu:hover p::before,
 .dropdownmenu:focus p::before{
-    width: 7.7rem;
+    width: 7.1rem;
     visibility: visible;
     border: 1px #000000 solid;
-    background-color: #f3f3f3;
+    background-color: #fafafa;
     transition: visbility .5s .5s;
 }
 a:link,
