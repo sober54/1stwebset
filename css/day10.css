@@ -212,7 +212,7 @@ div.option input[type=radio]:checked~.boxtype-lable::before{
     content: " ";
     position: absolute;
     border: 1px black solid;
-    padding: 1.25rem 3.5rem;
+    padding: 1.25rem 3.7rem;
     top: .5rem;
     left:-.3rem
 
@@ -222,8 +222,8 @@ div.option input[type=radio]:checked~.boxtype-lable::before{
     content: "123";
     transform: rotate(-90deg);
     position: absolute;
-    top: .9rem;
-    left: 1.2rem;
+    top: .75rem;
+    left: 1.15rem;
     width: 0;
     height: 5rem;
     vertical-align: middle;
@@ -234,9 +234,10 @@ div.option input[type=radio]:checked~.boxtype-lable::before{
 }
 .dropdownmenu:hover p::before,
 .dropdownmenu:focus p::before{
-    width: 7.1rem;
+    width: 7.5rem;
     visibility: visible;
     border: 1px #000000 solid;
+    border-top: none;
     background-color: #fafafa;
     transition: visbility .5s .5s;
 }
