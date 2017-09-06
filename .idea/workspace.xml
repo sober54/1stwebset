@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c8f5486-83ab-4ddb-9ca9-03402067cfb3" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13homework.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testscss/test-13.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/day10.css" afterPath="$PROJECT_DIR$/css/day10.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day10homework.html" afterPath="$PROJECT_DIR$/day10homework.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +36,8 @@
           <file leaf-file-name="day10homework.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/day10homework.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="399">
-                  <caret line="218" column="10" lean-forward="true" selection-start-line="218" selection-start-column="10" selection-end-line="218" selection-end-column="10" />
+                <state relative-caret-position="247">
+                  <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -215,10 +213,10 @@
         <option value="$PROJECT_DIR$/testscss/_grid-flex.scss" />
         <option value="$PROJECT_DIR$/testscss/reset-default.scss" />
         <option value="$PROJECT_DIR$/forflex.html" />
-        <option value="$PROJECT_DIR$/day10homework.html" />
         <option value="$PROJECT_DIR$/day13homework.html" />
         <option value="$PROJECT_DIR$/testscss/test-13.scss" />
         <option value="$PROJECT_DIR$/css/day10.css" />
+        <option value="$PROJECT_DIR$/day10homework.html" />
       </list>
     </option>
   </component>
@@ -540,14 +538,7 @@
       <workItem from="1504490495260" duration="8297000" />
       <workItem from="1504589102398" duration="5044000" />
       <workItem from="1504603681688" duration="637000" />
-      <workItem from="1504664666090" duration="1969000" />
-    </task>
-    <task id="LOCAL-00013" summary="。。。。。。">
-      <created>1501228814668</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1501228814668</updated>
+      <workItem from="1504664666090" duration="2144000" />
     </task>
     <task id="LOCAL-00014" summary="。。。。。。">
       <created>1501257905250</created>
@@ -885,11 +876,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504594263858</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="抽抽了">
+      <created>1504667431807</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1504667431807</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="684428000" />
+    <option name="totallyTimeSpent" value="684603000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1277,21 +1275,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day10homework.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="218" column="10" lean-forward="true" selection-start-line="218" selection-start-column="10" selection-end-line="218" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/day10.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="224" column="12" lean-forward="false" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
