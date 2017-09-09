@@ -11,10 +11,9 @@ $padding-grid-base: .5rem;
 //ROW
 //------------------------
 
-.#{row} {
+.row {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   &.nowrap {
     flex-wrap: nowrap;
   }
@@ -48,45 +47,141 @@ $padding-grid-base: .5rem;
   &.around {
     justify-content: space-around;
   }
-}
+  [class^='col-'] {
+    box-sizing: border-box;
+    min-height: 1px;
+    padding: .5rem;
+    flex-basis: 100%;
+    &.top {
+      align-self: flex-start;
+    }
+    &.bottom {
+      align-self: flex-end;
+    }
+    &.stretch {
+      align-self: stretch;
+    }
+    &.middle {
+      align-self: center;
+    }
+    &.no-gutter {
+      padding: 0;
+    }
+  }
+  @each $breakpoint, $size in $breakpoints {
+    .col {
+      @media screen and (min-width: $size) {
+        @for $i from 1 through 12 {
+          $width: $i * (100%/12);
 
-//col
-//--------------------------------------
+          &-#{$i} {
+            flex-basis: $width;
+            margin-bottom: 0;
+          }
+          &-offset-#{$i} {
+            margin-left: $width;
+          }
+          &-push-#{$i} {
+            position: relative;
+            left: $width;
+          }
+          &-pull-#{$i} {
+            position: relative;
+            right: $width;
+          }
+          &-#{$breakpoint+$i} {
+            flex-basis: $width;
+            margin-bottom: 0;
+          }
 
-[class^='col-'] {
-  box-sizing: border-box;
-  min-height: 1px;
-  padding: .5rem;
-  flex-basis: 100%;
-  &.top {
-    align-self: flex-start;
-  }
-  &.bottom {
-    align-self: flex-end;
-  }
-  &.stretch {
-    align-self: stretch;
-  }
-  &.middle {
-    align-self: center;
-  }
-  &.no-gutter {
-    padding: 0;
-  }
-}
-
-@each $breakpoint, $size in $breakpoints {
-  .col {
-    @media screen and (min-width: $size) {
-      @for $i from 1 through 12 {
-        $width: 100%/12*$i;
-        &-#{$breakpoint+$i} {
-          flex-basis: $width;
-          margin-bottom: 0;
           &-offset-#{$breakpoint+$i} {
             margin-left: $width;
           }
+          &-push-#{$breakpoint+$i} {
+            position: relative;
+            left: $width;
+          }
+          &-pull-#{$breakpoint+$i} {
+            position: relative;
+            right: $width;
+          }
         }
+      }
+    }
+  }
+}
+
+.d-none {
+  display: none !important;
+}
+
+.d-inline {
+  display: inline !important;
+}
+
+.d-inline-block {
+  display: inline-block !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-table {
+  display: table !important;
+}
+
+.d-table-cell {
+  display: table-cell !important;
+}
+
+.d-flex {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.d-inline-flex {
+  display: -webkit-inline-box !important;
+  display: -webkit-inline-flex !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+}
+
+@each $breakpoint, $size in $breakpoints {
+  .d {
+    @media screen and (min-width: $size) {
+      &-#{$breakpoint}-none {
+        display: none !important;
+      }
+      &-#{$breakpoint}-block {
+        display: block !important;
+
+      }
+      &-#{$breakpoint}-flex {
+        display: -webkit-box !important;
+        display: -webkit-flex !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+      }
+      &-#{$breakpoint}-inline {
+        display: inline !important;
+      }
+      &-#{$breakpoint}-inline-block {
+        display: inline !important;
+      }
+      &-#{$breakpoint}-table {
+        display: table !important;
+      }
+      &-#{$breakpoint}-table-cell {
+        display: table-cell !important;
+      }
+      &-#{$breakpoint}-inline-flex {
+        display: -webkit-inline-box !important;
+        display: -webkit-inline-flex !important;
+        display: -ms-inline-flexbox !important;
+        display: inline-flex !important;
       }
     }
   }

@@ -225,6 +225,14 @@
   }
 }
 
+@mixin bg-name-2url($picname) {
+  .bg-#{$picname} {
+    position: relative;
+    box-sizing: border-box;
+    background: url("../images/#{$picname}.png");
+  }
+}
+
 //表单通用部分
 //------------------------
 

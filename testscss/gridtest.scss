@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import "grid-flex";
+
+[class^="col-"] {
+	background-color: #62b0ff;
+	margin-top: .5rem;
+	box-sizing: border-box;
+	border: 1.5px solid #ccc;
+	color: #fff;
+	text-align: center;
+}
+
+.row2 {
+	height: 5rem;
+}

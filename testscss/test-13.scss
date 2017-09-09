@@ -1,1 +1,15 @@
 @charset "UTF-8";
+@import "reset-default";
+@import "setting-global";
+@import "grid-flex";
+@import "mixins-allpage";
+
+@include kuangkuang;
+
+head {
+	display: none;
+}
+
+body {
+	margin: 0;
+}

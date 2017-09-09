@@ -204,6 +204,13 @@ div.option input[type=radio]:checked~.boxtype-lable::before{
     color: white;
 }
 
+select {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    display: inline-flex;
+    float: right;
+    height: 2.5rem;
+}
 .baddropmenu:hover .dropdownmenu p,
 .baddropmenu:active .dropdownmenu p {
     background-color: #218edc;
@@ -222,7 +229,7 @@ div.option input[type=radio]:checked~.boxtype-lable::before{
     content: "123";
     transform: rotate(-90deg);
     position: absolute;
-    top: .75rem;
+    top: .68rem;
     left: 1.15rem;
     width: 0;
     height: 5rem;
@@ -232,7 +239,7 @@ div.option input[type=radio]:checked~.boxtype-lable::before{
     z-index: 15;
     color: black;
 }
-.dropdownmenu:hover p::before,
+
 .dropdownmenu:focus p::before{
     width: 7.5rem;
     visibility: visible;
@@ -240,6 +247,22 @@ div.option input[type=radio]:checked~.boxtype-lable::before{
     border-top: none;
     background-color: #fafafa;
     transition: visbility .5s .5s;
+}
+
+.btn-default {
+    background-color: inherit;
+    padding: .2rem 1rem !important;
+    box-sizing: border-box;
+    line-height: 2.5rem;
+    box-shadow: none !important;
+    color: #ccc;
+    font-weight: 500;
+    display: inline-block;
+    border: 1px solid red !important;
+}
+
+.btn {
+    outline: none !important;
 }
 a:link,
 a:visited,

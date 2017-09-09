@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/*边距*/
+/*行高默认*/
+/*全局字体设置........个人习惯，感觉这个值最合适*/
+html {
+	font-family: "Microsoft YaHei", SimSun, SimHei;
+	line-height: 1.15rem;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	/* 前三层的盒模型设置*/
+}
+
+html > *,
+html > * * {
+	box-sizing: border-box;
+	display: block;
+}
+
+body, .body {
+	font-family: inherit;
+	line-height: inherit;
+}
+
+/*清浮动*/
+/*
+各种元素设置默认字体大小  */
+h1 {
+	font-size: 1.5rem;
+}
+
+h2,
+a:hover,
+a:focus {
+	font-size: 1.3rem;
+}
+
+h3,
+a,
+button,
+b {
+	font-size: 1.1rem;
+}
+
+body,
+header,
+main,
+footer,
+h4,
+p,
+span,
+form,
+input,
+button:hover,
+button:focus,
+pre,
+quotient,
+code,
+kbd,
+samp {
+	font-size: 1rem;
+}
+
+.link-tips,
+h5,
+small {
+	font-size: 0.8rem;
+}
+
+sub,
+sup {
+	font-size: 0.5rem;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+	-ms-interpolation-mode: bicubic;
+}
+
+ul, ol, li, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol {
+	list-style: none outside none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	margin: 0;
+}
+
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+	vertical-align: baseline;
+	*display: inline;
+	*zoom: 1;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+/*用法
+h1{
+  @include breakpoints(sm){
+    font-size: .5rem;
+  }
+}*/
+
+/*# sourceMappingURL=reset-default.css.map */
