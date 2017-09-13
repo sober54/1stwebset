@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import "grid-flex";
+@import "mixins-allpage";
+@import "setting-global";
+@import "reset-default";
+
+.row1 {
+  background-color: #5ac0ce;
+  margin-bottom: .5rem;
+  & [class^="col-"] {
+    background-color: #00A3CF;
+    color: #fff;
+    border: solid 1.5px #c0c0c0;
+    text-align: center;
+    @include clear-fix(false);
+  }
+}
+
+.high {
+  height: 5rem;
+}
