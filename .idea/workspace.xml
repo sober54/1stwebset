@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c8f5486-83ab-4ddb-9ca9-03402067cfb3" name="默认" comment="默认">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testscss/sobergrid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/sober.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13homework.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13homeworkpg-2.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day13homework.html" afterPath="$PROJECT_DIR$/day13homework.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sober54grid.html" afterPath="$PROJECT_DIR$/sober54grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sober54grid.pug" afterPath="$PROJECT_DIR$/sober54grid.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/_grid-flex.scss" afterPath="$PROJECT_DIR$/testscss/_grid-flex.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/_setting-global.scss" afterPath="$PROJECT_DIR$/testscss/_setting-global.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/gridtest.css" afterPath="$PROJECT_DIR$/testscss/gridtest.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/gridtest.css.map" afterPath="$PROJECT_DIR$/testscss/gridtest.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/gridtest.scss" afterPath="$PROJECT_DIR$/testscss/gridtest.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/test-13.css" afterPath="$PROJECT_DIR$/testscss/test-13.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/test-13.css.map" afterPath="$PROJECT_DIR$/testscss/test-13.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/test-13.scss" afterPath="$PROJECT_DIR$/testscss/test-13.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/test-456.css" afterPath="$PROJECT_DIR$/testscss/test-456.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscss/test-456.css.map" afterPath="$PROJECT_DIR$/testscss/test-456.css.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,44 +34,14 @@
     <favorites_list name="1stwebset" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.20087163">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="_grid-flex.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_grid-flex.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/testscss/_grid-flex.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gridtest.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testscss/gridtest.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
-                  <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sobergrid.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/testscss/sobergrid.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sobergrid.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testscss/sobergrid.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="798">
-                  <caret line="1800" column="0" lean-forward="false" selection-start-line="1800" selection-start-column="0" selection-end-line="1800" selection-end-column="0" />
+                <state relative-caret-position="140">
+                  <caret line="145" column="2" lean-forward="false" selection-start-line="145" selection-start-column="2" selection-end-line="145" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -68,7 +50,7 @@
           <file leaf-file-name="_mixins-allpage.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/testscss/_mixins-allpage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
+                <state relative-caret-position="4199">
                   <caret line="221" column="24" lean-forward="false" selection-start-line="221" selection-start-column="24" selection-end-line="221" selection-end-column="24" />
                   <folding />
                 </state>
@@ -78,18 +60,8 @@
           <file leaf-file-name="_setting-global.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/testscss/_setting-global.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="193">
-                  <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gridtest.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testscss/gridtest.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="2771" column="17" lean-forward="true" selection-start-line="2771" selection-start-column="17" selection-end-line="2771" selection-end-column="17" />
+                <state relative-caret-position="294">
+                  <caret line="82" column="23" lean-forward="true" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -98,38 +70,87 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="sober54grid.pug" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/sober54grid.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="113">
-                  <caret line="7" column="76" lean-forward="false" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="day1homework.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/day1homework.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="76">
-                  <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="76" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sober54grid.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sober54grid.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="vertical" split-proportion="0.7052933">
+          <split-first>
+            <splitter split-orientation="horizontal" split-proportion="0.5">
+              <split-first>
+                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+                  <file leaf-file-name="day13homework.pug" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/day13homework.pug">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="152">
+                          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+                          <folding />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file leaf-file-name="day13homeworkpg-2.pug" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/day13homeworkpg-2.pug">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="171">
+                          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                          <folding>
+                            <marker date="1505709845310" expanded="true" signature="17:223" ph="..." />
+                            <marker date="1505709845310" expanded="true" signature="222:223" ph="..." />
+                          </folding>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file leaf-file-name="day13homeworkpg-2.html" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/day13homeworkpg-2.html">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="0">
+                          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                          <folding />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                </leaf>
+              </split-first>
+              <split-second>
+                <leaf>
+                  <file leaf-file-name="day13homeworkpg-2.html" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/day13homeworkpg-2.html">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="171">
+                          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+                          <folding />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                </leaf>
+              </split-second>
+            </splitter>
+          </split-first>
+          <split-second>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="test-13.scss" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/testscss/test-13.scss">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="399">
+                      <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="reset-default.scss" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/testscss/reset-default.scss">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="3610">
+                      <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-second>
     </splitter>
   </component>
@@ -139,15 +160,14 @@
         <option value="Sass File" />
         <option value="CSS File" />
         <option value="tsconfig.json" />
+        <option value="SCSS File" />
         <option value="HTML File" />
         <option value="Pug File" />
-        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find />
       <find>&lt;img src=&quot;#&quot; &gt;&gt;</find>
       <find>img src=&quot;#&quot; &gt;&gt;</find>
       <find>btn1</find>
@@ -177,9 +197,9 @@
       <find>d-n</find>
       <find>offset</find>
       <find>push</find>
+      <find>div</find>
     </findStrings>
     <replaceStrings>
-      <replace>choice</replace>
       <replace>lg</replace>
       <replace>d-md-block</replace>
       <replace>col-lg-3</replace>
@@ -209,6 +229,7 @@
       <replace>box</replace>
       <replace>push</replace>
       <replace>pull</replace>
+      <replace>offset</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -217,12 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/ceshi.css" />
-        <option value="$PROJECT_DIR$/scss/test.sass" />
-        <option value="$PROJECT_DIR$/scss/test.scss" />
-        <option value="$PROJECT_DIR$/sass/test.scss" />
-        <option value="$PROJECT_DIR$/sasstest/test.scss" />
-        <option value="$PROJECT_DIR$/TESTSASS/_style-page-footer.scss" />
         <option value="$PROJECT_DIR$/TESTSASS/_style-page-block.scss" />
         <option value="$PROJECT_DIR$/TESTSASS/myscss.css" />
         <option value="$PROJECT_DIR$/bootstrap-4.0.0-alpha.6/scss/bootstrap.scss" />
@@ -255,19 +270,25 @@
         <option value="$PROJECT_DIR$/testscss/reset-default.css" />
         <option value="$PROJECT_DIR$/testscss/reset-default.scss" />
         <option value="$PROJECT_DIR$/forflex.html" />
-        <option value="$PROJECT_DIR$/testscss/test-13.scss" />
         <option value="$PROJECT_DIR$/css/day10.css" />
         <option value="$PROJECT_DIR$/testscss/_mixins-allpage.scss" />
-        <option value="$PROJECT_DIR$/day13homework.html" />
-        <option value="$PROJECT_DIR$/testscss/gridtest.scss" />
-        <option value="$PROJECT_DIR$/testscss/_grid-flex.scss" />
-        <option value="$PROJECT_DIR$/testscss/_setting-global.scss" />
         <option value="$PROJECT_DIR$/sobergrid.html" />
         <option value="$PROJECT_DIR$/day10homework.html" />
         <option value="$PROJECT_DIR$/sober54grid.html" />
         <option value="$PROJECT_DIR$/testscss/gridtest.css" />
         <option value="$PROJECT_DIR$/testscss/sobergrid.scss" />
+        <option value="$PROJECT_DIR$/testscss/day13homework.pug" />
+        <option value="$PROJECT_DIR$/testscss/gridtest.scss" />
         <option value="$PROJECT_DIR$/sober54grid.pug" />
+        <option value="$PROJECT_DIR$/day13homework.html" />
+        <option value="$PROJECT_DIR$/testscss/test-13.css" />
+        <option value="$PROJECT_DIR$/testscss/_setting-global.scss" />
+        <option value="$PROJECT_DIR$/day13homework.pug" />
+        <option value="$PROJECT_DIR$/testscss/test-13.scss" />
+        <option value="$PROJECT_DIR$/day13homework-pg2.html" />
+        <option value="$PROJECT_DIR$/day13homeworkpg-2.pug" />
+        <option value="$PROJECT_DIR$/day13homeworkpg-2.html" />
+        <option value="$PROJECT_DIR$/testscss/_grid-flex.scss" />
       </list>
     </option>
   </component>
@@ -283,16 +304,16 @@
     <exe-path />
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="132" />
-    <option name="y" value="686" />
-    <option name="width" value="2284" />
-    <option name="height" value="680" />
+    <option name="y" value="523" />
+    <option name="width" value="2561" />
+    <option name="height" value="856" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -304,7 +325,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>AngularJS</id>
+            <id>CSS</id>
           </State>
         </selected-state>
       </profile-state>
@@ -328,6 +349,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,7 +367,35 @@
               <item name="1stwebset" type="b2602c69:ProjectViewProjectNode" />
               <item name="1stwebset" type="462c0819:PsiDirectoryNode" />
               <item name="testscss" type="462c0819:PsiDirectoryNode" />
+              <item name="gridtest.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="1stwebset" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stwebset" type="462c0819:PsiDirectoryNode" />
+              <item name="testscss" type="462c0819:PsiDirectoryNode" />
+              <item name="reset-default.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="1stwebset" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stwebset" type="462c0819:PsiDirectoryNode" />
+              <item name="testscss" type="462c0819:PsiDirectoryNode" />
               <item name="sobergrid.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="1stwebset" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stwebset" type="462c0819:PsiDirectoryNode" />
+              <item name="testscss" type="462c0819:PsiDirectoryNode" />
+              <item name="test-13.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="1stwebset" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stwebset" type="462c0819:PsiDirectoryNode" />
+              <item name="day13homework.pug" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="1stwebset" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stwebset" type="462c0819:PsiDirectoryNode" />
+              <item name="day13homeworkpg-2.pug" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="1stwebset" type="b2602c69:ProjectViewProjectNode" />
@@ -355,8 +406,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,18 +413,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/pug.cmd" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/node_modules/eslint/lib/rules" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\sober\AppData\Roaming\npm\node_modules\eslint" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.standard" value="C:\Users\sober\AppData\Roaming\npm\node_modules\eslint" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.selected.package.jscs" value="" />
@@ -385,6 +434,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WEB\WebStorm 2017.2.3\1stwebset" />
       <recent name="E:\WebStorm 2017.1.4\项目\1stwebset\css" />
     </key>
   </component>
@@ -558,14 +608,10 @@
       <workItem from="1504986236733" duration="487000" />
       <workItem from="1505020097358" duration="4169000" />
       <workItem from="1505097049122" duration="3505000" />
-      <workItem from="1505272353809" duration="343000" />
-    </task>
-    <task id="LOCAL-00018" summary="。。。。。。">
-      <created>1501545492375</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1501545492375</updated>
+      <workItem from="1505272353809" duration="9664000" />
+      <workItem from="1505351406437" duration="7442000" />
+      <workItem from="1505440017536" duration="10485000" />
+      <workItem from="1505707796206" duration="2230000" />
     </task>
     <task id="LOCAL-00019" summary="抽抽了">
       <created>1501545778629</created>
@@ -903,11 +949,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504672876470</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="默认">
+      <created>1505272700858</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1505272700858</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="726424000" />
+    <option name="totallyTimeSpent" value="755902000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -919,31 +972,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="686" width="2284" height="680" extended-state="0" />
+    <frame x="0" y="523" width="2561" height="856" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10680908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.12282092" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" x="15" y="597" width="2524" height="702" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286004" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286004" sideWeight="0.50155765" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282967" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2495854" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262317" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286004" sideWeight="0.50155765" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282967" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09548336" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262317" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32554945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32554945" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11263736" sideWeight="0.49844238" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2625418" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19742489" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282967" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -966,16 +1019,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testscss/reset-default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="112" column="3" lean-forward="false" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foundation-sites/_vendor/normalize-scss/sass/_normalize.scss" />
-    <entry file="file://$PROJECT_DIR$/foundation-sites/_vendor/normalize-scss/sass/normalize/_normalize-mixin.scss" />
-    <entry file="file://$PROJECT_DIR$/foundation-sites/assets/foundation.css" />
     <entry file="file://$PROJECT_DIR$/foundation-sites/assets/foundation.scss" />
     <entry file="file://$PROJECT_DIR$/foundation-sites/scss/components/_accordion.scss" />
     <entry file="file://$PROJECT_DIR$/bootstrap-4.0.0-alpha.6/scss/mixins/_clearfix.scss" />
@@ -1051,20 +1094,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foundation-sites/scss/grid/_position.scss" />
     <entry file="file://$PROJECT_DIR$/foundation-sites/scss/util/_breakpoint.scss" />
-    <entry file="file://$PROJECT_DIR$/testscss/reset-default.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testscss/test-13.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap-grid.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1073,19 +1102,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap-grid.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testscss/test-13.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="1765" column="18" lean-forward="true" selection-start-line="1765" selection-start-column="18" selection-end-line="1765" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1101,13 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day13homework.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1128,56 +1143,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testscss/sobergrid.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
+        <state relative-caret-position="383">
           <caret line="1800" column="0" lean-forward="false" selection-start-line="1800" selection-start-column="0" selection-end-line="1800" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testscss/_grid-flex.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1homework.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testscss/gridtest.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="2771" column="17" lean-forward="true" selection-start-line="2771" selection-start-column="17" selection-end-line="2771" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testscss/_setting-global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testscss/_mixins-allpage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="221" column="24" lean-forward="false" selection-start-line="221" selection-start-column="24" selection-end-line="221" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testscss/gridtest.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1190,18 +1157,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sober54grid.html">
+    <entry file="file://$PROJECT_DIR$/day1homework.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        <state relative-caret-position="152">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscss/gridtest.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscss/gridtest.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36632">
+          <caret line="1937" column="0" lean-forward="true" selection-start-line="1937" selection-start-column="0" selection-end-line="1937" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sober54grid.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="7" column="76" lean-forward="false" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+        <state relative-caret-position="75">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sober54grid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscss/_mixins-allpage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4199">
+          <caret line="221" column="24" lean-forward="false" selection-start-line="221" selection-start-column="24" selection-end-line="221" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscss/reset-default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3610">
+          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-637">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13homework-pg2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscss/test-13.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="2183" column="0" lean-forward="false" selection-start-line="2183" selection-start-column="0" selection-end-line="2183" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscss/test-13.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13homeworkpg-2.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1505709845310" expanded="true" signature="17:223" ph="..." />
+            <marker date="1505709845310" expanded="true" signature="222:223" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13homeworkpg-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13homework.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscss/_setting-global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="82" column="23" lean-forward="true" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscss/_grid-flex.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="145" column="2" lean-forward="false" selection-start-line="145" selection-start-column="2" selection-end-line="145" selection-end-column="37" />
           <folding />
         </state>
       </provider>

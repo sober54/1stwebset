@@ -4,7 +4,6 @@
 @import "grid-flex";
 @import "mixins-allpage";
 
-@include kuangkuang;
 
 head {
 	display: none;
@@ -12,4 +11,96 @@ head {
 
 body {
 	margin: 0;
+}
+
+header {
+	p {
+		margin: 0;
+	}
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.nothing {
+	height: 1.5rem;
+}
+
+.bg-img-t13 {
+	background-image: url(../images/pg1menu.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: auto;
+	padding: {
+		top: 1rem;
+		bottom: 1rem;
+	}
+;
+}
+
+.row2 [class^='col-'] {
+	text-align: center;
+}
+
+.block-info-t13 {
+	padding: 0 !important;
+}
+
+.row1 a {
+	padding: 1rem 0;
+	.colort-top-t13 {
+		font-weight: 500;
+		color: #ccc;
+	}
+}
+
+.row3 {
+	& .border-b {
+		font-size: large;
+		text-align: center;
+		border-bottom: solid #f8b571 1px;
+		padding: 1rem 0;
+	}
+}
+
+.circle {
+	display: block;
+	height: 1rem;
+	width: 1rem;
+	margin: auto;
+	border-radius: 50%;
+	background-color: #ccc;
+}
+
+.dot-t13 .center {
+	div:first-child {
+		.circle {
+			background-color: #00A3CF !important;
+		}
+	}
+}
+
+.block-title,
+.block-info-t13 {
+	border: 1px solid #d9d9da;
+	background-color: white;
+	position: relative;
+}
+
+.pointer-t13 {
+	display: block;
+	width: 1.5rem;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 48%;
+	transform: translatey(-50%);
+	background: {
+		image: url(../images/triangle.png);
+		repeat: no-repeat;
+		position: center;
+		size: 48%;
+	}
+;
 }

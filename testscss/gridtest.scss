@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@import "reset-default";
+@import "setting-global";
+@import "mixins-allpage";
 @import "grid-flex";
 
 [class^="col-"] {
@@ -13,3 +16,4 @@
 .row2 {
 	height: 5rem;
 }
+

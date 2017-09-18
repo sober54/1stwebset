@@ -68,3 +68,27 @@ $color-t456-text: #fefefe !default;
 $bgcolor-t456-footer-checked: white !default;
 $color-t456-footer-checked: #5ac0ce !default;
 
+//总体配色
+//-------------------------------
+
+$color: (
+        r:#ff4a48,
+        b:#6dd2e9,
+        g:#29b078,
+        bg-t13:#34bede,
+        tfont-t13:#f8b547,
+        bodybg-t13:#eff0f1,
+        blockbg-t13:#84b09a,
+        button-t13:#f37072,
+        top-t13:#9b9c9d
+) !default;
+
+@each $name, $value in $color {
+  .color-#{$name} {
+    background-color: $value;
+  }
+  .colort-#{$name} {
+    color: $value;
+
+  }
+}
