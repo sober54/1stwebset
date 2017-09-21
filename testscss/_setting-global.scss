@@ -4,7 +4,13 @@
 //=========================================================================================
 //全局body设置
 //-----------------
+body {
+  margin: 0;
+}
 
+head {
+  display: none !important;
+}
 //一鞋全局的设置
 
 /*边距*/
@@ -75,12 +81,14 @@ $color: (
         r:#ff4a48,
         b:#6dd2e9,
         g:#29b078,
+        w:#fff,
         bg-t13:#34bede,
         tfont-t13:#f8b547,
         bodybg-t13:#eff0f1,
         blockbg-t13:#84b09a,
         button-t13:#f37072,
-        top-t13:#9b9c9d
+        top-t13:#9b9c9d,
+        vote-t13-pg2:#bae9f4
 ) !default;
 
 @each $name, $value in $color {
@@ -92,3 +100,4 @@ $color: (
 
   }
 }
+

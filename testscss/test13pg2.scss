@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import "reset-default";
+@import "grid-flex";
+@import "mixins-allpage";
+@import "setting-global";
+
+.link-left {
+  padding: .8rem 1.1rem !important;
+  background: {
+    image: url(../images/menu.png);
+    repeat: no-repeat;
+    position: left;
+  }
+;
+}
+
+.row1 {
+  padding: .5rem;
+  .title {
+    font-size: 2rem;
+    align-self: center;
+  }
+  .link-right {
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: right;
+  }
+}
+
+.point2bottom {
+  padding: {
+    top: .5rem;
+    bottom: .5rem;
+  }
+;
+  font-size: 1.2rem;
+}
+
+.row2 {
+  padding-right: .5rem;
+  a {
+    display: block;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background: {
+      image: url("../images/triangle2.png");
+      repeat: no-repeat;
+      position: 65%;
+    }
+  ;
+  }
+}
+
+.row3 {
+  .col-10 {
+    padding-top: 1rem;
+    &::before {
+      content: "";
+      position: relative;
+      left: 1rem;
+      width: 0;
+      height: 0;
+      border-left: .5rem solid transparent;
+      border-right: .5rem solid transparent;
+      border-top: .8rem solid #bae9f4;
+    }
+  }
+}
+
+.row4 {
+  text-align: center;
+
+  .col-12 {
+    padding: 0;
+  }
+  .blue {
+    height: 16vw;
+    width: 100%;
+    display: inline-block;
+    line-height: 16vw;
+  }
+  .green {
+    height: 8vw;
+    width: 100%;
+    display: inline-block;
+    line-height: 8vw;
+  }
+}
+
+.row6 {
+  visibility: hidden;
+  .col-3 {
+    box-sizing: border-box;
+    margin: 1rem 0;
+    a {
+      display: block;
+      padding: 2.5vw;
+      margin: .2rem;
+      background: {
+        color: white;
+        image: url("../images/bulleye.png");
+        repeat: no-repeat;
+        position: center;
+        size: 65%;
+      }
+
+      &:hover,
+      &:focus {
+        background-size: 70%;
+      }
+
+    }
+    &:hover {
+      .col-3 {
+        visibility: visible;
+      }
+    }
+  }
+}
+
+.row5 {
+  &:first-child {
+    .blue {
+      border: white solid .3rem;
+      border-bottom: 0;
+    }
+    .green {
+      border: white solid .3rem;
+      border-top: 0;
+    }
+  }
+  &:hover {
+    .row6 {
+      visibility: visible;
+    }
+  }
+}
+
+.icon-t13pg2-1 {
+  a {
+    margin-left: 0 !important;
+  }
+}
+
+.icon-t13pg2-4 {
+  a {
+    margin-right: 0 !important;
+  }
+}

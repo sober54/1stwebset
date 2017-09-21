@@ -1,4 +1,12 @@
 @charset "UTF-8";
+body {
+    margin: 0;
+}
+
+head {
+    display: none !important;
+}
+
 /*边距*/
 /*行高默认*/
 /*全局字体设置........个人习惯，感觉这个值最合适*/
@@ -24,6 +32,14 @@
 
 .colort-g {
     color: #29b078;
+}
+
+.color-w {
+    background-color: #fff;
+}
+
+.colort-w {
+    color: #fff;
 }
 
 .color-bg-t13 {
@@ -72,6 +88,14 @@
 
 .colort-top-t13 {
     color: #9b9c9d;
+}
+
+.color-vote-t13-pg2 {
+    background-color: #bae9f4;
+}
+
+.colort-vote-t13-pg2 {
+    color: #bae9f4;
 }
 
 /*头部左中右组件*/
